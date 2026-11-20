@@ -2,8 +2,13 @@
 (function () {
   "use strict";
 
-  var STORE_KEY = "norsk.ordkort.v2";
-  var OLD_KEY = "ordkort";              // pre-2026 format: progress keyed by the Norwegian word
+  // Saved progress formats:
+  //   v3  key norsk.ordkort.v3  progress keyed by numeric word id (current)
+  //   v2  key norsk.ordkort.v2  keyed by text ids like "mann"; mapped via data/legacy-ids-v2.json
+  //   v1  key ordkort           keyed by the Norwegian headword ("en mann")
+  var STORE_KEY = "norsk.ordkort.v3";
+  var V2_KEY = "norsk.ordkort.v2";
+  var V1_KEY = "ordkort";
   var LEVELS = ["A1A2", "A1", "A2", "B1", "B2", "every"];
   var DIRS = ["no", "en", "mix"];
 
@@ -44,19 +49,28 @@
   }
 
   /* ---------- saving ---------- */
-  // Version 1 progress is keyed by the Norwegian word; version 2 by word id. Unknown keys are dropped.
-  function migrateProg(prog, version) {
+  // Converts saved progress of any version to numeric ids. Unknown keys are dropped.
+  function migrateProg(prog, version, legacy) {
     var out = {};
     if (!prog || typeof prog !== "object") return out;
     Object.keys(prog).forEach(function (k) {
-      var w = version >= 2 ? BY_ID[k] : BY_NO[k];
+      var w = version >= 3 ? BY_ID[k] : version === 2 ? BY_ID[legacy && legacy[k]] : BY_NO[k];
       if (w && Array.isArray(prog[k])) out[w.id] = prog[k];
     });
     return out;
   }
-  function applySaved(s, version) {
+  function versionOf(s) { return s && s.v >= 3 ? 3 : s && s.v === 2 ? 2 : 1; }
+  // Resolves to the text-id -> number map, only fetched when v2 progress needs converting.
+  function legacyMapFor(version) {
+    if (version !== 2) return Promise.resolve(null);
+    return fetch("data/legacy-ids-v2.json").then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    });
+  }
+  function applySaved(s, version, legacy) {
     if (!s || typeof s !== "object") return;
-    state.prog = migrateProg(s.prog, version);
+    state.prog = migrateProg(s.prog, version, legacy);
     state.newLog = s.newLog && typeof s.newLog === "object" ? s.newLog : {};
     var level = s.level === "all" ? "A1A2" : s.level;
     if (LEVELS.indexOf(level) >= 0) state.level = level;
@@ -65,14 +79,18 @@
   function readStore(key) {
     try { var raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : null; } catch (e) { return null; }
   }
+  // Older keys are left in place as a fallback copy.
   function loadSaved() {
     var s = readStore(STORE_KEY);
-    if (s) { applySaved(s, 2); return; }
-    var old = readStore(OLD_KEY);
-    if (old) { applySaved(old, 1); save(); } // the old key is left in place as a fallback copy
+    if (s) { applySaved(s, 3); return Promise.resolve(); }
+    var v2 = readStore(V2_KEY);
+    if (v2) return legacyMapFor(2).then(function (map) { applySaved(v2, 2, map); save(); });
+    var v1 = readStore(V1_KEY);
+    if (v1) { applySaved(v1, 1); save(); }
+    return Promise.resolve();
   }
   function snapshot() {
-    return { app: "norsk-ordkort", v: 2, saved: new Date().toISOString(), level: state.level, dir: state.dir, newLog: state.newLog, prog: state.prog };
+    return { app: "norsk-ordkort", v: 3, saved: new Date().toISOString(), level: state.level, dir: state.dir, newLog: state.newLog, prog: state.prog };
   }
   function prune() { var t = today(); Object.keys(state.newLog).forEach(function (d) { if (+d < t - 7) delete state.newLog[d]; }); }
   function save() {
@@ -92,13 +110,16 @@
     setStatus("Backup downloaded. Import it on another device to carry on there.");
   }
   function importProgress(file) {
+    var s, version;
     file.text().then(function (txt) {
-      var s = JSON.parse(txt);
+      s = JSON.parse(txt);
       if (!s || typeof s.prog !== "object") throw new Error("not a backup");
-      var version = s.v >= 2 ? 2 : 1;
-      var n = Object.keys(migrateProg(s.prog, version)).length;
+      version = versionOf(s);
+      return legacyMapFor(version);
+    }).then(function (map) {
+      var n = Object.keys(migrateProg(s.prog, version, map)).length;
       if (!window.confirm("Replace the progress in this browser with this backup (" + n + " words studied)?")) return;
-      applySaved(s, version);
+      applySaved(s, version, map);
       save(); renderHome();
       setStatus("Backup restored: " + n + " words studied.");
     }).catch(function () { setStatus("That file isn’t a progress backup."); });
@@ -258,14 +279,21 @@
     });
   }
 
+  // If earlier progress can't be converted, stop rather than start fresh: saving would
+  // create a v3 entry and the earlier progress would never be converted.
+  var stage = "words";
   loadWords().then(function () {
-    loadSaved();
+    stage = "progress";
+    return loadSaved();
+  }).then(function () {
     bindControls();
     renderHome();
   }).catch(function () {
-    $("studyAll").textContent = "Word list unavailable";
-    $("studyNote").textContent = location.protocol === "file:"
-      ? "Browsers block loading the word list from a file on disk. Run a local server (see README) or use the hosted site."
-      : "Couldn’t load the word list. Check your connection and reload.";
+    $("studyAll").textContent = stage === "words" ? "Word list unavailable" : "Couldn’t load your progress";
+    $("studyNote").textContent = stage === "progress"
+      ? "Your earlier progress is still stored but needs converting. Check your connection and reload."
+      : location.protocol === "file:"
+        ? "Browsers block loading the word list from a file on disk. Run a local server (see README) or use the hosted site."
+        : "Couldn’t load the word list. Check your connection and reload.";
   });
 })();

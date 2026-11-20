@@ -4,7 +4,9 @@ const assert = require("node:assert/strict");
 const path = require("node:path");
 const fs = require("node:fs");
 
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "words.json"), "utf8"));
+const read = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", f), "utf8"));
+const data = read("words.json");
+const legacy = read("legacy-ids-v2.json");
 const LEVELS = ["A1", "A2", "B1", "B2"];
 const FIELDS = ["id", "level", "theme", "no", "forms", "en"];
 
@@ -18,7 +20,8 @@ test("every word has the required fields and nothing unexpected", () => {
   const themes = new Set(data.themes.map((t) => t.id));
   for (const w of data.words) {
     const where = JSON.stringify(w);
-    assert.match(w.id, /^[a-z0-9]+(-[a-z0-9]+)*$/, "id must be lowercase-with-dashes: " + where);
+    assert.ok(Number.isInteger(w.id) && w.id > 0, "id must be a positive whole number: " + where);
+    assert.ok(w.id < data.nextId, `id ${w.id} must be below nextId (${data.nextId}) – set nextId to one more than the highest id: ` + where);
     assert.ok(LEVELS.includes(w.level), "unknown level: " + where);
     assert.ok(themes.has(w.theme), "unknown theme: " + where);
     assert.ok(typeof w.no === "string" && w.no.trim(), "missing Norwegian: " + where);
@@ -34,6 +37,12 @@ test("word ids are unique (progress is stored by id, so never reuse or change on
     assert.ok(!seen.has(w.id), `duplicate id "${w.id}": ${seen.get(w.id)} and ${w.no}`);
     seen.set(w.id, w.no);
   }
+});
+
+test("the old text-id lookup maps to unique numbers that have been issued", () => {
+  const nums = Object.values(legacy);
+  assert.equal(new Set(nums).size, nums.length);
+  for (const n of nums) assert.ok(Number.isInteger(n) && n > 0 && n < data.nextId, "bad legacy id " + n);
 });
 
 test("Norwegian headwords are unique (old saved progress is matched by headword)", () => {

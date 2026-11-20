@@ -33,10 +33,12 @@ Then open http://localhost:8000. Offline caching is switched off on localhost, s
 Each word in `data/words.json` looks like this:
 
 ```json
-{"id":"mann","level":"A1","theme":"people","no":"en mann","forms":"mannen – menn – mennene","en":"a man; a husband"}
+{"id":1,"level":"A1","theme":"people","no":"en mann","forms":"mannen – menn – mennene","en":"a man; a husband"}
 ```
 
-- `id`: permanent and unique. Learners' progress is stored against it, so **never change or reuse an id**. You can fix the spelling in `no` freely.
+- `id`: a number. Learners' progress is stored against it, so **never change or reuse an id**, even after deleting a word. You can fix the spelling in `no` freely.
+  - To add a word, give it the number in `nextId` at the top of the file, then add 1 to `nextId`.
+  - Leave `nextId` alone when deleting a word, so its number is never handed out again.
 - `level`: `A1`, `A2`, `B1` or `B2`.
 - `theme`: one of the `themes[].id` values at the top of the file. Themes appear in the order listed.
 - `forms`: optional, for the inflected forms.
@@ -45,7 +47,10 @@ Run `node --test` after editing. It catches duplicate ids, unknown themes and mi
 
 ## Saved progress
 
-Progress lives in the browser's `localStorage` under `norsk.ordkort.v2`. **Export progress** and **Import progress** on the flashcards page move it between devices. Progress saved by the older single-file version (key `ordkort`) is converted automatically the first time the new version loads.
+Progress lives in the browser's `localStorage` under `norsk.ordkort.v3`. **Export progress** and **Import progress** on the flashcards page move it between devices. Earlier formats are converted automatically the first time the new version loads:
+
+- `ordkort`: the original single-file version, keyed by Norwegian headword.
+- `norsk.ordkort.v2`: briefly keyed by text ids such as `"mann"`. These are converted through `data/legacy-ids-v2.json`. Don't edit that file. It can be deleted once nobody has v2 progress left.
 
 ## Deploying to GitHub Pages
 
@@ -53,4 +58,4 @@ Progress lives in the browser's `localStorage` under `norsk.ordkort.v2`. **Expor
 2. In the repository, open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then pick your branch and `/ (root)`.
 3. The site appears at `https://<user>.github.io/<repo>/`. Every path is relative, so it works from a sub-folder.
 
-When you deploy changes, pages and the word list update straight away for anyone online. CSS, JS and fonts are served from the offline cache and refresh in the background, so they show up on the next visit. If you add, rename or remove a file, update the `PRECACHE` list in `sw.js` and bump `VERSION`.
+When you deploy changes, anyone online gets them on their next page load, because everything except fonts and icons is fetched fresh and the cache is only used offline. If you add, rename or remove a file, update the `PRECACHE` list in `sw.js` and bump `VERSION`.
