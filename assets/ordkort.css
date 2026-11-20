@@ -1,0 +1,56 @@
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{font-size:1.0625rem; -webkit-tap-highlight-color:transparent}
+h1,h2{font-family:var(--font-display); line-height:1.15; margin:0}
+.wrap{max-width:34rem; margin:0 auto; padding:1.5rem 1rem 3rem}
+
+/* Home */
+.top h1{font-size:2.1rem; font-weight:800; letter-spacing:-.02em}
+.top p{color:var(--muted); margin:.35rem 0 1.25rem}
+.seg{display:flex; border:1px solid var(--line); border-radius:12px; background:var(--surface); padding:3px; margin:0 0 .6rem}
+.seg button{flex:1; border:0; background:transparent; padding:.55rem .2rem; border-radius:9px; font-size:.95rem}
+.seg button[aria-pressed="true"]{background:var(--ink); color:var(--bg); font-weight:600}
+.label{font-size:.85rem; color:var(--muted); margin:1rem 0 .35rem}
+.cta{display:block; width:100%; border:0; border-radius:14px; background:var(--fjord); color:var(--bg); padding:1rem; font-size:1.1rem; font-weight:700; margin:1.25rem 0 .4rem}
+.cta:disabled{opacity:.45; cursor:default}
+.ctanote{font-size:.9rem; color:var(--muted); text-align:center; margin:0 0 1.5rem}
+.decks{list-style:none; margin:0; padding:0; display:grid; gap:.5rem}
+.deck{width:100%; text-align:left; border:1px solid var(--line); background:var(--surface); border-radius:12px; padding:.8rem 1rem; display:grid; grid-template-columns:1fr auto; gap:.15rem .75rem; align-items:center}
+.deck .name{font-weight:700; font-family:var(--font-display); font-size:1.08rem}
+.deck .meta{font-size:.88rem; color:var(--muted)}
+.deck .due{grid-row:1 / span 2; grid-column:2; font-size:.85rem; font-weight:700; padding:.2rem .55rem; border-radius:999px; background:var(--fjord-soft); color:var(--fjord); white-space:nowrap}
+.deck .due.zero{background:transparent; color:var(--muted); font-weight:400}
+.bar{height:5px; border-radius:3px; background:var(--line); overflow:hidden; grid-column:1 / span 2; margin-top:.45rem}
+.bar i{display:block; height:100%; background:var(--moss)}
+.foot{margin-top:2rem; font-size:.9rem; color:var(--muted)}
+.foot .btns{display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.5rem}
+.foot button{border:1px solid var(--line); background:var(--surface); border-radius:10px; padding:.45rem .8rem; font-size:.9rem}
+.status{font-size:.82rem; color:var(--muted); margin-top:.75rem}
+
+/* Study */
+.studyhead{display:flex; align-items:center; justify-content:space-between; gap:.75rem; margin-bottom:1rem}
+.back{border:1px solid var(--line); background:var(--surface); border-radius:10px; padding:.45rem .8rem; font-size:.95rem}
+.count{font-size:.92rem; color:var(--muted)}
+.card{
+  width:100%; min-height:min(52vh,22rem); border:1px solid var(--line); background:var(--surface);
+  border-radius:20px; padding:1.5rem 1.25rem; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  text-align:center; gap:.6rem; position:relative;
+}
+.card .lvl{position:absolute; top:.9rem; left:1rem; font-size:.75rem; font-weight:700; padding:.1rem .45rem; border-radius:6px}
+.lvl.A1{background:var(--moss-soft); color:var(--moss)}
+.lvl.A2{background:var(--fjord-soft); color:var(--fjord)}
+.lvl.B1{background:var(--ochre-soft); color:var(--ochre)}
+.lvl.B2{background:var(--plum-soft); color:var(--plum)}
+.card .theme{position:absolute; top:.9rem; right:1rem; font-size:.8rem; color:var(--muted)}
+.prompt{font-family:var(--font-display); font-weight:700; font-size:clamp(1.7rem,8vw,2.4rem); line-height:1.15; overflow-wrap:anywhere}
+.answer{border-top:1px solid var(--line); padding-top:.8rem; margin-top:.4rem; width:100%}
+.answer .main{font-family:var(--font-display); font-weight:700; font-size:1.45rem; color:var(--fjord); overflow-wrap:anywhere}
+.answer .forms{color:var(--muted); margin-top:.3rem; font-size:1rem; overflow-wrap:anywhere}
+.hint{color:var(--muted); font-size:.92rem}
+.actions{display:grid; grid-template-columns:1fr 1fr; gap:.6rem; margin-top:1rem}
+.actions button{border:0; border-radius:14px; padding:1rem .5rem; font-size:1.05rem; font-weight:700}
+.again{background:var(--berry-soft); color:var(--berry)}
+.good{background:var(--moss-soft); color:var(--moss)}
+.reveal{grid-column:1 / span 2; background:var(--ink); color:var(--bg)}
+.done{text-align:center; padding:3rem 1rem}
+.done h2{font-size:1.8rem; margin-bottom:.5rem}
+.done p{color:var(--muted)}

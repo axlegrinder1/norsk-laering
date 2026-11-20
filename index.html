@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Norsk</title>
+<meta name="description" content="Norwegian grammar cheat sheet and vocabulary flashcards, A1 to B2.">
+<meta name="theme-color" content="#F2F4F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12181C" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/common.css">
+<style>
+.wrap{max-width:34rem; margin:0 auto; padding:3rem 1.25rem 3rem}
+h1{font-family:var(--font-display); font-weight:800; font-size:clamp(2.6rem,12vw,3.6rem); letter-spacing:-.03em; line-height:1; margin:0}
+.sub{color:var(--muted); margin:.6rem 0 2.25rem; font-size:1.05rem}
+a.tool{display:block; text-decoration:none; color:inherit; background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:1.25rem 1.25rem 1.15rem; margin-bottom:.9rem; position:relative}
+a.tool:hover{border-color:var(--fjord)}
+.tag{display:inline-block; font-size:.8rem; font-weight:600; padding:.12rem .5rem; border-radius:6px; margin-bottom:.6rem}
+.t1 .tag{background:var(--fjord-soft); color:var(--fjord)}
+.t2 .tag{background:var(--moss-soft); color:var(--moss)}
+a.tool h2{font-family:var(--font-display); font-weight:700; font-size:1.55rem; margin:0 0 .25rem}
+a.tool p{margin:0; color:var(--muted)}
+a.tool::after{content:"→"; position:absolute; right:1.25rem; top:1.2rem; font-size:1.4rem; color:var(--muted)}
+.foot{color:var(--muted); font-size:.9rem; margin-top:2rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 lang="nb">Norsk</h1>
+  <p class="sub">Grammar and vocabulary from A1 to B2.</p>
+
+  <a class="tool t1" href="grammatikk.html">
+    <span class="tag" lang="nb">Grammatikk</span>
+    <h2>Grammar cheat sheet</h2>
+    <p>Every rule from A1 to B2 with examples, common mistakes and level filters.</p>
+  </a>
+
+  <a class="tool t2" href="ordkort.html">
+    <span class="tag" lang="nb">Ordkort</span>
+    <h2>Flashcards</h2>
+    <p><span id="wordCount">Hundreds of</span> words with full forms, spaced repetition and Norwegian ↔ English practice.</p>
+  </a>
+
+  <p class="foot">Progress is saved in this browser. On iPhone, open in Safari and choose Share → Add to Home Screen. It works offline once installed.</p>
+</div>
+<script>
+fetch("data/words.json").then(function (r) { return r.ok ? r.json() : null; })
+  .then(function (d) { if (d && d.words) document.getElementById("wordCount").textContent = d.words.length; })
+  .catch(function () {});
+</script>
+<script src="assets/register-sw.js"></script>
+</body>
+</html>

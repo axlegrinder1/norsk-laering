@@ -1,0 +1,51 @@
+/* Shared by every page: fonts, colour tokens, light/dark theme, base elements. */
+
+@font-face{
+  font-family:"Source Sans 3"; font-style:normal; font-weight:200 900; font-display:swap;
+  src:url("fonts/source-sans-3-latin-wght-normal.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Source Sans 3"; font-style:italic; font-weight:200 900; font-display:swap;
+  src:url("fonts/source-sans-3-latin-wght-italic.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Bricolage Grotesque"; font-style:normal; font-weight:200 800; font-display:swap;
+  src:url("fonts/bricolage-grotesque-latin-opsz-normal.woff2") format("woff2");
+}
+
+:root{
+  --bg:#F2F4F3; --surface:#FFFFFF; --ink:#1D2830; --muted:#58656D; --line:#D5DCDF;
+  --fjord:#2E5E7E; --fjord-soft:#DCE8F0; --berry:#A8323F; --berry-soft:#F6E3E5;
+  --moss:#3C6B49; --moss-soft:#E1EEE4; --ochre:#8A5A12; --ochre-soft:#F5EAD6;
+  --plum:#6B3E7A; --plum-soft:#EFE3F2;
+  --font-body:"Source Sans 3","Segoe UI",system-ui,-apple-system,Roboto,sans-serif;
+  --font-display:"Bricolage Grotesque","Source Sans 3",system-ui,sans-serif;
+  color-scheme:light; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#12181C; --surface:#1A2227; --ink:#E4EAEC; --muted:#9AA7AD; --line:#2C373D;
+    --fjord:#8DB8D6; --fjord-soft:#1F3442; --berry:#EE8C96; --berry-soft:#3A2226;
+    --moss:#8CC49B; --moss-soft:#1F3326; --ochre:#E3B86F; --ochre-soft:#3A2F1C;
+    --plum:#CDA6DA; --plum-soft:#33233A;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#12181C; --surface:#1A2227; --ink:#E4EAEC; --muted:#9AA7AD; --line:#2C373D;
+  --fjord:#8DB8D6; --fjord-soft:#1F3442; --berry:#EE8C96; --berry-soft:#3A2226;
+  --moss:#8CC49B; --moss-soft:#1F3326; --ochre:#E3B86F; --ochre-soft:#3A2F1C;
+  --plum:#CDA6DA; --plum-soft:#33233A;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:inherit}
+html{-webkit-text-size-adjust:100%}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--font-body); line-height:1.5}
+[hidden]{display:none !important}
+button{font:inherit; color:inherit; cursor:pointer}
+a:focus-visible, button:focus-visible, summary:focus-visible{outline:3px solid var(--fjord); outline-offset:2px}
+
+.homelink{display:inline-block; margin:0 0 1rem; font-size:.95rem; color:var(--muted); text-decoration:none; border:1px solid var(--line); background:var(--surface); border-radius:10px; padding:.35rem .75rem}
+.homelink:hover{color:var(--fjord); border-color:var(--fjord)}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Norsk ordkort A1–B2</title>
+<meta name="description" content="Norwegian A1–B2 vocabulary flashcards with full word forms and spaced repetition.">
+<meta name="theme-color" content="#F2F4F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12181C" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="preload" href="data/words.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="assets/common.css">
+<link rel="stylesheet" href="assets/ordkort.css">
+</head>
+<body>
+<div class="wrap">
+<a class="homelink" href="index.html">← Norsk</a>
+
+<section id="home">
+  <header class="top">
+    <h1 lang="nb">Norsk ordkort</h1>
+    <p>A1–B2 vocabulary with full forms, Oslo style. Up to 20 new words a day: each needs three right answers spread over the day, then comes back after 1, 3, 7, 14 and 30 days. New words pause while 30 are still being learned. Mixed mode tests you in both directions.</p>
+  </header>
+
+  <div class="label">Level</div>
+  <div class="seg" id="levelSeg" role="group" aria-label="Level">
+    <button type="button" data-level="A1A2" aria-pressed="true">A1–A2</button>
+    <button type="button" data-level="A1" aria-pressed="false">A1</button>
+    <button type="button" data-level="A2" aria-pressed="false">A2</button>
+    <button type="button" data-level="B1" aria-pressed="false">B1</button>
+    <button type="button" data-level="B2" aria-pressed="false">B2</button>
+    <button type="button" data-level="every" aria-pressed="false">All</button>
+  </div>
+  <div class="label">Show first</div>
+  <div class="seg" id="dirSeg" role="group" aria-label="Direction">
+    <button type="button" data-dir="no" aria-pressed="true">Norwegian</button>
+    <button type="button" data-dir="en" aria-pressed="false">English</button>
+    <button type="button" data-dir="mix" aria-pressed="false">Mixed</button>
+  </div>
+
+  <button type="button" class="cta" id="studyAll" disabled>Loading words…</button>
+  <p class="ctanote" id="studyNote" aria-live="polite"></p>
+
+  <ul class="decks" id="decks"></ul>
+
+  <div class="foot">
+    <div id="totals"></div>
+    <div class="btns">
+      <button type="button" id="exportBtn">Export progress</button>
+      <button type="button" id="importBtn">Import progress</button>
+      <button type="button" id="reset">Reset progress</button>
+    </div>
+    <input type="file" id="importFile" accept="application/json,.json" hidden>
+    <div class="status" id="status" aria-live="polite">Progress is saved in this browser. Export a backup to move it to another device.</div>
+  </div>
+</section>
+
+<section id="study" hidden>
+  <div class="studyhead">
+    <button type="button" class="back" id="backBtn">← Decks</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div id="cardArea"></div>
+</section>
+
+</div>
+<script src="assets/srs.js"></script>
+<script src="assets/ordkort.js"></script>
+<script src="assets/register-sw.js"></script>
+</body>
+</html>
