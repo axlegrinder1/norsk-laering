@@ -21,7 +21,7 @@
 <section id="home">
   <header class="top">
     <h1 lang="nb">Norsk ordkort</h1>
-    <p>A1–B2 vocabulary with full forms, Oslo style. Up to 20 new words a day: each needs three right answers spread over the day, then comes back after 1, 3, 7, 14 and 30 days. New words pause while 30 are still being learned. Mixed mode tests you in both directions.</p>
+    <p>A1–B2 vocabulary with full forms, Oslo style. A new word needs three right answers spread over the day, then comes back at growing gaps (1, 3, 7, 14 and 30 days by default). New words wait until the ones you’re learning stick, and pause if reviews pile up. You study in short shuffled rounds, and every answer is saved, so you can stop at any time. Everything can be adjusted under More settings.</p>
   </header>
 
   <div class="label">Level</div>
@@ -39,6 +39,18 @@
     <button type="button" data-dir="en" aria-pressed="false">English</button>
     <button type="button" data-dir="mix" aria-pressed="false">Mixed</button>
   </div>
+  <div class="label">New words per day</div>
+  <div class="seg" id="newSeg" role="group" aria-label="New words per day">
+    <button type="button" data-new="5" aria-pressed="false">5</button>
+    <button type="button" data-new="10" aria-pressed="true">10</button>
+    <button type="button" data-new="20" aria-pressed="false">20</button>
+  </div>
+  <details class="settings">
+    <summary>More settings</summary>
+    <div id="settingsList"></div>
+    <p class="settingsnote">Changes apply to future answers. Progress you’ve already made isn’t rescheduled.</p>
+    <button type="button" class="plain" id="defaultsBtn">Restore defaults</button>
+  </details>
 
   <button type="button" class="cta" id="studyAll" disabled>Loading words…</button>
   <p class="ctanote" id="studyNote" aria-live="polite"></p>
@@ -66,9 +78,9 @@
 </section>
 
 </div>
-<!-- ?v= forces a fresh download past caches from before ids became numbers -->
-<script src="assets/srs.js?v=3"></script>
-<script src="assets/ordkort.js?v=3"></script>
+<!-- ?v= forces a fresh download past older caches; bump when srs.js or ordkort.js change together -->
+<script src="assets/srs.js?v=5"></script>
+<script src="assets/ordkort.js?v=5"></script>
 <script src="assets/register-sw.js"></script>
 </body>
 </html>

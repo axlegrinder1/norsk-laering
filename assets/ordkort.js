@@ -13,12 +13,27 @@
   var DIRS = ["no", "en", "mix"];
 
   var WORDS = [], THEMES = {}, ORDER = [], BY_ID = {}, BY_NO = {};
-  var state = { level: "A1A2", dir: "no", prog: {}, newLog: {} };
+  var state = { level: "A1A2", dir: "no", settings: SRS.normalizeSettings({}), prog: {}, newLog: {} };
   var session = null;
+
+  // The "More settings" panel: [setting key, label, how to show each option]
+  function fmtMins(m) {
+    if (m < 60) return m + " min";
+    if (m % 1440 === 0) return (m / 1440) + (m === 1440 ? " day" : " days");
+    return (m / 60) + " h";
+  }
+  var PRESET_NAMES = { faster: "Faster", standard: "Standard", longer: "Longer" };
+  var SETTING_UI = [
+    ["inPlay", "Words in play at once", function (v) { return v + " words"; }],
+    ["step1", "After the 1st right answer, ask again in", fmtMins],
+    ["step2", "After the 2nd right answer, ask again in", fmtMins],
+    ["intervals", "Review gaps once learned", function (v) { return PRESET_NAMES[v] + ": " + SRS.INTERVAL_PRESETS[v].slice(1).join(", ") + " days"; }],
+    ["roundSize", "Cards per round", String],
+    ["backlog", "Pause new words when reviews due exceed", function (v) { return v ? String(v) : "Never pause"; }]
+  ];
 
   function $(id) { return document.getElementById(id); }
   function today() { return SRS.dayNumber(new Date()); }
-  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
   function inLevel(w) {
     if (state.level === "every") return true;
     if (state.level === "A1A2") return w.level === "A1" || w.level === "A2";
@@ -32,8 +47,11 @@
   function isKnown(w) { return SRS.isKnown(P(w)); }
   function newToday() { return state.newLog[today()] || 0; }
   function learningCount() { return WORDS.filter(isLearning).length; }
-  function dailyLeft() { return Math.max(0, SRS.NEW_PER_DAY - newToday()); }
-  function newLeft() { return SRS.newAllowance(newToday(), learningCount()); }
+  function dueReviewCount() { var now = Date.now(); return WORDS.filter(function (w) { var p = P(w); return p && p.s < 0 && SRS.isDue(p, now); }).length; }
+  function newStatus() {
+    return SRS.newStatus({ newToday: newToday(), learning: learningCount(), dueReviews: dueReviewCount() }, state.settings);
+  }
+  function waitingIn(ws, left) { return ws.filter(isDue).length + Math.min(ws.filter(isNew).length, left); }
 
   /* ---------- data ---------- */
   function loadWords() {
@@ -75,6 +93,7 @@
     var level = s.level === "all" ? "A1A2" : s.level;
     if (LEVELS.indexOf(level) >= 0) state.level = level;
     if (DIRS.indexOf(s.dir) >= 0) state.dir = s.dir;
+    state.settings = SRS.normalizeSettings(s.settings);
   }
   function readStore(key) {
     try { var raw = localStorage.getItem(key); return raw ? JSON.parse(raw) : null; } catch (e) { return null; }
@@ -90,7 +109,7 @@
     return Promise.resolve();
   }
   function snapshot() {
-    return { app: "norsk-ordkort", v: 3, saved: new Date().toISOString(), level: state.level, dir: state.dir, newLog: state.newLog, prog: state.prog };
+    return { app: "norsk-ordkort", v: 3, saved: new Date().toISOString(), level: state.level, dir: state.dir, settings: state.settings, newLog: state.newLog, prog: state.prog };
   }
   function prune() { var t = today(); Object.keys(state.newLog).forEach(function (d) { if (+d < t - 7) delete state.newLog[d]; }); }
   function save() {
@@ -135,8 +154,10 @@
   function renderHome() {
     document.querySelectorAll("#levelSeg button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.level === state.level)); });
     document.querySelectorAll("#dirSeg button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.dir === state.dir)); });
+    document.querySelectorAll("#newSeg button").forEach(function (b) { b.setAttribute("aria-pressed", String(+b.dataset.new === state.settings.newPerDay)); });
+    SETTING_UI.forEach(function (s) { $("set-" + s[0]).value = String(state.settings[s[0]]); });
     var list = $("decks"); list.textContent = "";
-    var left = newLeft(), now = Date.now();
+    var ns = newStatus(), left = ns.left, now = Date.now();
     var allDue = 0, allNew = 0, allKnown = 0, allTotal = 0, nextT = Infinity;
     ORDER.forEach(function (t) {
       var ws = WORDS.filter(function (w) { return w.theme === t && inLevel(w); });
@@ -144,7 +165,7 @@
       var due = ws.filter(isDue).length, nw = ws.filter(isNew).length, kn = ws.filter(isKnown).length, lr = ws.filter(isLearning).length;
       ws.forEach(function (w) { var p = P(w); if (p && p.s >= 0 && p.t > now) nextT = Math.min(nextT, p.t); });
       allDue += due; allNew += nw; allKnown += kn; allTotal += ws.length;
-      var todo = due + Math.min(nw, left);
+      var todo = waitingIn(ws, left);
       var li = document.createElement("li");
       var b = document.createElement("button"); b.type = "button"; b.className = "deck";
       b.innerHTML = '<span class="name"></span><span class="due"></span><span class="meta"></span><span class="bar"><i></i></span>';
@@ -160,10 +181,16 @@
     var todoAll = allDue + Math.min(allNew, left);
     var btn = $("studyAll");
     btn.disabled = !todoAll;
-    btn.textContent = todoAll ? "Study " + todoAll + " cards" : "All caught up";
+    var size = state.settings.roundSize;
+    btn.textContent = !todoAll ? "All caught up"
+      : todoAll > size ? "Study " + size + " of " + todoAll + " cards"
+      : "Study " + todoAll + (todoAll === 1 ? " card" : " cards");
     var note = [];
     if (allDue) note.push(allDue + " due now");
-    if (allNew) note.push(left ? left + " new words available" : (dailyLeft() ? "New words paused – finish some learning words first" : "Today’s new words done"));
+    if (allNew) note.push(left ? left + " new " + (left === 1 ? "word" : "words") + " available"
+      : ns.reason === "backlog" ? "New words paused until " + state.settings.backlog + " or fewer reviews are due"
+      : ns.reason === "learning" ? "New words paused – finish the " + learningCount() + " you’re learning first"
+      : "Today’s " + state.settings.newPerDay + " new words done");
     if (!todoAll && nextT < Infinity) note.push("Next card ready in " + fmtWait(nextT - now));
     else if (!todoAll) note.push("Come back tomorrow for reviews.");
     $("studyNote").textContent = note.join(" · ");
@@ -171,14 +198,13 @@
   }
 
   /* ---------- study ---------- */
+  function poolFor(theme) { return WORDS.filter(function (w) { return inLevel(w) && (!theme || w.theme === theme); }); }
   function startSession(theme) {
-    var pool = WORDS.filter(function (w) { return inLevel(w) && (!theme || w.theme === theme); });
-    var learning = pool.filter(function (w) { return isLearning(w) && isDue(w); }).sort(function (a, b) { return P(a).t - P(b).t; });
-    var reviews = shuffle(pool.filter(function (w) { return !isLearning(w) && isDue(w); }));
-    var nw = shuffle(pool.filter(isNew)).slice(0, newLeft());
-    var queue = learning.concat(reviews, nw);
+    var cards = poolFor(theme).map(function (w) { return { w: w, p: P(w) }; });
+    var queue = SRS.planRound(cards, { now: Date.now(), newLeft: newStatus().left, size: state.settings.roundSize })
+      .map(function (c) { return c.w; });
     if (!queue.length) return;
-    session = { queue: queue, done: 0, total: queue.length, flipped: false, curId: null, curDir: null };
+    session = { theme: theme, queue: queue, done: 0, total: queue.length, flipped: false, curId: null, curDir: null };
     $("home").hidden = true;
     $("study").hidden = false;
     window.scrollTo(0, 0);
@@ -194,7 +220,17 @@
     var area = $("cardArea");
     if (!session.queue.length) {
       $("count").textContent = "";
-      area.innerHTML = '<div class="done"><h2 lang="nb">Bra jobba!</h2><p>Words you’re learning come back in about an hour, then a few hours later. Words you already know come back in a few days.</p><button type="button" class="cta" id="doneBtn">Back to decks</button></div>';
+      var more = waitingIn(poolFor(session.theme), newStatus().left);
+      area.innerHTML = '<div class="done"><h2 lang="nb">Bra jobba!</h2><p></p>' +
+        (more ? '<button type="button" class="cta" id="moreBtn"></button>' : '') +
+        '<button type="button" class="cta' + (more ? ' secondary' : '') + '" id="doneBtn">Back to decks</button></div>';
+      area.querySelector(".done p").textContent = more
+        ? "Every answer is saved, so you can stop here or do another round."
+        : "That’s everything for now. Words you’re learning come back later today. Words you already know come back in a few days.";
+      if (more) {
+        $("moreBtn").textContent = "Keep going (" + more + " left)";
+        $("moreBtn").addEventListener("click", function () { startSession(session.theme); });
+      }
       $("doneBtn").addEventListener("click", endSession);
       return;
     }
@@ -239,7 +275,7 @@
     var w = session.queue.shift();
     var p = P(w);
     if (!p) state.newLog[today()] = newToday() + 1;
-    state.prog[w.id] = SRS.pack(SRS.grade(p, ok, Date.now()));
+    state.prog[w.id] = SRS.pack(SRS.grade(p, ok, Date.now(), state.settings));
     if (ok) session.done++;
     else session.queue.splice(Math.min(session.queue.length, 3 + Math.floor(Math.random() * 3)), 0, w);
     session.flipped = false;
@@ -248,10 +284,39 @@
     renderCard();
   }
 
+  /* ---------- settings ---------- */
+  function buildSettings() {
+    var box = $("settingsList");
+    SETTING_UI.forEach(function (s) {
+      var key = s[0], spec = SRS.SETTINGS[key];
+      var label = document.createElement("label"); label.className = "setting";
+      var span = document.createElement("span"); span.textContent = s[1];
+      var sel = document.createElement("select"); sel.id = "set-" + key;
+      spec.options.forEach(function (v) {
+        var o = document.createElement("option");
+        o.value = String(v);
+        o.textContent = s[2](v) + (v === spec.def ? " (default)" : "");
+        sel.appendChild(o);
+      });
+      sel.addEventListener("change", function () {
+        var picked = spec.options.filter(function (v) { return String(v) === sel.value; })[0];
+        state.settings[key] = picked === undefined ? spec.def : picked;
+        save(); renderHome();
+      });
+      label.appendChild(span); label.appendChild(sel); box.appendChild(label);
+    });
+  }
+
   /* ---------- controls ---------- */
   function bindControls() {
     document.querySelectorAll("#levelSeg button").forEach(function (b) { b.addEventListener("click", function () { state.level = b.dataset.level; save(); renderHome(); }); });
     document.querySelectorAll("#dirSeg button").forEach(function (b) { b.addEventListener("click", function () { state.dir = b.dataset.dir; save(); renderHome(); }); });
+    document.querySelectorAll("#newSeg button").forEach(function (b) { b.addEventListener("click", function () { state.settings.newPerDay = +b.dataset.new; save(); renderHome(); }); });
+    buildSettings();
+    $("defaultsBtn").addEventListener("click", function () {
+      state.settings = SRS.normalizeSettings({}); save(); renderHome();
+      setStatus("Settings restored to defaults.");
+    });
     $("studyAll").addEventListener("click", function () { startSession(null); });
     $("backBtn").addEventListener("click", endSession);
     $("exportBtn").addEventListener("click", exportProgress);

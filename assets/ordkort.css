@@ -54,3 +54,16 @@ h1,h2{font-family:var(--font-display); line-height:1.15; margin:0}
 .done{text-align:center; padding:3rem 1rem}
 .done h2{font-size:1.8rem; margin-bottom:.5rem}
 .done p{color:var(--muted)}
+.cta.secondary{background:transparent; color:var(--fjord); border:1px solid var(--line); margin-top:.6rem}
+
+/* More settings. <details> content sits in a browser shadow slot, so the global box-sizing rule doesn't reach it. */
+.settings, .settings *{box-sizing:border-box}
+.settings{margin:.9rem 0 0; border:1px solid var(--line); border-radius:12px; background:var(--surface)}
+.settings summary{cursor:pointer; padding:.7rem 1rem; font-size:.95rem; color:var(--muted)}
+.settings[open] summary{border-bottom:1px solid var(--line)}
+#settingsList{display:grid; grid-template-columns:minmax(0,1fr); gap:.75rem; padding:.9rem 1rem 0}
+.setting{display:grid; grid-template-columns:minmax(0,1fr); min-width:0; gap:.3rem; font-size:.9rem; color:var(--muted)}
+.setting select{font:inherit; font-size:1rem; color:var(--ink); background:var(--bg); border:1px solid var(--line); border-radius:9px; padding:.5rem .6rem; width:100%}
+.setting select:focus-visible{outline:3px solid var(--fjord); outline-offset:2px}
+.settingsnote{font-size:.85rem; color:var(--muted); margin:.8rem 1rem .6rem}
+.settings .plain{margin:0 1rem 1rem; border:1px solid var(--line); background:var(--bg); border-radius:10px; padding:.45rem .8rem; font-size:.9rem}
