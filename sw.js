@@ -5,11 +5,11 @@
  * Fonts and icons never change, so they come straight from the cache.
  * Bump VERSION when files are added, renamed or removed so old caches are cleared.
  */
-var VERSION = "v2";
+var VERSION = "v3";
 var CACHE = "norsk-" + VERSION;
 var PRECACHE = [
   "./", "index.html", "grammatikk.html", "ordkort.html", "manifest.webmanifest",
-  "data/words.json", "data/legacy-ids-v2.json",
+  "data/words.json", "data/details.json", "data/legacy-ids-v2.json",
   "assets/common.css", "assets/ordkort.css", "assets/grammatikk.css",
   "assets/srs.js", "assets/ordkort.js", "assets/grammatikk.js", "assets/register-sw.js",
   "assets/fonts/source-sans-3-latin-wght-normal.woff2",

@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "details": {
+    "1": {
+      "ex": [["Mannen min jobber i Bergen.", "My husband works in Bergen."], ["Det står en mann ved døra.", "There’s a man standing at the door."]],
+      "tip": "«Mannen min» is the everyday way to say «my husband».",
+      "rel": "↔ en kvinne"
+    },
+    "2": {
+      "ex": [["Hun er en sterk kvinne.", "She’s a strong woman."], ["Kvinner og menn skal ha lik lønn.", "Women and men should have equal pay."]],
+      "tip": "In everyday speech you’ll often hear «en dame» for a woman. «Kvinne» is a little more neutral or formal.",
+      "rel": "↔ en mann"
+    },
+    "3": {
+      "ex": [["Vi har to barn.", "We have two children."], ["Barna leker ute.", "The children are playing outside."]],
+      "tip": "The plural is the same as the singular (ett barn, to barn), and the definite plural is irregular: barna. («barnene» is also allowed, but «barna» is far more common.)",
+      "phr": [["en barnehage", "a nursery, a kindergarten"], ["et barnebarn", "a grandchild"]]
+    },
+    "4": {
+      "ex": [["Gutten heter Ola.", "The boy is called Ola."], ["Han er en gutt på ti år.", "He’s a ten-year-old boy."]],
+      "rel": "↔ en jente"
+    },
+    "5": {
+      "ex": [["De har to jenter og en gutt.", "They have two girls and a boy."], ["Jenta i blå jakke er søstera mi.", "The girl in the blue jacket is my sister."]],
+      "rel": "↔ en gutt"
+    },
+    "6": {
+      "ex": [["Familien min bor i Polen.", "My family lives in Poland."], ["Har du familie i Norge?", "Do you have family in Norway?"]],
+      "tip": "The possessive usually comes after the noun: «familien min», not «min familie». Putting it first adds emphasis."
+    },
+    "7": {
+      "ex": [["Mora mi er lærer.", "My mother is a teacher."], ["Mamma, kan du hjelpe meg?", "Mum, can you help me?"]],
+      "tip": "In everyday speech people mostly say «mamma» (mum). «Mor» is used about someone’s mother and in more formal contexts.",
+      "rel": "↔ en far"
+    },
+    "8": {
+      "ex": [["Faren min heter Lars.", "My father is called Lars."], ["Pappa kommer hjem klokka fem.", "Dad’s coming home at five."]],
+      "tip": "In everyday speech people mostly say «pappa» (dad).",
+      "rel": "↔ en mor"
+    },
+    "9": {
+      "ex": [["Foreldrene mine kommer på besøk i helga.", "My parents are coming to visit at the weekend."], ["Bor du hos foreldrene dine?", "Do you live with your parents?"]],
+      "tip": "The singular «en forelder» is rare in speech – people just say mor or far – but you’ll see it on forms and in words like «aleneforelder» (single parent)."
+    },
+    "10": {
+      "ex": [["Jeg har en storebror og en lillesøster.", "I have a big brother and a little sister."], ["Broren min bor i Trondheim.", "My brother lives in Trondheim."]],
+      "phr": [["en storebror", "a big brother"], ["en lillebror", "a little brother"]],
+      "rel": "søsken = siblings"
+    },
+    "11": {
+      "ex": [["Søstera mi studerer medisin.", "My sister is studying medicine."], ["Hvor mange søsken har du?", "How many brothers and sisters do you have?"]],
+      "phr": [["en storesøster", "a big sister"], ["en lillesøster", "a little sister"]],
+      "rel": "søsken = siblings"
+    },
+    "12": {
+      "ex": [["Sønnen vår begynner på skolen i høst.", "Our son starts school this autumn."], ["De har tre sønner.", "They have three sons."]],
+      "rel": "↔ en datter"
+    },
+    "13": {
+      "ex": [["Dattera mi er tre år.", "My daughter is three."], ["Begge døtrene deres bor i Oslo.", "Both their daughters live in Oslo."]],
+      "tip": "Irregular plural: døtre – døtrene.",
+      "rel": "↔ en sønn"
+    },
+    "14": {
+      "ex": [["Kona mi kommer fra Chile.", "My wife is from Chile."], ["Jeg må spørre kona mi først.", "I have to ask my wife first."]],
+      "tip": "«Kona mi» is the everyday way to say «my wife». «Ektefelle» (spouse) is formal."
+    },
+    "15": {
+      "ex": [["Vi er gode venner.", "We’re good friends."], ["Jeg skal møte en venn etter jobben.", "I’m meeting a friend after work."]],
+      "tip": "For a female friend you’ll also hear «en venninne». A boyfriend or girlfriend is «en kjæreste»."
+    },
+    "16": {
+      "ex": [["Naboen vår har en stor hund.", "Our neighbour has a big dog."], ["Vi kjenner ikke naboene så godt.", "We don’t know the neighbours very well."]],
+      "rel": "et nabolag = a neighbourhood"
+    },
+    "17": {
+      "ex": [["Kollegene mine er veldig hyggelige.", "My colleagues are very nice."], ["Hun er en kollega av meg.", "She’s a colleague of mine."]],
+      "tip": "The plural is «kolleger» (also «kollegaer»)."
+    },
+    "18": {
+      "ex": [["Bestemor baker de beste bollene.", "Grandma bakes the best buns."], ["Jeg besøker bestemora mi hver søndag.", "I visit my grandmother every Sunday."]],
+      "tip": "Norwegians often say which side: «mormor» (mother’s mother) and «farmor» (father’s mother)."
+    },
+    "19": {
+      "ex": [["Bestefar var fisker.", "Grandad was a fisherman."], ["Bestefaren min fyller nitti i år.", "My grandfather turns ninety this year."]],
+      "tip": "Norwegians often say which side: «morfar» (mother’s father) and «farfar» (father’s father)."
+    },
+    "20": {
+      "ex": [["Onkelen min bor i Tromsø.", "My uncle lives in Tromsø."]],
+      "tip": "You’ll also hear «morbror» (mother’s brother) and «farbror» (father’s brother)."
+    },
+    "21": {
+      "ex": [["Tanta mi har tre barn.", "My aunt has three children."]],
+      "tip": "Very common: «moster» (mother’s sister) and «faster» (father’s sister)."
+    },
+    "22": {
+      "ex": [["Vi feirer jul hos svigerforeldrene mine.", "We’re spending Christmas with my in-laws."]],
+      "rel": "en svigermor, en svigerfar, en svoger, en svigerinne"
+    },
+    "23": {
+      "ex": [["Jeg bor sammen med samboeren min.", "I live with my partner."], ["De har vært samboere i ti år.", "They’ve lived together for ten years."]],
+      "tip": "Very common in Norway: an unmarried partner you live with. Many couples are samboere for years, often with children."
+    },
+    "669": {
+      "ex": [["Kommer du ikke? – Jo!", "Aren’t you coming? – Yes, I am!"], ["Du liker ikke kaffe? – Jo, det gjør jeg.", "You don’t like coffee? – I do, actually."]],
+      "tip": "Use «ja» to say yes to a positive question, and «jo» to say yes to a question or statement with «ikke» in it. Jo has other jobs too, shown below.",
+      "phr": [["Det er jo kaldt ute.", "It’s cold out, you know. (unstressed jo = «as we both know»)"], ["Jo før, jo bedre.", "The sooner, the better."], ["Jo da!", "Yes, sure!"]]
+    },
+    "286": {
+      "ex": [["Hva synes du om Oslo?", "What do you think of Oslo?"], ["Jeg synes det er kaldt her.", "I think it’s cold here."]],
+      "tip": "synes = an opinion from your own experience or taste. tro = think something is true, but you’re not sure. mene = a considered opinion, often on serious topics.",
+      "phr": [["å synes synd på noen", "to feel sorry for someone"]],
+      "rel": "å tro · å mene"
+    },
+    "241": {
+      "ex": [["Jeg tror det blir regn i morgen.", "I think it’ll rain tomorrow."], ["Tror du på Gud?", "Do you believe in God?"]],
+      "tip": "Use tro when you think something is true but aren’t certain. For opinions from experience, use synes.",
+      "phr": [["Jeg tror ikke det.", "I don’t think so."], ["Tror du det?", "Do you think so?"]],
+      "rel": "å synes · å mene"
+    },
+    "488": {
+      "ex": [["Hva mener du?", "What do you mean?"], ["Jeg mener at alle bør lære å svømme.", "I think everyone should learn to swim."]],
+      "tip": "Two senses: «mean» (Hva mener du?) and «hold an opinion», especially on serious or general topics.",
+      "rel": "å synes · å tro · en mening = an opinion"
+    },
+    "240": {
+      "ex": [["Jeg tenker på deg.", "I’m thinking of you."], ["Hva tenker du på?", "What are you thinking about?"]],
+      "tip": "tenke is the activity of thinking. To give an opinion, synes, tro or mene are the safe choices – though you’ll also hear «Jeg tenker at …» in everyday and work speech.",
+      "phr": [["Jeg må tenke meg om.", "I need to think it over."], ["Jeg har tenkt å …", "I’m planning to …"]]
+    },
+    "365": {
+      "ex": [["Jeg vil gjerne ha en kaffe.", "I’d like a coffee, please."], ["Du kan gjerne sitte her.", "You’re welcome to sit here."], ["Han kommer gjerne for sent.", "He tends to be late."]],
+      "tip": "Hard to translate: it adds willingness or politeness («gladly», «I’d like to»), and can also mean «usually, tend to».",
+      "phr": [["Ja, gjerne!", "Yes, please! / I’d love to!"], ["Jeg vil heller …", "I’d rather …"], ["Jeg vil helst …", "I’d prefer to …"]]
+    },
+    "254": {
+      "ex": [["Boka ligger på bordet.", "The book is on the table."], ["Jeg ligger i senga og leser.", "I’m lying in bed reading."]],
+      "tip": "ligge = be lying (no object). legge = lay or put something down (takes an object). The same pattern: sitte/sette, stå/stille.",
+      "phr": [["Oslo ligger ved Oslofjorden.", "Oslo is by the Oslo Fjord. (places «lie» in Norwegian)"]],
+      "rel": "↔ å legge"
+    },
+    "261": {
+      "ex": [["Legg nøklene på bordet.", "Put the keys on the table."], ["Jeg la meg klokka elleve.", "I went to bed at eleven."]],
+      "tip": "legge = put or lay something somewhere, often lying down (takes an object). For putting something upright, use sette. Don’t mix it up with ligge = be lying.",
+      "phr": [["å legge seg", "to go to bed, to lie down"], ["å legge merke til", "to notice"]],
+      "rel": "↔ å ligge"
+    },
+    "394": {
+      "ex": [["Vil du ha mer kaffe? – Ja takk!", "Would you like more coffee? – Yes, please!"]],
+      "tip": "The standard answer when you’re offered something. «Ja, gjerne!» is a warmer alternative: «Yes, please!» or «I’d love to!».",
+      "phr": [["Nei takk.", "No, thanks."]]
+    },
+    "398": {
+      "ex": [["Hei, takk for sist! Det var en fin kveld.", "Hi, thanks for last time! It was a lovely evening."]],
+      "tip": "Said when you next meet someone you spent time with, to thank them for the last time together. The usual reply is «Takk for sist!», «Takk selv!» or «Takk i like måte!»."
+    },
+    "176": {
+      "ex": [["Har du gjort leksene?", "Have you done your homework?"], ["Vi fikk mye lekser i dag.", "We got a lot of homework today."]],
+      "tip": "Usually plural: «å gjøre lekser» = to do homework."
+    },
+    "425": {
+      "ex": [["Vi koste oss på hytta i helga.", "We had a lovely time at the cabin at the weekend."], ["Kos deg i ferien!", "Enjoy your holiday!"]],
+      "tip": "A key Norwegian word: to enjoy yourself in a relaxed, cosy way – good food, friends, a film, a cabin trip. «Kos deg!» is a very common wish.",
+      "rel": "koselig = cosy · kos = cosiness, a nice time"
+    },
+    "368": {
+      "ex": [["Jeg er egentlig fra Bergen.", "I’m actually from Bergen."], ["Hva gjør du egentlig på jobben?", "What do you actually do at work?"]],
+      "tip": "Very common. It often softens what you say: «Jeg skulle egentlig …» = «I was really supposed to …»."
+    },
+    "321": {
+      "ex": [["Naboene våre er veldig hyggelige.", "Our neighbours are very nice."], ["Takk for i kveld, det var hyggelig!", "Thanks for this evening, it was lovely!"]],
+      "phr": [["Hyggelig å hilse på deg!", "Nice to meet you!"], ["Bare hyggelig!", "You’re welcome!"]]
+    },
+    "277": {
+      "ex": [["Jeg gidder ikke å lage middag i dag.", "I can’t be bothered to make dinner today."], ["Gidder du å hjelpe meg litt?", "Could you help me a bit? (casual)"]],
+      "tip": "Informal, and mostly used with «ikke»: «Jeg gidder ikke» = «I can’t be bothered»."
+    },
+    "278": {
+      "ex": [["Jeg pleier å sykle til jobben.", "I usually cycle to work."], ["Hva pleier dere å gjøre i helgene?", "What do you usually do at the weekends?"]],
+      "tip": "No English verb matches it – translate with «usually». Used for habits: pleier + å + infinitive. In the past, «pleide å» = «used to». (Pleie also means «to nurse, care for», as in «sykepleier» = nurse.)"
+    }
+  }
+}

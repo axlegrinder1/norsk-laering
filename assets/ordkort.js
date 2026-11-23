@@ -13,6 +13,7 @@
   var DIRS = ["no", "en", "mix"];
 
   var WORDS = [], THEMES = {}, ORDER = [], BY_ID = {}, BY_NO = {};
+  var DETAILS = null; // extra info per word id, from data/details.json (loaded in the background)
   var state = { level: "A1A2", dir: "no", settings: SRS.normalizeSettings({}), prog: {}, newLog: {} };
   var session = null;
 
@@ -64,6 +65,37 @@
       WORDS = data.words.filter(function (w) { return w.id && w.no && w.en && THEMES[w.theme]; });
       WORDS.forEach(function (w) { BY_ID[w.id] = w; BY_NO[w.no] = w; });
     });
+  }
+
+  // Optional: cards work without it, the More section just doesn't appear.
+  function loadDetails() {
+    fetch("data/details.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      if (!d || !d.details) return;
+      DETAILS = d.details;
+      if (session && session.flipped && session.queue.length) renderCard();
+    }).catch(function () {});
+  }
+  function pairList(cls, title, pairs) {
+    var box = document.createElement("div"); box.className = cls;
+    var h = document.createElement("h3"); h.textContent = title; box.appendChild(h);
+    pairs.forEach(function (p) {
+      var row = document.createElement("p");
+      var no = document.createElement("span"); no.className = "no"; no.lang = "nb"; no.textContent = p[0];
+      var en = document.createElement("span"); en.className = "en"; en.textContent = p[1];
+      row.appendChild(no); row.appendChild(en); box.appendChild(row);
+    });
+    return box;
+  }
+  function buildMore(d) {
+    var more = document.createElement("details"); more.className = "more";
+    var sum = document.createElement("summary"); sum.textContent = "More"; more.appendChild(sum);
+    var body = document.createElement("div"); body.className = "morebody";
+    if (d.ex && d.ex.length) body.appendChild(pairList("moreex", "Examples", d.ex));
+    if (d.tip) { var tip = document.createElement("p"); tip.className = "moretip"; tip.textContent = d.tip; body.appendChild(tip); }
+    if (d.phr && d.phr.length) body.appendChild(pairList("morephr", "Useful phrases", d.phr));
+    if (d.rel) { var rel = document.createElement("p"); rel.className = "morerel"; rel.textContent = "See also: " + d.rel; body.appendChild(rel); }
+    more.appendChild(body);
+    return more;
   }
 
   /* ---------- saving ---------- */
@@ -262,6 +294,7 @@
       main.textContent = dir === "no" ? w.en : w.no;
       main.lang = dir === "no" ? "en" : "nb";
       if (w.forms) area.querySelector(".answer .forms").textContent = (dir === "en" ? "" : w.no + "  ·  ") + w.forms;
+      if (DETAILS && DETAILS[w.id]) area.querySelector(".answer").appendChild(buildMore(DETAILS[w.id]));
       $("againBtn").addEventListener("click", function () { grade(false); });
       $("goodBtn").addEventListener("click", function () { grade(true); });
     } else {
@@ -353,6 +386,7 @@
   }).then(function () {
     bindControls();
     renderHome();
+    loadDetails();
   }).catch(function () {
     $("studyAll").textContent = stage === "words" ? "Word list unavailable" : "Couldn’t load your progress";
     $("studyNote").textContent = stage === "progress"

@@ -413,7 +413,7 @@
     {"id":391,"level":"A1","theme":"phrases","no":"Takk for maten!","forms":"said to the host after a meal","en":"Thanks for the meal!"},
     {"id":392,"level":"A1","theme":"phrases","no":"Skål!","en":"Cheers!"},
     {"id":393,"level":"A1","theme":"phrases","no":"Lykke til!","en":"Good luck!"},
-    {"id":394,"level":"A1","theme":"phrases","no":"Ja takk!","forms":"Nei takk. = No, thanks. · Ja, gjerne! = Yes, I’d love to!","en":"Yes, please!"},
+    {"id":394,"level":"A1","theme":"phrases","no":"Ja takk!","forms":"Nei takk. = No, thanks. · Ja, gjerne! = Yes, please! / I’d love to! (warmer)","en":"Yes, please!"},
     {"id":395,"level":"A2","theme":"phrases","no":"Velbekomme!","forms":"reply to “Takk for maten”","en":"You’re welcome (after a meal)!"},
     {"id":396,"level":"A2","theme":"phrases","no":"Bare hyggelig!","forms":"more formal: Ingen årsak.","en":"You’re welcome!"},
     {"id":397,"level":"A2","theme":"phrases","no":"Det gjør ingenting.","en":"Never mind. / No worries."},
