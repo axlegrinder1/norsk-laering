@@ -101,16 +101,934 @@
       "ex": [["Jeg bor sammen med samboeren min.", "I live with my partner."], ["De har vært samboere i ti år.", "They’ve lived together for ten years."]],
       "tip": "Very common in Norway: an unmarried partner you live with. Many couples are samboere for years, often with children."
     },
-    "669": {
-      "ex": [["Kommer du ikke? – Jo!", "Aren’t you coming? – Yes, I am!"], ["Du liker ikke kaffe? – Jo, det gjør jeg.", "You don’t like coffee? – I do, actually."]],
-      "tip": "Use «ja» to say yes to a positive question, and «jo» to say yes to a question or statement with «ikke» in it. Jo has other jobs too, shown below.",
-      "phr": [["Det er jo kaldt ute.", "It’s cold out, you know. (unstressed jo = «as we both know»)"], ["Jo før, jo bedre.", "The sooner, the better."], ["Jo da!", "Yes, sure!"]]
+    "24": {
+      "ex": [["De bor i et stort hus på Nordstrand.", "They live in a big house in Nordstrand."], ["Huset vårt er gult.", "Our house is yellow."]],
+      "rel": "en enebolig = a detached house · et rekkehus = a terraced house"
     },
-    "286": {
-      "ex": [["Hva synes du om Oslo?", "What do you think of Oslo?"], ["Jeg synes det er kaldt her.", "I think it’s cold here."]],
-      "tip": "synes = an opinion from your own experience or taste. tro = think something is true, but you’re not sure. mene = a considered opinion, often on serious topics.",
-      "phr": [["å synes synd på noen", "to feel sorry for someone"]],
-      "rel": "å tro · å mene"
+    "25": {
+      "ex": [["Vi leier en leilighet på Grünerløkka.", "We rent a flat in Grünerløkka."], ["Leiligheten har to soverom og balkong.", "The flat has two bedrooms and a balcony."]],
+      "tip": "Flats are described by the number of rooms not counting the kitchen and bathroom: «en treromsleilighet» usually has a living room and two bedrooms."
+    },
+    "26": {
+      "ex": [["Hvor mange rom har leiligheten?", "How many rooms does the flat have?"], ["Rommet mitt er lite, men lyst.", "My room is small but bright."]],
+      "tip": "Same in singular and plural: ett rom, to rom."
+    },
+    "27": {
+      "ex": [["Vi ser på TV i stua.", "We’re watching TV in the living room."], ["Stua er stor og lys.", "The living room is big and bright."]],
+      "tip": "You’re «i stua», but «på kjøkkenet» and «på badet»."
+    },
+    "28": {
+      "ex": [["Hun lager mat på kjøkkenet.", "She’s cooking in the kitchen."], ["Vi spiser frokost på kjøkkenet.", "We have breakfast in the kitchen."]],
+      "tip": "Norwegians usually say «på kjøkkenet», not «i kjøkkenet»."
+    },
+    "29": {
+      "ex": [["Han er på badet.", "He’s in the bathroom."], ["Leiligheten har to bad.", "The flat has two bathrooms."]],
+      "tip": "Use «på»: «på badet». «Et bad» can also mean a bath or a swim: «å ta et bad» (to have a bath).",
+      "rel": "et toalett = a toilet · å dusje = to have a shower"
+    },
+    "30": {
+      "ex": [["Soverommet ligger ved siden av badet.", "The bedroom is next to the bathroom."], ["Leiligheten har tre soverom.", "The flat has three bedrooms."]],
+      "tip": "Usually «på soverommet», just like «på rommet mitt»."
+    },
+    "31": {
+      "ex": [["Kan du lukke døra?", "Can you close the door?"], ["Det banker på døra.", "Someone’s knocking at the door."]],
+      "phr": [["å åpne døra", "to open the door"], ["å låse døra", "to lock the door"]]
+    },
+    "32": {
+      "ex": [["Kan jeg åpne vinduet?", "Can I open the window?"], ["Huset har store vinduer.", "The house has big windows."]]
+    },
+    "33": {
+      "ex": [["Maten står på bordet.", "The food is on the table."], ["Kan du dekke bordet?", "Can you lay the table?"]],
+      "phr": [["å dekke bordet", "to lay the table"], ["å rydde av bordet", "to clear the table"]]
+    },
+    "34": {
+      "ex": [["Sett deg på stolen.", "Sit down on the chair."], ["Vi trenger to stoler til.", "We need two more chairs."]]
+    },
+    "35": {
+      "ex": [["Han ligger i senga og leser.", "He’s lying in bed reading."], ["Jeg må re opp senga.", "I need to make the bed."]],
+      "tip": "You lie «i senga» (in bed) but sit «på senga» (on the bed).",
+      "phr": [["å re opp senga", "to make the bed"], ["å legge seg", "to go to bed"]]
+    },
+    "36": {
+      "ex": [["Koppene står i skapet.", "The cups are in the cupboard."], ["Klærne mine henger i skapet.", "My clothes are hanging in the wardrobe."]],
+      "tip": "Covers cupboards, wardrobes and cabinets. It’s also in compounds like «et klesskap» (a wardrobe) and «et kjøleskap» (a fridge)."
+    },
+    "37": {
+      "ex": [["Vi sitter i sofaen og ser på film.", "We’re sitting on the sofa watching a film."], ["Du kan sove på sofaen i natt.", "You can sleep on the sofa tonight."]],
+      "tip": "Norwegians often sit «i sofaen» where English says «on the sofa». «På sofaen» is also fine."
+    },
+    "38": {
+      "ex": [["Kan du slå på lampa?", "Can you turn on the lamp?"], ["Lampa i stua er ødelagt.", "The lamp in the living room is broken."]],
+      "phr": [["å slå på lyset", "to turn on the light"], ["å slå av lyset", "to turn off the light"]]
+    },
+    "39": {
+      "ex": [["Han gikk opp trappa.", "He went up the stairs."], ["Pass deg i trappa – den er glatt.", "Careful on the stairs – they’re slippery."]],
+      "tip": "One «trapp» is a whole staircase, so English «the stairs» is usually «trappa» (singular)."
+    },
+    "40": {
+      "ex": [["Taket lekker.", "The roof is leaking."], ["Lampa henger i taket.", "The lamp hangs from the ceiling."]],
+      "phr": [["å ha tak over hodet", "to have a roof over your head"]]
+    },
+    "41": {
+      "ex": [["Barna sitter på gulvet og leker.", "The children are sitting on the floor playing."], ["Jeg må vaske gulvet.", "I have to wash the floor."]],
+      "tip": "«Gulv» is only the floor you walk on. A floor or storey of a building is «en etasje»: «Vi bor i tredje etasje.»"
+    },
+    "42": {
+      "ex": [["Bildet henger på veggen.", "The picture is hanging on the wall."], ["Vi hører naboene gjennom veggen.", "We can hear the neighbours through the wall."]],
+      "tip": "«En vegg» is a wall of a room or building. A wall of stone, brick or concrete, especially one standing on its own outdoors (round a garden, for example), is «en mur»."
+    },
+    "43": {
+      "ex": [["Jeg finner ikke nøklene mine.", "I can’t find my keys."], ["Har du nøkkel til leiligheten?", "Do you have a key to the flat?"]],
+      "tip": "The plural drops an e: nøkler – nøklene. A key is «til» something: «nøkkelen til døra»."
+    },
+    "44": {
+      "ex": [["Barna leker i hagen.", "The children are playing in the garden."], ["Vi har en liten hage bak huset.", "We have a small garden behind the house."]],
+      "rel": "en barnehage = a nursery, a kindergarten"
+    },
+    "45": {
+      "ex": [["Hvor mye er husleia?", "How much is the rent?"], ["Husleia er 15 000 kroner i måneden.", "The rent is 15,000 kroner a month."]],
+      "rel": "å leie = to rent · et depositum = a deposit"
+    },
+    "46": {
+      "ex": [["Melka står i kjøleskapet.", "The milk is in the fridge."], ["Kan du sette smøret i kjøleskapet?", "Can you put the butter in the fridge?"]],
+      "rel": "en fryser = a freezer"
+    },
+    "47": {
+      "ex": [["Vaskemaskinen står på badet.", "The washing machine is in the bathroom."], ["Kan du ta klærne ut av vaskemaskinen?", "Can you take the clothes out of the washing machine?"]],
+      "phr": [["å vaske klær", "to do the washing"]]
+    },
+    "48": {
+      "ex": [["Kan du sette koppene i oppvaskmaskinen?", "Can you put the cups in the dishwasher?"], ["Vi har ikke oppvaskmaskin, så vi vasker opp for hånd.", "We don’t have a dishwasher, so we wash up by hand."]],
+      "phr": [["å ta oppvasken", "to do the washing-up"], ["å tømme oppvaskmaskinen", "to empty the dishwasher"]]
+    },
+    "49": {
+      "ex": [["Vi spiser frokost på balkongen.", "We have breakfast on the balcony."], ["Leiligheten har en stor balkong mot sør.", "The flat has a big south-facing balcony."]]
+    },
+    "50": {
+      "ex": [["Syklene står i boden.", "The bikes are in the storage room."], ["Alle leilighetene har en bod i kjelleren.", "Every flat has a storage room in the basement."]],
+      "tip": "Flats often come with a «kjellerbod» (basement storage room) or «loftsbod» (attic storage room). Worth asking about when you rent."
+    },
+    "51": {
+      "ex": [["Maten er klar!", "The food’s ready!"], ["Jeg lager mat hver dag.", "I cook every day."]],
+      "tip": "Say «Takk for maten!» to whoever cooked or hosted when you finish eating. It’s expected in Norway.",
+      "phr": [["å lage mat", "to cook"], ["Takk for maten!", "Thanks for the meal!"]]
+    },
+    "52": {
+      "ex": [["Jeg kjøpte et brød på butikken.", "I bought a loaf of bread at the shop."], ["Vil du ha en skive brød?", "Would you like a slice of bread?"]],
+      "tip": "«Et brød» is a whole loaf. One slice is «en brødskive» or «en skive brød».",
+      "phr": [["en brødskive", "a slice of bread"], ["grovbrød", "wholemeal bread"]]
+    },
+    "53": {
+      "ex": [["Jeg spiser et kokt egg til frokost.", "I have a boiled egg for breakfast."], ["Vi trenger seks egg.", "We need six eggs."]],
+      "tip": "Same in singular and plural: ett egg, seks egg.",
+      "phr": [["et kokt egg", "a boiled egg"], ["et speilegg", "a fried egg"], ["eggerøre", "scrambled eggs"]]
+    },
+    "54": {
+      "ex": [["Jeg vil ha ost på brødskiva.", "I’d like cheese on my slice of bread."], ["Kan du skjære litt ost?", "Can you slice some cheese?"]],
+      "phr": [["brunost", "brown cheese (sweet and caramel-coloured)"], ["en ostehøvel", "a cheese slicer"]]
+    },
+    "55": {
+      "ex": [["Kan du sende smøret?", "Could you pass the butter?"], ["Hun smører smør på brødet.", "She’s spreading butter on the bread."]],
+      "rel": "å smøre = to spread, to butter"
+    },
+    "56": {
+      "ex": [["Vil du ha melk i kaffen?", "Do you take milk in your coffee?"], ["Melka har gått ut på dato.", "The milk is past its date."]],
+      "phr": [["lettmelk", "semi-skimmed milk"], ["helmelk", "whole milk"]]
+    },
+    "57": {
+      "ex": [["Skal vi ta en kaffe?", "Shall we grab a coffee?"], ["Jeg drikker kaffe uten melk.", "I drink my coffee without milk."]],
+      "phr": [["å koke kaffe", "to make coffee"], ["svart kaffe", "black coffee"]]
+    },
+    "58": {
+      "ex": [["Vil du ha en kopp te?", "Would you like a cup of tea?"], ["Teen er for varm.", "The tea is too hot."]]
+    },
+    "59": {
+      "ex": [["Kan jeg få et glass vann?", "Could I have a glass of water?"], ["Du kan drikke vann fra springen.", "You can drink the tap water."]],
+      "tip": "«Et vann» is also a lake: «Vi badet i et vann i skogen.» (We swam in a lake in the forest.)"
+    },
+    "60": {
+      "ex": [["Hun spiser et eple hver dag.", "She eats an apple every day."], ["Eplene er fra Hardanger.", "The apples are from Hardanger."]]
+    },
+    "61": {
+      "ex": [["Bananene er ikke modne ennå.", "The bananas aren’t ripe yet."], ["Kan du kjøpe bananer?", "Can you buy some bananas?"]]
+    },
+    "62": {
+      "ex": [["Vi har kokte poteter til middag.", "We’re having boiled potatoes for dinner."], ["Kan du skrelle potetene?", "Can you peel the potatoes?"]],
+      "rel": "potetgull = crisps · pommes frites = chips, fries"
+    },
+    "63": {
+      "ex": [["Jeg spiser ikke kjøtt.", "I don’t eat meat."], ["Kjøttet må stekes litt lenger.", "The meat needs to cook a bit longer."]],
+      "tip": "Uncountable: «mye kjøtt», «litt kjøtt».",
+      "phr": [["kjøttdeig", "mince"], ["kjøttkaker", "Norwegian meat patties"]]
+    },
+    "64": {
+      "ex": [["Vi spiser fisk to ganger i uka.", "We eat fish twice a week."], ["Han fikk tre fisker i dag.", "He caught three fish today."]],
+      "tip": "As food it’s uncountable («mye fisk»). The plural «fisker» is for individual fish. Don’t confuse it with «en fisker» (a fisherman).",
+      "phr": [["fiskekaker", "fish cakes"], ["å fiske", "to fish"]]
+    },
+    "65": {
+      "ex": [["Vi har kylling til middag.", "We’re having chicken for dinner."], ["Kyllingen må stå i ovnen i en time.", "The chicken needs an hour in the oven."]],
+      "tip": "As food, no article: «Vi har kylling». «En kylling» can also be a chick; an adult hen is «en høne»."
+    },
+    "66": {
+      "ex": [["Barna må spise grønnsakene sine.", "The children have to eat their vegetables."], ["Hvilke grønnsaker vil du ha i suppa?", "Which vegetables do you want in the soup?"]]
+    },
+    "67": {
+      "ex": [["Jeg spiser mye frukt.", "I eat a lot of fruit."], ["Vil du ha frukt til dessert?", "Would you like fruit for dessert?"]],
+      "phr": [["frukt og grønt", "fruit and veg"]]
+    },
+    "68": {
+      "ex": [["Hva spiser du til frokost?", "What do you have for breakfast?"], ["Vi spiser frokost klokka sju.", "We have breakfast at seven."]],
+      "tip": "Meals take «til»: til frokost, til lunsj, til middag."
+    },
+    "69": {
+      "ex": [["Vi har lunsj klokka halv tolv.", "We have lunch at half past eleven."], ["Skal vi spise lunsj sammen?", "Shall we have lunch together?"]],
+      "tip": "Lunch at work is often early and short, and many people bring a «matpakke»."
+    },
+    "70": {
+      "ex": [["Vi spiser middag klokka fem.", "We have dinner at five."], ["Hva skal vi ha til middag?", "What shall we have for dinner?"]],
+      "tip": "«Middag» is the main hot meal of the day, and Norwegians often eat it early, around 4–6 pm. A lighter meal later in the evening is «kveldsmat»."
+    },
+    "71": {
+      "ex": [["Vil du ha en kopp kaffe?", "Would you like a cup of coffee?"], ["Koppen er tom.", "The cup is empty."]],
+      "tip": "No word for «of»: «en kopp kaffe», «et glass vann»."
+    },
+    "72": {
+      "ex": [["Et glass melk, takk.", "A glass of milk, please."], ["Glassene står i skapet over vasken.", "The glasses are in the cupboard above the sink."]],
+      "tip": "Only drinking glasses (and the material). Glasses you wear are «briller». Same in singular and plural: ett glass, to glass."
+    },
+    "73": {
+      "ex": [["Sett tallerkenene på bordet.", "Put the plates on the table."], ["Han spiste opp alt på tallerkenen.", "He ate everything on his plate."]]
+    },
+    "74": {
+      "ex": [["Kan jeg få en kniv?", "Could I have a knife?"], ["Kniven er ikke skarp nok.", "The knife isn’t sharp enough."]],
+      "phr": [["kniv og gaffel", "knife and fork"]]
+    },
+    "75": {
+      "ex": [["Kan du legge kniver og gafler på bordet?", "Can you put the knives and forks on the table?"], ["Gaffelen ligger til venstre for tallerkenen.", "The fork goes on the left of the plate."]],
+      "tip": "The plural drops an e: gafler – gaflene."
+    },
+    "76": {
+      "ex": [["Suppe spiser man med skje.", "You eat soup with a spoon."], ["Hun tar en skje sukker i teen.", "She takes a spoonful of sugar in her tea."]],
+      "tip": "In recipes: «ss» = spiseskje (tablespoon), «ts» = teskje (teaspoon)."
+    },
+    "77": {
+      "ex": [["Frokost er dagens viktigste måltid.", "Breakfast is the most important meal of the day."], ["Vi spiser fire måltider om dagen.", "We eat four meals a day."]],
+      "rel": "frokost · lunsj · middag · kveldsmat"
+    },
+    "78": {
+      "ex": [["Vi spiser kveldsmat klokka åtte.", "We have supper at eight."], ["Til kveldsmat spiser vi ofte brødskiver.", "For supper we often have open sandwiches."]],
+      "tip": "A light evening meal, often open sandwiches, eaten a few hours after an early «middag»."
+    },
+    "79": {
+      "ex": [["Hva vil du ha som pålegg?", "What would you like on your bread?"], ["Vi har ikke mer pålegg.", "We’ve run out of sandwich toppings."]],
+      "tip": "Anything you put on a slice of bread: cheese, ham, jam, liver pâté, brown cheese… Usually uncountable («mye pålegg»), though the plural is the same word: «forskjellige pålegg» (different toppings). In official letters «et pålegg» can also be an order: «pålegg om å …»."
+    },
+    "80": {
+      "ex": [["Jeg smører matpakke hver morgen.", "I make a packed lunch every morning."], ["Har du glemt matpakka?", "Have you forgotten your packed lunch?"]],
+      "tip": "Very Norwegian: open sandwiches, often wrapped in paper («matpapir») or packed in a box, taken to school or work. The usual verb is «smøre»: «å smøre matpakke»."
+    },
+    "81": {
+      "ex": [["Har du oppskriften på denne kaka?", "Do you have the recipe for this cake?"], ["Jeg fant en god oppskrift på nettet.", "I found a good recipe online."]],
+      "tip": "A recipe is «på» something: «en oppskrift på boller». Not to be confused with «en resept» (a prescription)."
+    },
+    "82": {
+      "ex": [["Fårikål er en tradisjonell norsk rett.", "Fårikål (mutton and cabbage stew) is a traditional Norwegian dish."], ["Hva er dagens rett?", "What’s the dish of the day?"]],
+      "tip": "«Rett» has other meanings too: «rett fram» (straight ahead), «Du har rett» (You’re right).",
+      "phr": [["en forrett", "a starter"], ["en hovedrett", "a main course"]]
+    },
+    "83": {
+      "ex": [["Butikken stenger klokka ti.", "The shop closes at ten."], ["Jeg kjøpte melk i butikken på hjørnet.", "I bought milk at the shop on the corner."]],
+      "phr": [["en matbutikk", "a grocery shop"]],
+      "rel": "et kjøpesenter = a shopping centre"
+    },
+    "84": {
+      "ex": [["Jeg har ikke penger på meg.", "I don’t have any money on me."], ["Hun bruker mye penger på klær.", "She spends a lot of money on clothes."]],
+      "tip": "Always plural in Norwegian: «Pengene ligger på bordet» = The money is on the table.",
+      "phr": [["å bruke penger på", "to spend money on"], ["å spare penger", "to save money"]]
+    },
+    "85": {
+      "ex": [["Brødet koster førti kroner.", "The bread costs forty kroner."], ["Billetten kostet 45 kroner.", "The ticket cost 45 kroner."]],
+      "tip": "Prices are written «49,90 kr» or «kr 49,90». «En krone» also means «a crown».",
+      "rel": "100 øre = 1 krone"
+    },
+    "86": {
+      "ex": [["Kan jeg betale med kort?", "Can I pay by card?"], ["Jeg sendte et kort til bestemor.", "I sent a card to Grandma."]],
+      "tip": "Don’t mix it up with the adjective «kort» = short: «et kort møte» = a short meeting.",
+      "phr": [["et bankkort", "a bank card"], ["et postkort", "a postcard"]]
+    },
+    "87": {
+      "ex": [["Trenger du pose?", "Do you need a bag?"], ["Hun bar to tunge poser hjem.", "She carried two heavy bags home."]],
+      "tip": "«Trenger du pose?» is the standard question at the till – bags cost extra. A handbag is «en veske».",
+      "phr": [["en plastpose", "a plastic bag"], ["en handlepose", "a shopping bag"]]
+    },
+    "88": {
+      "ex": [["Prisen er 200 kroner.", "The price is 200 kroner."], ["Prisene på mat har gått opp.", "Food prices have gone up."]],
+      "tip": "«En pris» also means «a prize, an award»: «Nobels fredspris» = the Nobel Peace Prize.",
+      "phr": [["til halv pris", "at half price"]]
+    },
+    "89": {
+      "ex": [["Hvor mye koster den?", "How much does it cost?"], ["Sykkelen kostet 3000 kroner.", "The bike cost 3,000 kroner."]],
+      "phr": [["Hva koster det?", "What does it cost?"]]
+    },
+    "90": {
+      "ex": [["Jeg kjøpte en ny jakke i går.", "I bought a new jacket yesterday."], ["Skal vi kjøpe pizza i kveld?", "Shall we get pizza tonight?"]],
+      "rel": "↔ å selge · et kjøp = a purchase"
+    },
+    "91": {
+      "ex": [["Kaffen er på tilbud denne uka.", "The coffee is on offer this week."], ["Hun fikk et jobbtilbud i Bergen.", "She got a job offer in Bergen."]],
+      "tip": "It also means a service or provision that’s available, e.g. from the council: «et tilbud til eldre» = a service for elderly people.",
+      "phr": [["på tilbud", "on offer, on sale"]]
+    },
+    "92": {
+      "ex": [["Vil du ha kvittering?", "Would you like a receipt?"], ["Ta vare på kvitteringen i tilfelle du vil bytte varen.", "Keep the receipt in case you want to exchange the item."]],
+      "rel": "en regning = a bill"
+    },
+    "93": {
+      "ex": [["Kan vi få regningen, takk?", "Can we have the bill, please?"], ["Jeg må betale strømregningen.", "I have to pay the electricity bill."]],
+      "tip": "The bill is what you have to pay. The receipt you get after paying is «en kvittering»."
+    },
+    "94": {
+      "ex": [["Jeg må handle etter jobben.", "I need to do the shopping after work."], ["Vi handlet mat for hele uka.", "We bought food for the whole week."]],
+      "tip": "Usually means doing the (food) shopping, and is often used without an object: «Jeg må handle.» With «om» it means «to be about».",
+      "phr": [["Hva handler boka om?", "What’s the book about?"]]
+    },
+    "95": {
+      "ex": [["Jeg betalte 300 kroner for skoene.", "I paid 300 kroner for the shoes."], ["Har du betalt husleia?", "Have you paid the rent?"]],
+      "tip": "Many people pay each other with the app Vipps: «Jeg vipser deg» = I’ll send you the money on Vipps. (The dictionary spelling is «vipse», though you’ll often see «vippse».)",
+      "phr": [["å betale for noe", "to pay for something"], ["å betale kontant", "to pay in cash"]]
+    },
+    "96": {
+      "ex": [["Jeg vil gjerne bestille et bord til fire.", "I’d like to book a table for four."], ["Vi bestilte pizza i går.", "We ordered pizza yesterday."]],
+      "tip": "Covers both «order» and «book»: food, goods, tables, tickets and appointments.",
+      "phr": [["å bestille time hos legen", "to book a doctor’s appointment"]]
+    },
+    "97": {
+      "ex": [["Vi solgte bilen i fjor.", "We sold the car last year."], ["Hun selger gamle klær på Finn.", "She sells old clothes on Finn (Finn.no, a classified ads site)."]],
+      "rel": "↔ å kjøpe · en selger = a salesperson"
+    },
+    "98": {
+      "ex": [["Kan jeg bytte denne genseren?", "Can I exchange this jumper?"], ["Han byttet jobb i fjor.", "He changed jobs last year."]],
+      "phr": [["å bytte tog", "to change trains"], ["å bytte klær", "to get changed"]]
+    },
+    "99": {
+      "ex": [["Jeg har vondt i hodet.", "I have a headache."], ["Hun ristet på hodet.", "She shook her head."]],
+      "rel": "hodepine = a headache"
+    },
+    "100": {
+      "ex": [["Hun har blå øyne.", "She has blue eyes."], ["Jeg har fått noe i øyet.", "I’ve got something in my eye."]],
+      "tip": "Irregular plural: øyne – øynene."
+    },
+    "101": {
+      "ex": [["Jeg har vondt i øret.", "I’ve got earache."], ["Han hører dårlig på det ene øret.", "He’s hard of hearing in one ear."]],
+      "tip": "«Øre» is also money: 1/100 of a krone, as in «ti kroner og femti øre». In that sense the plural is just «øre»; for ears it’s «ører»."
+    },
+    "102": {
+      "ex": [["Jeg har tett nese.", "My nose is blocked."], ["Nesa mi renner.", "My nose is running."]],
+      "phr": [["å pusse nesa", "to blow your nose"]]
+    },
+    "103": {
+      "ex": [["Ikke snakk med mat i munnen!", "Don’t talk with your mouth full!"], ["Åpne munnen og si «a».", "Open your mouth and say «ah»."]]
+    },
+    "104": {
+      "ex": [["Jeg pusser tennene to ganger om dagen.", "I brush my teeth twice a day."], ["Jeg har vondt i en tann.", "I’ve got a sore tooth."]],
+      "tip": "Irregular plural: tenner – tennene.",
+      "phr": [["å pusse tennene", "to brush your teeth"], ["en tannlege", "a dentist"]]
+    },
+    "105": {
+      "ex": [["Vask hendene før maten!", "Wash your hands before you eat!"], ["Han tok meg i hånda.", "He shook my hand."]],
+      "tip": "Irregular plural: hender – hendene.",
+      "phr": [["å ta noen i hånda", "to shake someone’s hand"]]
+    },
+    "106": {
+      "ex": [["Jeg har brukket armen.", "I’ve broken my arm."], ["De gikk arm i arm.", "They walked arm in arm."]],
+      "tip": "With body parts Norwegian usually uses the definite form where English uses «my»: «Jeg har brukket armen» rather than «armen min»."
+    },
+    "107": {
+      "ex": [["Han har brukket beinet.", "He’s broken his leg."], ["Hunden fikk et bein.", "The dog got a bone."]],
+      "tip": "Means both leg and bone. Plural: bein – beina. You’ll also see the spelling «ben»."
+    },
+    "108": {
+      "ex": [["Jeg har vondt i foten.", "My foot hurts."], ["Vi gikk til fots.", "We went on foot."]],
+      "tip": "Irregular plural: føtter – føttene.",
+      "phr": [["til fots", "on foot"]]
+    },
+    "109": {
+      "ex": [["Jeg har vondt i magen.", "I have a stomach ache."], ["Hun ligger på magen.", "She’s lying on her stomach."]],
+      "phr": [["å ha vondt i magen", "to have a stomach ache"], ["å ha dårlig mage", "to have an upset stomach"]]
+    },
+    "110": {
+      "ex": [["Jeg har vondt i ryggen.", "My back hurts."], ["Han ligger på ryggen.", "He’s lying on his back."]],
+      "rel": "en ryggsekk = a backpack"
+    },
+    "111": {
+      "ex": [["Jeg må gå til legen.", "I need to go to the doctor."], ["Jeg har time hos legen i morgen.", "I have a doctor’s appointment tomorrow."]],
+      "tip": "You go «til legen» and are «hos legen». Everyone registered as living in Norway has the right to a «fastlege» (a regular GP).",
+      "rel": "en fastlege = a regular GP · et legekontor = a doctor’s surgery"
+    },
+    "112": {
+      "ex": [["Hun ligger på sykehuset.", "She’s in hospital."], ["Han jobber som sykepleier på sykehuset.", "He works as a nurse at the hospital."]],
+      "tip": "Use «på»: «på sykehuset». «Å ligge på sykehuset» means to be in hospital as a patient.",
+      "rel": "en legevakt = an out-of-hours emergency clinic"
+    },
+    "113": {
+      "ex": [["Jeg er syk i dag og kan ikke komme på jobb.", "I’m ill today and can’t come to work."], ["Barna er syke.", "The children are ill."]],
+      "phr": [["å melde seg syk", "to call in sick"], ["å være sykmeldt", "to be on sick leave"]],
+      "rel": "↔ frisk"
+    },
+    "114": {
+      "ex": [["Er du frisk igjen?", "Are you better now?"], ["Barna er friske igjen.", "The children are well again."]],
+      "tip": "Means healthy or well, but also fresh: «frisk luft» (fresh air).",
+      "phr": [["God bedring!", "Get well soon!"]],
+      "rel": "↔ syk"
+    },
+    "115": {
+      "ex": [["Jeg har vondt i halsen.", "I have a sore throat."], ["Hvor har du vondt?", "Where does it hurt?"]],
+      "tip": "Use «i» and the definite form, with no «min»: «vondt i magen», «vondt i ryggen».",
+      "phr": [["Det gjør vondt.", "It hurts."]]
+    },
+    "116": {
+      "ex": [["Jeg fikk strekk i låret på trening.", "I pulled a muscle in my thigh at training."], ["Vi kjøpte kyllinglår til middag.", "We bought chicken thighs for dinner."]],
+      "tip": "Same in singular and plural: ett lår, to lår."
+    },
+    "117": {
+      "ex": [["Jeg har vondt i kneet.", "My knee hurts."], ["Han falt og slo seg på kneet.", "He fell and hurt his knee."]],
+      "tip": "Irregular plural: knær – knærne."
+    },
+    "118": {
+      "ex": [["Jeg har time hos legen klokka ti.", "I have a doctor’s appointment at ten."], ["Jeg vil gjerne bestille time.", "I’d like to book an appointment."]],
+      "tip": "Usually no article: «Jeg har time hos tannlegen». «En time» also means an hour or a lesson.",
+      "phr": [["å bestille time", "to book an appointment"], ["å avbestille timen", "to cancel the appointment"]]
+    },
+    "119": {
+      "ex": [["Legen skrev ut en resept.", "The doctor wrote a prescription."], ["Denne medisinen får du bare på resept.", "You can only get this medicine on prescription."]],
+      "tip": "False friend: not a receipt (that’s «en kvittering») and not a recipe (that’s «en oppskrift»).",
+      "phr": [["reseptfri", "available without a prescription, over the counter"]]
+    },
+    "120": {
+      "ex": [["Jeg må innom apoteket.", "I need to pop into the pharmacy."], ["Du kan hente medisinen på apoteket.", "You can collect the medicine at the pharmacy."]],
+      "tip": "Use «på»: «på apoteket». Same in singular and plural: ett apotek, to apotek."
+    },
+    "121": {
+      "ex": [["Han har høy feber.", "He has a high temperature."], ["Jeg har hatt feber i to dager.", "I’ve had a fever for two days."]],
+      "tip": "No article: «Jeg har feber» (I’ve got a temperature).",
+      "phr": [["å måle feberen", "to take your temperature"]]
+    },
+    "122": {
+      "ex": [["Jeg er forkjølet og blir hjemme i dag.", "I’ve got a cold and I’m staying at home today."], ["En forkjølelse går over av seg selv.", "A cold goes away on its own."]],
+      "tip": "People usually say «Jeg er forkjølet» (I have a cold) rather than using the noun."
+    },
+    "123": {
+      "ex": [["Ta på deg jakka, det er kaldt ute.", "Put your jacket on, it’s cold outside."], ["Jeg har kjøpt en ny jakke.", "I’ve bought a new jacket."]],
+      "rel": "en regnjakke = a raincoat · en dunjakke = a down jacket"
+    },
+    "124": {
+      "ex": [["Hun har på seg en tykk genser.", "She’s wearing a thick jumper."], ["Bestemor strikket denne genseren til meg.", "Grandma knitted this jumper for me."]],
+      "rel": "en ullgenser = a wool jumper"
+    },
+    "125": {
+      "ex": [["Buksa er for lang.", "The trousers are too long."], ["Jeg trenger en ny bukse.", "I need a new pair of trousers."]],
+      "tip": "Unlike English «trousers», «en bukse» is singular: «Buksa er for lang». The plural «bukser» means several pairs.",
+      "rel": "en olabukse = (a pair of) jeans"
+    },
+    "126": {
+      "ex": [["Husk lua! Det er minus ti ute.", "Remember your hat! It’s minus ten outside."], ["Hun har på seg en rød lue.", "She’s wearing a red woolly hat."]],
+      "tip": "«En lue» is a soft hat that covers the head, usually knitted. A hat with a brim is «en hatt», and a baseball cap is «en caps»."
+    },
+    "127": {
+      "ex": [["Ta av deg skoene i gangen.", "Take your shoes off in the hall."], ["Hvilket skonummer bruker du?", "What shoe size are you?"]],
+      "tip": "The plural is the same as the singular: en sko – to sko. In Norwegian homes it’s normal to take your shoes off at the door."
+    },
+    "128": {
+      "ex": [["Hun hadde på seg en lang, blå kjole.", "She was wearing a long blue dress."], ["Jeg skal kjøpe en ny kjole til festen.", "I’m going to buy a new dress for the party."]]
+    },
+    "129": {
+      "ex": [["Han hadde på seg en hvit skjorte.", "He was wearing a white shirt."], ["Skjorta må strykes.", "The shirt needs ironing."]],
+      "rel": "en T-skjorte = a T-shirt"
+    },
+    "130": {
+      "ex": [["Jeg finner bare én sokk.", "I can only find one sock."], ["Ta på deg varme sokker.", "Put on some warm socks."]],
+      "rel": "ullsokker = woollen socks"
+    },
+    "131": {
+      "ex": [["Barna må ha votter i barnehagen om vinteren.", "The children need mittens at nursery in winter."]],
+      "rel": "en hanske = a glove"
+    },
+    "132": {
+      "ex": [["Du trenger gode støvler om vinteren.", "You need good boots in winter."], ["Ta av deg støvlene før du går inn.", "Take your boots off before you go in."]],
+      "tip": "In the plural the e drops out: støvler – støvlene.",
+      "rel": "gummistøvler = wellies"
+    },
+    "133": {
+      "ex": [["Hun knyttet et skjerf rundt halsen.", "She tied a scarf round her neck."], ["Jeg har mistet skjerfet mitt.", "I’ve lost my scarf."]]
+    },
+    "134": {
+      "ex": [["Ta med regnjakke – det er meldt regn.", "Bring a raincoat – rain is forecast."]],
+      "rel": "en regnbukse = rain trousers · regntøy = rain gear"
+    },
+    "135": {
+      "ex": [["Ta på deg jakka!", "Put your jacket on!"], ["Jeg tok på meg en varm genser.", "I put on a warm jumper."]],
+      "tip": "The reflexive changes with the person: «jeg tar på meg», «du tar på deg», «hun tar på seg». To say what someone is wearing, use «å ha på seg»: «Hun har på seg en kjole».",
+      "rel": "↔ å ta av seg"
+    },
+    "136": {
+      "ex": [["Jeg står opp, dusjer og kler på meg.", "I get up, shower and get dressed."], ["Kle på deg, vi skal gå snart!", "Get dressed, we’re leaving soon!"]],
+      "tip": "«Kle på seg» = get dressed in general. For a particular item, use «ta på seg»: «Ta på deg lua!»",
+      "phr": [["Kle deg godt!", "Wrap up warm!"], ["å kle seg ut", "to dress up (in a costume)"]],
+      "rel": "↔ å kle av seg"
+    },
+    "137": {
+      "ex": [["Oslo er en fin by.", "Oslo is a nice city."], ["Jeg bor midt i byen.", "I live right in the city centre."]],
+      "phr": [["i byen", "in town"], ["å gå på byen", "to go out on the town (bars, nightlife)"]]
+    },
+    "138": {
+      "ex": [["Dette er et fint sted.", "This is a nice place."], ["Vi må finne et sted å bo.", "We need to find somewhere to live."]],
+      "phr": [["et sted", "somewhere"], ["ingen steder", "nowhere"], ["i stedet for", "instead of"]]
+    },
+    "139": {
+      "ex": [["Butikken ligger i samme gate.", "The shop is on the same street."], ["Jeg bor i Storgata.", "I live on Storgata."]],
+      "tip": "English «on a street» is «i» in Norwegian: «Hun bor i Storgata.»"
+    },
+    "140": {
+      "ex": [["Kan du vise meg veien til stasjonen?", "Can you show me the way to the station?"], ["Vi bor i en stille vei.", "We live on a quiet road."]],
+      "phr": [["Jeg er på vei!", "I’m on my way!"], ["Du står i veien.", "You’re in the way."]]
+    },
+    "141": {
+      "ex": [["Toget går klokka 8.15.", "The train leaves at 8.15."], ["Jeg tar toget til jobben.", "I take the train to work."]],
+      "phr": [["å ta toget", "to take the train"], ["med tog", "by train"], ["på toget", "on the train"]]
+    },
+    "142": {
+      "ex": [["Hvilken buss går til sentrum?", "Which bus goes to the centre?"], ["Jeg går av bussen på neste stopp.", "I’m getting off the bus at the next stop."]],
+      "tip": "You «tar bussen» or go «med bussen», and you’re «på bussen».",
+      "phr": [["å ta bussen", "to take the bus"], ["å gå på bussen", "to get on the bus"], ["å gå av bussen", "to get off the bus"]]
+    },
+    "143": {
+      "ex": [["Vi har ikke bil.", "We don’t have a car."], ["Han kjører bil til jobben.", "He drives to work."]],
+      "phr": [["å kjøre bil", "to drive"], ["et førerkort", "a driving licence"]]
+    },
+    "144": {
+      "ex": [["Har du sykkel?", "Do you have a bike?"], ["Sykkelen min ble stjålet.", "My bike was stolen."]],
+      "tip": "The plural drops an e: sykler – syklene. The verb is «å sykle» (to cycle)."
+    },
+    "145": {
+      "ex": [["Vi møtes på stasjonen.", "Let’s meet at the station."], ["Hvor er nærmeste T-banestasjon?", "Where’s the nearest metro station?"]],
+      "tip": "Use «på»: «på stasjonen». Oslo Central Station is «Oslo S» (S = sentralstasjon)."
+    },
+    "146": {
+      "ex": [["Har du billett?", "Do you have a ticket?"], ["Jeg kjøper billett i appen.", "I buy a ticket in the app."]],
+      "phr": [["en billett til Bergen", "a ticket to Bergen"], ["en enkeltbillett", "a single ticket"], ["en månedsbillett", "a monthly pass"]]
+    },
+    "147": {
+      "ex": [["Flyet går klokka sju.", "The plane leaves at seven."], ["Vi tar fly til Tromsø.", "We’re flying to Tromsø."]],
+      "tip": "«Et fly» is the plane; «å fly» is the verb (flyr – fløy).",
+      "phr": [["med fly", "by plane"]]
+    },
+    "148": {
+      "ex": [["Hvordan kommer jeg til flyplassen?", "How do I get to the airport?"], ["Toget til flyplassen går hvert tiende minutt.", "The train to the airport runs every ten minutes."]],
+      "tip": "Use «på»: «på flyplassen». Oslo’s main airport is Gardermoen."
+    },
+    "149": {
+      "ex": [["Jeg må i banken.", "I need to go to the bank."], ["Hun jobber i en bank.", "She works in a bank."]],
+      "tip": "Use «i»: «i banken». In Norway you’ll need «BankID» (an electronic ID from your bank) to log in to many online services."
+    },
+    "150": {
+      "ex": [["Jeg låner bøker på biblioteket.", "I borrow books from the library."], ["Biblioteket er åpent til klokka sju.", "The library is open until seven."]],
+      "tip": "Use «på»: «på biblioteket». Same in singular and plural: ett bibliotek, to bibliotek."
+    },
+    "151": {
+      "ex": [["Barna er på skolen.", "The children are at school."], ["Han begynner på skolen til høsten.", "He starts school in the autumn."]],
+      "tip": "Use «på»: «på skolen». «Å gå på skole» means to attend school.",
+      "rel": "en barneskole = a primary school · en ungdomsskole = a lower secondary school · videregående skole = upper secondary school"
+    },
+    "152": {
+      "ex": [["Vi går en tur i parken.", "We’re going for a walk in the park."], ["Vi spiste lunsj i parken.", "We had lunch in the park."]]
+    },
+    "153": {
+      "ex": [["Vi tar trikken til sentrum.", "We’re taking the tram into the centre."], ["Trikken går hvert tiende minutt.", "The tram runs every ten minutes."]],
+      "phr": [["å ta trikken", "to take the tram"], ["på trikken", "on the tram"]]
+    },
+    "154": {
+      "ex": [["Jeg tar T-banen til jobben.", "I take the metro to work."], ["Neste T-bane går om fem minutter.", "The next metro leaves in five minutes."]],
+      "tip": "Short for «tunnelbane». You «tar T-banen» or go «med T-banen»."
+    },
+    "155": {
+      "ex": [["Jeg venter på holdeplassen.", "I’m waiting at the stop."], ["Du må gå av på neste holdeplass.", "You need to get off at the next stop."]],
+      "tip": "Use «på»: «på holdeplassen».",
+      "rel": "et busstopp = a bus stop"
+    },
+    "156": {
+      "ex": [["Ta til venstre i krysset.", "Turn left at the junction."], ["Det er et lyskryss ved skolen.", "There are traffic lights at the junction by the school."]],
+      "tip": "«Et kryss» is also a cross or tick on a form: «Sett kryss i ruta.» (Tick the box.)"
+    },
+    "157": {
+      "ex": [["Kjør rett fram i rundkjøringen.", "Go straight on at the roundabout."], ["Ta andre avkjørsel i rundkjøringen.", "Take the second exit at the roundabout."]]
+    },
+    "158": {
+      "ex": [["Neste avgang er klokka 14.30.", "The next departure is at 14.30."], ["Toget har avgang fra spor 3.", "The train departs from platform 3."]],
+      "rel": "↔ en ankomst = an arrival"
+    },
+    "159": {
+      "ex": [["Toget er forsinket.", "The train is delayed."], ["Flyet ble forsinket på grunn av tåke.", "The plane was delayed because of fog."]],
+      "tip": "Also used about people: «Jeg er litt forsinket» (I’m running a bit late).",
+      "rel": "en forsinkelse = a delay · innstilt = cancelled"
+    },
+    "160": {
+      "ex": [["Jeg har lang reisevei til jobben.", "I have a long commute to work."], ["Hvor lang reisevei har du?", "How long is your commute?"]],
+      "tip": "Usually with no article: «lang reisevei», «kort reisevei»."
+    },
+    "161": {
+      "ex": [["Hun pendler fra Drammen til Oslo.", "She commutes from Drammen to Oslo."], ["Jeg har pendlet i ti år.", "I’ve been commuting for ten years."]],
+      "rel": "en pendler = a commuter"
+    },
+    "162": {
+      "ex": [["Jeg er på jobb til fire.", "I’m at work until four."], ["Hun har fått ny jobb.", "She’s got a new job."]],
+      "tip": "At work = «på jobb» or «på jobben». «Et arbeid» is a more formal word for work.",
+      "phr": [["å søke jobb", "to apply for jobs"], ["en deltidsjobb", "a part-time job"]]
+    },
+    "163": {
+      "ex": [["Jeg jobber på et kontor i sentrum.", "I work in an office in the city centre."], ["Sjefen sitter på kontoret sitt.", "The boss is in her office."]],
+      "tip": "Use «på»: «på kontoret» = at/in the office.",
+      "phr": [["et hjemmekontor", "a home office"]]
+    },
+    "164": {
+      "ex": [["Sjefen min er veldig grei.", "My boss is really easy to get on with."], ["Jeg må spørre sjefen først.", "I have to ask the boss first."]],
+      "tip": "Norwegian workplaces are fairly informal: you normally call your boss by their first name.",
+      "rel": "en leder = a manager, a leader"
+    },
+    "165": {
+      "ex": [["Jeg har et møte klokka ni.", "I have a meeting at nine."], ["Møtet varte i to timer.", "The meeting lasted two hours."]],
+      "phr": [["Hun sitter i møte.", "She’s in a meeting."], ["et foreldremøte", "a parents’ meeting (at school)"]],
+      "rel": "å møte = to meet"
+    },
+    "166": {
+      "ex": [["Jeg sender deg en e-post i kveld.", "I’ll send you an email this evening."], ["Har du lest e-posten fra sjefen?", "Have you read the email from the boss?"]],
+      "tip": "The @ sign is called «krøllalfa». In everyday speech many people say «en mail» instead of «en e-post».",
+      "phr": [["en e-postadresse", "an email address"]]
+    },
+    "167": {
+      "ex": [["Læreren min heter Kari.", "My teacher is called Kari."], ["Hun jobber som lærer på en barneskole.", "She works as a teacher at a primary school."]],
+      "tip": "No article with jobs: «Hun er lærer» = She’s a teacher. Note the definite plural: «lærerne».",
+      "rel": "å lære = to learn; to teach"
+    },
+    "168": {
+      "ex": [["Jeg går på norskkurs to kvelder i uka.", "I go to a Norwegian class two evenings a week."], ["Kurset begynner i januar.", "The course starts in January."]],
+      "tip": "You «går på kurs» (attend a course). The plural is the same as the singular: «to kurs»."
+    },
+    "169": {
+      "ex": [["Vi skal på ferie til Spania.", "We’re going on holiday to Spain."], ["Hvor var du i ferien?", "Where did you go on holiday?"]],
+      "tip": "Many Norwegians take three weeks off in July, and you’ll hear this period called «fellesferien».",
+      "phr": [["på ferie", "on holiday"], ["en sommerferie", "a summer holiday"]]
+    },
+    "170": {
+      "ex": [["Hva jobber du med?", "What do you do for a living?"], ["Jeg jobbet på en restaurant i to år.", "I worked at a restaurant for two years."]],
+      "tip": "«Hva jobber du med?» is the usual way to ask about someone’s job. «Å arbeide» means the same but is a little more formal.",
+      "phr": [["å jobbe deltid", "to work part-time"], ["å jobbe hjemmefra", "to work from home"]]
+    },
+    "171": {
+      "ex": [["Det er et godt miljø på arbeidsplassen.", "There’s a good atmosphere at work."], ["Fabrikken skal skape 100 nye arbeidsplasser.", "The factory will create 100 new jobs."]],
+      "tip": "In the news it often means «a job»: «nye arbeidsplasser» = new jobs."
+    },
+    "172": {
+      "ex": [["Jeg har sendt søknaden min.", "I’ve sent my application."], ["Søknadsfristen er 1. mars.", "The application deadline is 1 March."]],
+      "tip": "To apply for a particular job: «søke på en jobb». «Søke jobb» means applying for jobs in general. To apply for permission or money: «søke om», e.g. «søke om statsborgerskap» (apply for citizenship).",
+      "rel": "å søke = to apply · en søker = an applicant"
+    },
+    "173": {
+      "ex": [["Lønna kommer den 20. hver måned.", "My pay comes in on the 20th of every month."], ["Hun fikk høyere lønn da hun byttet jobb.", "She got a higher salary when she changed jobs."]],
+      "phr": [["en timelønn", "an hourly wage"], ["en lønnsslipp", "a payslip"]]
+    },
+    "174": {
+      "ex": [["Jeg skal på intervju i morgen.", "I have an interview tomorrow."], ["Intervjuet gikk bra.", "The interview went well."]],
+      "phr": [["et jobbintervju", "a job interview"]]
+    },
+    "175": {
+      "ex": [["Kunden vil snakke med sjefen.", "The customer wants to speak to the manager."], ["Vi har mange faste kunder.", "We have a lot of regular customers."]]
+    },
+    "176": {
+      "ex": [["Har du gjort leksene?", "Have you done your homework?"], ["Vi fikk mye lekser i dag.", "We got a lot of homework today."]],
+      "tip": "Usually plural: «å gjøre lekser» = to do homework."
+    },
+    "177": {
+      "ex": [["Vi har prøve i norsk på fredag.", "We have a Norwegian test on Friday."], ["Hun besto prøven.", "She passed the test."]],
+      "tip": "«Norskprøven» is the official Norwegian language test. At the doctor’s, «en prøve» is a sample: «en blodprøve» = a blood test.",
+      "phr": [["å bestå en prøve", "to pass a test"]],
+      "rel": "å prøve = to try"
+    },
+    "178": {
+      "ex": [["Fristen er på fredag.", "The deadline is on Friday."], ["Husk at fristen for å søke er 15. april.", "Remember that the deadline for applying is 15 April."]],
+      "phr": [["en søknadsfrist", "an application deadline"]]
+    },
+    "179": {
+      "ex": [["Jeg har en avtale med en kunde klokka tre.", "I have a meeting with a client at three."], ["De skrev under avtalen i går.", "They signed the agreement yesterday."]],
+      "tip": "For a doctor’s or dentist’s appointment, people usually say «time»: «Jeg har time hos legen.» The verb «å avtale» = to agree on, arrange.",
+      "phr": [["Det er en avtale!", "It’s a deal!"], ["en arbeidsavtale", "an employment contract"]]
+    },
+    "180": {
+      "ex": [["Hvilken dag er det i dag?", "What day is it today?"], ["Jeg jobber åtte timer om dagen.", "I work eight hours a day."]],
+      "phr": [["hver dag", "every day"], ["om dagen", "a day, per day; in the daytime"], ["Ha en fin dag!", "Have a nice day!"]]
+    },
+    "181": {
+      "ex": [["Jeg har ferie neste uke.", "I’m on holiday next week."], ["Vi trener to ganger i uka.", "We train twice a week."]],
+      "tip": "«i uka» = per week. «neste uke», «forrige uke» and «denne uka» need no preposition.",
+      "phr": [["om en uke", "in a week (from now)"], ["for en uke siden", "a week ago"]]
+    },
+    "182": {
+      "ex": [["Jeg har bodd i Norge i seks måneder.", "I’ve lived in Norway for six months."], ["Husleia betales én gang i måneden.", "The rent is paid once a month."]],
+      "tip": "The d is silent. «i måneden» = per month."
+    },
+    "183": {
+      "ex": [["Jeg kom til Norge for to år siden.", "I came to Norway two years ago."], ["Hvor gammel er du? – Jeg er tretti år.", "How old are you? – I’m thirty."]],
+      "tip": "«i år» = this year, «i fjor» = last year, «neste år» = next year (no preposition). «for … siden» = … ago.",
+      "phr": [["Godt nytt år!", "Happy New Year!"]]
+    },
+    "184": {
+      "ex": [["Filmen varer i to timer.", "The film lasts two hours."], ["Jeg har time hos legen i morgen.", "I have a doctor’s appointment tomorrow."]],
+      "tip": "False friend: «en time» is an hour (or a lesson or appointment), not «time». Time in general is «tid»: «Jeg har ikke tid» = I don’t have time.",
+      "phr": [["en halvtime", "half an hour"], ["et kvarter", "a quarter of an hour"]]
+    },
+    "185": {
+      "ex": [["Bussen kommer om fem minutter.", "The bus is coming in five minutes."], ["Har du et minutt?", "Have you got a minute?"]],
+      "tip": "«om fem minutter» = in five minutes’ time. «på fem minutter» = within five minutes (how long something takes)."
+    },
+    "186": {
+      "ex": [["Jeg trener om morgenen.", "I work out in the mornings."], ["Jeg sto opp klokka seks i morges.", "I got up at six this morning."]],
+      "tip": "Don’t mix up «om morgenen» (in the morning) with «i morgen» (tomorrow). «i morges» = this morning, earlier today."
+    },
+    "187": {
+      "ex": [["Jeg kommer hjem klokka fire om ettermiddagen.", "I get home at four in the afternoon."], ["Hva skal du gjøre i ettermiddag?", "What are you doing this afternoon?"]],
+      "tip": "«i ettermiddag» = this afternoon; «om ettermiddagen» = in the afternoon(s)."
+    },
+    "188": {
+      "ex": [["Skal vi se en film i kveld?", "Shall we watch a film tonight?"], ["Jeg leser ofte om kvelden.", "I often read in the evening."]],
+      "tip": "«i kveld» = this evening, tonight; «om kvelden» = in the evening(s); «i går kveld» = yesterday evening, last night.",
+      "phr": [["God kveld!", "Good evening!"]]
+    },
+    "189": {
+      "ex": [["Jeg sov dårlig i natt.", "I slept badly last night."], ["Det snødde hele natta.", "It snowed all night."]],
+      "tip": "«i natt» can mean last night or tonight – the verb tense tells you which: «Jeg sov dårlig i natt» vs «Det skal regne i natt».",
+      "rel": "God natt!"
+    },
+    "190": {
+      "ex": [["Hva skal du gjøre i helga?", "What are you doing at the weekend?"], ["Vi var på hytta forrige helg.", "We were at the cabin last weekend."]],
+      "tip": "«i helga» = this weekend (coming or just past); «i helgene» = at weekends.",
+      "phr": [["God helg!", "Have a nice weekend!"]]
+    },
+    "191": {
+      "ex": [["Hvilken dato er det i dag?", "What’s the date today?"], ["I dag skal jeg på kino.", "Today I’m going to the cinema."]],
+      "tip": "When a sentence starts with «i dag», the verb comes next: «I dag skal jeg …», not «I dag jeg skal …».",
+      "rel": "i går · i morgen"
+    },
+    "192": {
+      "ex": [["Jeg var syk i går.", "I was ill yesterday."], ["I går kveld så vi en film.", "Last night we watched a film."]],
+      "rel": "i forgårs = the day before yesterday"
+    },
+    "193": {
+      "ex": [["Vi ses i morgen!", "See you tomorrow!"], ["I morgen tidlig må jeg på jobb.", "Tomorrow morning I have to go to work."]],
+      "tip": "«Tomorrow morning» is «i morgen tidlig». Don’t mix up «i morgen» (tomorrow) and «om morgenen» (in the morning).",
+      "rel": "i overmorgen = the day after tomorrow"
+    },
+    "194": {
+      "ex": [["Jeg begynner i ny jobb på mandag.", "I start a new job on Monday."], ["Butikken er stengt på mandager.", "The shop is closed on Mondays."]],
+      "tip": "Days are written with a small letter. «på mandag» = on (this or last) Monday; «på mandager» or «hver mandag» = on Mondays, every Monday."
+    },
+    "195": {
+      "ex": [["Kan vi møtes på tirsdag?", "Can we meet on Tuesday?"], ["Norskkurset er på tirsdager og torsdager.", "The Norwegian course is on Tuesdays and Thursdays."]]
+    },
+    "196": {
+      "ex": [["På onsdag skal jeg til tannlegen.", "On Wednesday I’m going to the dentist."]]
+    },
+    "197": {
+      "ex": [["Vi har møte på torsdag klokka ti.", "We have a meeting on Thursday at ten."]]
+    },
+    "198": {
+      "ex": [["Endelig fredag!", "Friday at last!"], ["Skal vi spise taco på fredag?", "Shall we have tacos on Friday?"]],
+      "tip": "Friday tacos («fredagstaco») are a popular Norwegian family tradition."
+    },
+    "199": {
+      "ex": [["Vi skal ha fest på lørdag.", "We’re having a party on Saturday."], ["På lørdager sover jeg lenge.", "On Saturdays I have a lie-in."]],
+      "tip": "Many Norwegian children get sweets on Saturdays: «lørdagsgodt»."
+    },
+    "200": {
+      "ex": [["På søndag går vi på tur.", "On Sunday we’re going for a walk."], ["De fleste butikkene er stengt på søndager.", "Most shops are closed on Sundays."]],
+      "phr": [["en søndagstur", "a Sunday walk"]]
+    },
+    "201": {
+      "ex": [["Om våren blir dagene lengre.", "In spring the days get longer."], ["Vi skal flytte i vår.", "We’re moving this spring."]],
+      "tip": "With seasons: «om våren» = in spring in general; «i vår» = this spring (coming or just past); «i fjor vår» = last spring. Don’t confuse it with «vår» = our."
+    },
+    "202": {
+      "ex": [["Om sommeren er det lyst lenge om kvelden.", "In summer it stays light late in the evening."], ["Hvor skal dere i sommer?", "Where are you going this summer?"]],
+      "tip": "«i sommer» = this summer; «om sommeren» = in summer in general.",
+      "phr": [["en sommerferie", "a summer holiday"]]
+    },
+    "203": {
+      "ex": [["Om høsten plukker vi sopp og bær.", "In autumn we pick mushrooms and berries."], ["Hun begynner på universitetet i høst.", "She starts university this autumn."]]
+    },
+    "204": {
+      "ex": [["Om vinteren går vi mye på ski.", "In winter we go skiing a lot."], ["Det var mye snø i fjor vinter.", "There was a lot of snow last winter."]]
+    },
+    "205": {
+      "ex": [["Hvordan er været i dag?", "What’s the weather like today?"], ["Det er fint vær i dag.", "It’s nice weather today."]],
+      "tip": "No article: «fint vær», «dårlig vær».",
+      "phr": [["Det finnes ikke dårlig vær, bare dårlige klær.", "There’s no such thing as bad weather, only bad clothes. (saying)"]]
+    },
+    "206": {
+      "ex": [["Sola skinner!", "The sun is shining!"], ["Det er sol i dag.", "It’s sunny today."]],
+      "rel": "solkrem = sun cream"
+    },
+    "207": {
+      "ex": [["Det er meldt regn i morgen.", "Rain is forecast for tomorrow."], ["Det regner!", "It’s raining!"]],
+      "tip": "The verb is «å regne»: «det regner», «det regnet». (Å regne also means «to calculate».)"
+    },
+    "208": {
+      "ex": [["Det kom mye snø i natt.", "A lot of snow fell last night."], ["Det snør!", "It’s snowing!"]],
+      "tip": "The verb is «å snø»: «det snør», «det snødde»."
+    },
+    "209": {
+      "ex": [["Det er mye vind ved kysten.", "It’s very windy on the coast."], ["Det blåser i dag!", "It’s windy today!"]],
+      "tip": "For «it’s windy», Norwegians usually say «det blåser» (it’s blowing)."
+    },
+    "210": {
+      "ex": [["Jeg ringer deg i formiddag.", "I’ll call you later this morning."], ["Vi kan møtes i morgen formiddag.", "We can meet tomorrow morning."]],
+      "tip": "The part of the day between early morning and lunch – English has no single word for it. «i formiddag» = this (late) morning; «om formiddagen» = in the late mornings."
+    },
+    "211": {
+      "ex": [["Jeg så ham i forgårs.", "I saw him the day before yesterday."]],
+      "rel": "i går = yesterday"
+    },
+    "212": {
+      "ex": [["Vi reiser i overmorgen.", "We’re leaving the day after tomorrow."]],
+      "rel": "i morgen = tomorrow"
+    },
+    "213": {
+      "ex": [["Det er meldt sludd i kveld.", "Sleet is forecast for this evening."], ["Det sludder ute.", "It’s sleeting outside."]],
+      "tip": "Rain and snow mixed together – a typical Norwegian winter word. The verb is «å sludde»."
+    },
+    "214": {
+      "ex": [["Det er tett tåke i dag.", "There’s thick fog today."], ["Flyet ble forsinket på grunn av tåka.", "The plane was delayed because of the fog."]]
+    },
+    "215": {
+      "ex": [["Det er ti kuldegrader ute.", "It’s minus ten outside."]],
+      "tip": "You’ll hear both «ti kuldegrader» and «minus ti». Above zero: «varmegrader» or «pluss fem»."
+    },
+    "216": {
+      "ex": [["Har du sett værvarselet for helga?", "Have you seen the weather forecast for the weekend?"], ["Værvarselet sier at det blir sol i morgen.", "The forecast says it’ll be sunny tomorrow."]],
+      "tip": "In speech you’ll also hear «værmeldinga», and the verb «melde»: «Det er meldt regn» = Rain is forecast."
+    },
+    "217": {
+      "ex": [["Jeg er fra Syria.", "I’m from Syria."], ["Hvor var du i går?", "Where were you yesterday?"]],
+      "tip": "The verb doesn’t change with the person: jeg er, du er, hun er, vi er, de er."
+    },
+    "218": {
+      "ex": [["Jeg har ikke tid nå.", "I don’t have time now."], ["Vi hadde det veldig fint i helga.", "We had a really nice time at the weekend."]],
+      "tip": "«Har» also forms the perfect tense: «Jeg har spist» = I have eaten.",
+      "phr": [["Hvordan har du det?", "How are you?"], ["Ha det!", "Bye!"], ["å ha lyst på", "to want, to fancy (something)"]]
+    },
+    "219": {
+      "ex": [["Hva gjør du i helga?", "What are you doing at the weekend?"], ["Jeg gjorde ikke noe i går.", "I didn’t do anything yesterday."]],
+      "tip": "Short answers repeat the verb with «gjør»: «Liker du kaffe? – Ja, det gjør jeg.» = Do you like coffee? – Yes, I do.",
+      "phr": [["Det gjør ikke noe.", "It doesn’t matter. / No problem."], ["Det gjør vondt.", "It hurts."]]
+    },
+    "220": {
+      "ex": [["Jeg går til jobben hver dag.", "I walk to work every day."], ["Bussen gikk for fem minutter siden.", "The bus left five minutes ago."]],
+      "tip": "For people, «gå» normally means going on foot. If you’re travelling by car, bus or plane, use «dra», «reise» or «kjøre». Buses and trains «går», though.",
+      "phr": [["Hvordan går det?", "How’s it going?"], ["Det går bra.", "It’s going well. / I’m fine."]]
+    },
+    "221": {
+      "ex": [["Hvor kommer du fra?", "Where are you from?"], ["Hun kom hjem sent i går.", "She came home late yesterday."]],
+      "phr": [["å komme for sent", "to be late"], ["Kom inn!", "Come in!"]]
+    },
+    "222": {
+      "ex": [["Vi drar til Bergen i morgen.", "We’re going to Bergen tomorrow."], ["Han dro klokka fem.", "He left at five."]],
+      "tip": "«Dra» = go somewhere or leave, by any means of transport. It also means «to pull»: «Hun dro kofferten etter seg.» = She pulled her suitcase along behind her.",
+      "phr": [["Jeg må dra nå.", "I have to go now."]]
+    },
+    "223": {
+      "ex": [["Jeg tar bussen til jobben.", "I take the bus to work."], ["Hun tok med seg barna.", "She took the children with her."]],
+      "phr": [["å ta med", "to bring, to take along"], ["Det tar en time.", "It takes an hour."], ["Ta det med ro!", "Take it easy!"]]
+    },
+    "224": {
+      "ex": [["Jeg fikk en gave av kona mi.", "I got a present from my wife."], ["Får jeg låne telefonen din?", "Can I borrow your phone?"]],
+      "tip": "Two main meanings: get/receive, and be allowed to: «Du får ikke røyke her» = You’re not allowed to smoke here.",
+      "phr": [["Kan jeg få …?", "Can I have …? (when ordering)"], ["Vi får se.", "We’ll see."]]
+    },
+    "225": {
+      "ex": [["Hva sa du?", "What did you say?"], ["Hun sier at hun er syk.", "She says she’s ill."]],
+      "tip": "si = say; «fortelle» = tell (a story, some news).",
+      "phr": [["Hvordan sier man … på norsk?", "How do you say … in Norwegian?"], ["å si ifra", "to let someone know, to speak up"]]
+    },
+    "226": {
+      "ex": [["Har du sett nøklene mine?", "Have you seen my keys?"], ["Vi så en film i går.", "We watched a film yesterday."]],
+      "tip": "Also used for «watch»: «se på TV», «se en film».",
+      "phr": [["Vi ses!", "See you!"], ["Du ser trøtt ut.", "You look tired."]]
+    },
+    "227": {
+      "ex": [["Hører du meg?", "Can you hear me?"], ["Jeg hørte på radio i bilen.", "I listened to the radio in the car."]],
+      "tip": "Listen to = «høre på».",
+      "phr": [["Det høres bra ut!", "That sounds good!"]]
+    },
+    "228": {
+      "ex": [["Snakker du norsk?", "Do you speak Norwegian?"], ["Jeg snakket med sjefen i dag.", "I talked to the boss today."]],
+      "tip": "Talk to someone (have a conversation) = «snakke med». «Snakke til» means addressing someone, often one-way or telling them off: «Ikke snakk til meg sånn!» = Don’t talk to me like that!",
+      "phr": [["å snakke om", "to talk about"]]
+    },
+    "229": {
+      "ex": [["Vi spiser middag klokka fem.", "We have dinner at five."], ["Har du spist frokost?", "Have you had breakfast?"]],
+      "tip": "Norwegians often eat dinner early – around five is normal.",
+      "phr": [["å spise ute", "to eat out"]]
+    },
+    "230": {
+      "ex": [["Jeg drikker kaffe hver morgen.", "I drink coffee every morning."], ["Han drakk for mye på festen.", "He drank too much at the party."]],
+      "phr": [["Vil du ha noe å drikke?", "Would you like something to drink?"]]
+    },
+    "231": {
+      "ex": [["Sov du godt?", "Did you sleep well?"], ["Babyen sover nå.", "The baby’s sleeping now."]],
+      "phr": [["Sov godt!", "Sleep well!"]],
+      "rel": "å sovne = to fall asleep · å våkne = to wake up"
+    },
+    "232": {
+      "ex": [["Jeg bor i Oslo.", "I live in Oslo."], ["Vi bodde i Bergen i fem år.", "We lived in Bergen for five years."]],
+      "tip": "bo = live somewhere. To be alive is «leve»: «Han levde til han var 90.» = He lived to 90.",
+      "rel": "å leve = to live, to be alive"
+    },
+    "233": {
+      "ex": [["Jeg leser avisa på telefonen.", "I read the paper on my phone."], ["Har du lest boka?", "Have you read the book?"]],
+      "tip": "«Lese» can also mean «study»: «Hun leser medisin» = She’s studying medicine.",
+      "phr": [["å lese høyt", "to read aloud"], ["å lese til eksamen", "to study for an exam"]]
+    },
+    "234": {
+      "ex": [["Kan du skrive navnet ditt her?", "Can you write your name here?"], ["Jeg skrev en lang e-post til sjefen.", "I wrote a long email to the boss."]],
+      "phr": [["å skrive under", "to sign"], ["Hvordan skriver man det?", "How do you spell that?"]]
+    },
+    "235": {
+      "ex": [["Jeg lærer norsk.", "I’m learning Norwegian."], ["Hun lærte meg å sykle.", "She taught me to ride a bike."]],
+      "tip": "Means both learn and teach. «Lære seg» = learn (for yourself): «Jeg har lært meg norsk.» «Lære noen noe» = teach someone something.",
+      "rel": "en lærer = a teacher"
+    },
+    "236": {
+      "ex": [["Jeg forstår ikke.", "I don’t understand."], ["Forsto du hva hun sa?", "Did you understand what she said?"]],
+      "tip": "«Skjønne» is a common, more informal synonym: «Jeg skjønner ikke.»",
+      "phr": [["Kan du si det en gang til?", "Could you say that again?"]]
+    },
+    "237": {
+      "ex": [["Jeg liker å gå på tur.", "I like going for walks and hikes."], ["Likte du filmen?", "Did you like the film?"]],
+      "tip": "To like doing something: «liker å» + verb.",
+      "phr": [["Jeg liker meg her.", "I like it here."]]
+    },
+    "238": {
+      "ex": [["Jeg vet ikke.", "I don’t know."], ["Visste du at hun har flyttet?", "Did you know she’s moved?"]],
+      "tip": "vite = know a fact; kjenne = know a person or place; kunne = know how to (a skill, a language).",
+      "rel": "å kjenne · å kunne"
+    },
+    "239": {
+      "ex": [["Kjenner du Ola?", "Do you know Ola?"], ["Jeg kjenner ingen i den nye byen.", "I don’t know anyone in the new town."]],
+      "tip": "kjenne = know a person or place. For facts, use «vite».",
+      "phr": [["å bli kjent med noen", "to get to know someone"], ["å kjenne igjen", "to recognise"]]
+    },
+    "240": {
+      "ex": [["Jeg tenker på deg.", "I’m thinking of you."], ["Hva tenker du på?", "What are you thinking about?"]],
+      "tip": "tenke is the activity of thinking. To give an opinion, synes, tro or mene are the safe choices – though you’ll also hear «Jeg tenker at …» in everyday and work speech.",
+      "phr": [["Jeg må tenke meg om.", "I need to think it over."], ["Jeg har tenkt å …", "I’m planning to …"]]
     },
     "241": {
       "ex": [["Jeg tror det blir regn i morgen.", "I think it’ll rain tomorrow."], ["Tror du på Gud?", "Do you believe in God?"]],
@@ -118,20 +1036,63 @@
       "phr": [["Jeg tror ikke det.", "I don’t think so."], ["Tror du det?", "Do you think so?"]],
       "rel": "å synes · å mene"
     },
-    "488": {
-      "ex": [["Hva mener du?", "What do you mean?"], ["Jeg mener at alle bør lære å svømme.", "I think everyone should learn to swim."]],
-      "tip": "Two senses: «mean» (Hva mener du?) and «hold an opinion», especially on serious or general topics.",
-      "rel": "å synes · å tro · en mening = an opinion"
+    "242": {
+      "ex": [["Trenger du hjelp?", "Do you need help?"], ["Vi trenger ikke bil i Oslo.", "We don’t need a car in Oslo."]],
+      "phr": [["Du trenger ikke (å) komme.", "You don’t have to come."]]
     },
-    "240": {
-      "ex": [["Jeg tenker på deg.", "I’m thinking of you."], ["Hva tenker du på?", "What are you thinking about?"]],
-      "tip": "tenke is the activity of thinking. To give an opinion, synes, tro or mene are the safe choices – though you’ll also hear «Jeg tenker at …» in everyday and work speech.",
-      "phr": [["Jeg må tenke meg om.", "I need to think it over."], ["Jeg har tenkt å …", "I’m planning to …"]]
+    "243": {
+      "ex": [["Kan jeg bruke telefonen din?", "Can I use your phone?"], ["Vi brukte mye penger på ferien.", "We spent a lot of money on the holiday."]],
+      "tip": "Also «spend» (money or time): «bruke penger på», «bruke tid på».",
+      "rel": "en bruker = a user"
     },
-    "365": {
-      "ex": [["Jeg vil gjerne ha en kaffe.", "I’d like a coffee, please."], ["Du kan gjerne sitte her.", "You’re welcome to sit here."], ["Han kommer gjerne for sent.", "He tends to be late."]],
-      "tip": "Hard to translate: it adds willingness or politeness («gladly», «I’d like to»), and can also mean «usually, tend to».",
-      "phr": [["Ja, gjerne!", "Yes, please! / I’d love to!"], ["Jeg vil heller …", "I’d rather …"], ["Jeg vil helst …", "I’d prefer to …"]]
+    "244": {
+      "ex": [["Kan du hjelpe meg?", "Can you help me?"], ["Naboen hjalp oss med flyttingen.", "The neighbour helped us with the move."]],
+      "phr": [["å hjelpe noen med noe", "to help someone with something"], ["Hjelp!", "Help!"]],
+      "rel": "en hjelp = help"
+    },
+    "245": {
+      "ex": [["Vent litt!", "Wait a moment!"], ["Vi ventet på bussen i en halv time.", "We waited for the bus for half an hour."]],
+      "tip": "Wait for = «vente på».",
+      "phr": [["Vi venter barn.", "We’re expecting a baby."]]
+    },
+    "246": {
+      "ex": [["Kan du åpne vinduet?", "Can you open the window?"], ["Butikken åpner klokka ni.", "The shop opens at nine."]],
+      "rel": "↔ å lukke · åpen = open (adjective)"
+    },
+    "247": {
+      "ex": [["Lukk døra, er du snill.", "Close the door, please."], ["Han lukket øynene.", "He closed his eyes."]],
+      "tip": "For shops and offices, «stenge» is more common: «Butikken stenger klokka ni.»",
+      "rel": "↔ å åpne"
+    },
+    "248": {
+      "ex": [["Kurset begynner på mandag.", "The course starts on Monday."], ["Jeg begynte i ny jobb i august.", "I started a new job in August."]],
+      "phr": [["å begynne på skolen", "to start school"]],
+      "rel": "↔ å slutte · å starte = to start"
+    },
+    "249": {
+      "ex": [["Han sluttet å røyke for to år siden.", "He stopped smoking two years ago."], ["Jeg slutter i jobben min i mars.", "I’m leaving my job in March."]],
+      "tip": "«Slutte å» + verb = stop doing something. «Slutte i jobben» = quit your job.",
+      "rel": "↔ å begynne · en slutt = an end"
+    },
+    "250": {
+      "ex": [["Vi skal reise til Tromsø i sommer.", "We’re travelling to Tromsø this summer."], ["Hun har reist mye i Asia.", "She’s travelled a lot in Asia."]],
+      "phr": [["å reise seg", "to stand up, to get up"], ["God tur!", "Have a good trip!"]],
+      "rel": "en reise = a journey, a trip"
+    },
+    "251": {
+      "ex": [["Jeg kjører til jobben.", "I drive to work."], ["Kan du kjøre meg til stasjonen?", "Can you drive me to the station?"]],
+      "phr": [["å ta lappen", "to get your driving licence (informal)"]],
+      "rel": "et førerkort = a driving licence"
+    },
+    "252": {
+      "ex": [["Kan jeg sitte her?", "Can I sit here?"], ["Vi satt ute og spiste i går.", "We sat outside and ate yesterday."]],
+      "tip": "sitte = be sitting. To sit down = «sette seg»: «Sett deg!» = Sit down!",
+      "rel": "å sette seg = to sit down"
+    },
+    "253": {
+      "ex": [["Vi sto i kø i tjue minutter.", "We stood in the queue for twenty minutes."], ["Det står i avisa.", "It says so in the paper."]],
+      "tip": "«Det står …» = it says (in writing). Things standing upright «står»: «Flaska står på bordet.»",
+      "phr": [["å stå opp", "to get up (out of bed)"], ["å stå i kø", "to queue"]]
     },
     "254": {
       "ex": [["Boka ligger på bordet.", "The book is on the table."], ["Jeg ligger i senga og leser.", "I’m lying in bed reading."]],
@@ -139,37 +1100,107 @@
       "phr": [["Oslo ligger ved Oslofjorden.", "Oslo is by the Oslo Fjord. (places «lie» in Norwegian)"]],
       "rel": "↔ å legge"
     },
+    "255": {
+      "ex": [["Hun ga meg en blomst.", "She gave me a flower."], ["Vi ga ham en bok til bursdagen.", "We gave him a book for his birthday."]],
+      "phr": [["å gi opp", "to give up"], ["å gi beskjed", "to let someone know"]]
+    },
+    "256": {
+      "ex": [["Jeg finner ikke nøklene mine.", "I can’t find my keys."], ["Vi fant en fin leilighet på Grünerløkka.", "We found a nice flat in Grünerløkka."]],
+      "phr": [["å finne ut", "to find out"], ["Det finnes ikke.", "It doesn’t exist."]]
+    },
+    "257": {
+      "ex": [["Kan jeg spørre deg om noe?", "Can I ask you something?"], ["Hun spurte om veien.", "She asked for directions."]],
+      "tip": "The present tense is short: «spør». To ask for something you want, use «be om»: «Han ba om hjelp.» = He asked for help.",
+      "rel": "et spørsmål = a question · ↔ å svare"
+    },
+    "258": {
+      "ex": [["Hun svarte ikke på telefonen.", "She didn’t answer the phone."], ["Kan du svare på spørsmålet?", "Can you answer the question?"]],
+      "tip": "Answer something = «svare på».",
+      "rel": "et svar = an answer · ↔ å spørre"
+    },
+    "259": {
+      "ex": [["Jeg ringer deg i kveld.", "I’ll call you this evening."], ["Mamma ringte mens jeg var på jobb.", "Mum called while I was at work."]],
+      "phr": [["å ringe på", "to ring the doorbell"]]
+    },
+    "260": {
+      "ex": [["Hun vil bli lege.", "She wants to be a doctor."], ["Vi ble hjemme i helga.", "We stayed at home at the weekend."]],
+      "tip": "Also used about the future and to form the passive: «Det blir regn i morgen» = It’s going to rain tomorrow; «Han ble operert» = He was operated on.",
+      "phr": [["Det blir 150 kroner.", "That’ll be 150 kroner. (at the till)"]]
+    },
     "261": {
       "ex": [["Legg nøklene på bordet.", "Put the keys on the table."], ["Jeg la meg klokka elleve.", "I went to bed at eleven."]],
       "tip": "legge = put or lay something somewhere, often lying down (takes an object). For putting something upright, use sette. Don’t mix it up with ligge = be lying.",
       "phr": [["å legge seg", "to go to bed, to lie down"], ["å legge merke til", "to notice"]],
       "rel": "↔ å ligge"
     },
-    "394": {
-      "ex": [["Vil du ha mer kaffe? – Ja takk!", "Would you like more coffee? – Yes, please!"]],
-      "tip": "The standard answer when you’re offered something. «Ja, gjerne!» is a warmer alternative: «Yes, please!» or «I’d love to!».",
-      "phr": [["Nei takk.", "No, thanks."]]
+    "262": {
+      "ex": [["Sett melka i kjøleskapet.", "Put the milk in the fridge."], ["Hun satte seg ved vinduet.", "She sat down by the window."]],
+      "tip": "sette = put something somewhere, usually upright. «Sette seg» = sit down. Don’t mix it up with «sitte» = be sitting.",
+      "rel": "å sitte = to be sitting · å legge = to lay, to put (flat)"
     },
-    "398": {
-      "ex": [["Hei, takk for sist! Det var en fin kveld.", "Hi, thanks for last time! It was a lovely evening."]],
-      "tip": "Said when you next meet someone you spent time with, to thank them for the last time together. The usual reply is «Takk for sist!», «Takk selv!» or «Takk i like måte!»."
+    "263": {
+      "ex": [["Jeg glemte nøklene hjemme.", "I left my keys at home."], ["Ikke glem å kjøpe melk!", "Don’t forget to buy milk!"]],
+      "rel": "↔ å huske"
     },
-    "176": {
-      "ex": [["Har du gjort leksene?", "Have you done your homework?"], ["Vi fikk mye lekser i dag.", "We got a lot of homework today."]],
-      "tip": "Usually plural: «å gjøre lekser» = to do homework."
+    "264": {
+      "ex": [["Husker du meg?", "Do you remember me?"], ["Husk å ta med matpakke!", "Remember to bring a packed lunch!"]],
+      "rel": "↔ å glemme"
     },
-    "425": {
-      "ex": [["Vi koste oss på hytta i helga.", "We had a lovely time at the cabin at the weekend."], ["Kos deg i ferien!", "Enjoy your holiday!"]],
-      "tip": "A key Norwegian word: to enjoy yourself in a relaxed, cosy way – good food, friends, a film, a cabin trip. «Kos deg!» is a very common wish.",
-      "rel": "koselig = cosy · kos = cosiness, a nice time"
+    "265": {
+      "ex": [["Kan jeg prøve denne jakka?", "Can I try on this jacket?"], ["Jeg prøvde å ringe deg i går.", "I tried to call you yesterday."]],
+      "tip": "Also «try on» (clothes): no extra word is needed.",
+      "phr": [["et prøverom", "a fitting room"]],
+      "rel": "en prøve = a test"
     },
-    "368": {
-      "ex": [["Jeg er egentlig fra Bergen.", "I’m actually from Bergen."], ["Hva gjør du egentlig på jobben?", "What do you actually do at work?"]],
-      "tip": "Very common. It often softens what you say: «Jeg skulle egentlig …» = «I was really supposed to …»."
+    "266": {
+      "ex": [["Jeg har bestemt meg for å flytte til Oslo.", "I’ve decided to move to Oslo."], ["Har du bestemt deg?", "Have you decided?"]],
+      "tip": "With «seg» it means «make up your mind»: «bestemme seg for» + noun or «å» + verb. Without «seg», «bestemme» means decide or be in charge: «Det er sjefen som bestemmer.» = The boss decides."
     },
-    "321": {
-      "ex": [["Naboene våre er veldig hyggelige.", "Our neighbours are very nice."], ["Takk for i kveld, det var hyggelig!", "Thanks for this evening, it was lovely!"]],
-      "phr": [["Hyggelig å hilse på deg!", "Nice to meet you!"], ["Bare hyggelig!", "You’re welcome!"]]
+    "267": {
+      "ex": [["Jeg gleder meg til ferien!", "I’m looking forward to the holiday!"], ["Barna gledet seg til jul.", "The children were looking forward to Christmas."]],
+      "tip": "Very common and always reflexive: jeg gleder meg, du gleder deg, vi gleder oss … On its own, «Jeg gleder meg!» = I can’t wait!"
+    },
+    "268": {
+      "ex": [["Jeg trives godt i Norge.", "I really like living in Norway."], ["Trives du i den nye jobben?", "Are you happy in your new job?"]],
+      "tip": "No exact English equivalent: to feel good, be happy and settled somewhere. The -s ending is part of the verb in every form: trives – trivdes – har trivdes.",
+      "rel": "trivsel = well-being"
+    },
+    "269": {
+      "ex": [["Jeg lager middag i kveld.", "I’m making dinner tonight."], ["Hvem laget denne kaka?", "Who made this cake?"]],
+      "tip": "lage = make, create, cook. Don’t use it for «do» – that’s «gjøre».",
+      "phr": [["å lage mat", "to cook"]]
+    },
+    "270": {
+      "ex": [["Jeg må vaske klær i dag.", "I need to do the washing today."], ["Har du vasket hendene?", "Have you washed your hands?"]],
+      "phr": [["å vaske opp", "to do the washing-up"], ["å vaske seg", "to have a wash"]]
+    },
+    "271": {
+      "ex": [["Rydd rommet ditt!", "Tidy your room!"], ["Vi ryddet etter festen.", "We tidied up after the party."]],
+      "phr": [["å rydde opp", "to tidy up"], ["å rydde av bordet", "to clear the table"]]
+    },
+    "272": {
+      "ex": [["Vi flyttet til Norge i 2019.", "We moved to Norway in 2019."], ["Kan du flytte bilen din?", "Can you move your car?"]],
+      "tip": "Used both for moving house and for moving an object.",
+      "phr": [["å flytte sammen", "to move in together"], ["å flytte hjemmefra", "to move out of your parents’ home"]]
+    },
+    "273": {
+      "ex": [["Vi leier en leilighet på Tøyen.", "We rent a flat in Tøyen."], ["De leide en bil i ferien.", "They hired a car on holiday."]],
+      "phr": [["å leie ut", "to rent out, to let"]],
+      "rel": "husleie = rent · en leietaker = a tenant"
+    },
+    "274": {
+      "ex": [["Kan jeg låne en penn?", "Can I borrow a pen?"], ["Hun lånte meg 500 kroner.", "She lent me 500 kroner."]],
+      "tip": "Means both borrow and lend: «låne noe av noen» = borrow something from someone; «låne noen noe» or «låne ut / låne bort» = lend.",
+      "rel": "et lån = a loan"
+    },
+    "275": {
+      "ex": [["Hvem vant kampen?", "Who won the match?"], ["Hun har vunnet mange medaljer.", "She has won lots of medals."]],
+      "rel": "↔ å tape"
+    },
+    "276": {
+      "ex": [["Vi tapte 2–1.", "We lost 2–1."], ["Laget tapte kampen på søndag.", "The team lost the match on Sunday."]],
+      "tip": "tape = lose a game or contest. To lose a thing is «miste»: «Jeg mistet lommeboka.» = I lost my wallet.",
+      "rel": "↔ å vinne"
     },
     "277": {
       "ex": [["Jeg gidder ikke å lage middag i dag.", "I can’t be bothered to make dinner today."], ["Gidder du å hjelpe meg litt?", "Could you help me a bit? (casual)"]],
@@ -178,6 +1209,715 @@
     "278": {
       "ex": [["Jeg pleier å sykle til jobben.", "I usually cycle to work."], ["Hva pleier dere å gjøre i helgene?", "What do you usually do at the weekends?"]],
       "tip": "No English verb matches it – translate with «usually». Used for habits: pleier + å + infinitive. In the past, «pleide å» = «used to». (Pleie also means «to nurse, care for», as in «sykepleier» = nurse.)"
+    },
+    "279": {
+      "ex": [["Kan du hjelpe meg å bære posene?", "Can you help me carry the bags?"], ["Han bar sofaen opp trappa.", "He carried the sofa up the stairs."]]
+    },
+    "280": {
+      "ex": [["Du kan velge mellom fisk og kjøtt.", "You can choose between fish and meat."], ["Hvorfor valgte du Norge?", "Why did you choose Norway?"]],
+      "tip": "Also «elect»: «velge en ny leder» = elect a new leader. To vote is «stemme».",
+      "rel": "et valg = a choice; an election"
+    },
+    "281": {
+      "ex": [["Fortell litt om deg selv.", "Tell me a bit about yourself."], ["Hun fortalte meg en morsom historie.", "She told me a funny story."]],
+      "tip": "fortelle = tell (a story, news); «si» = say. You’ll often hear «Fortell litt om deg selv» in job interviews.",
+      "rel": "å si = to say"
+    },
+    "282": {
+      "ex": [["Kan du sende meg adressen?", "Can you send me the address?"], ["Jeg sendte pakken i går.", "I sent the parcel yesterday."]],
+      "phr": [["å sende en melding", "to send a text"], ["Kan du sende meg saltet?", "Can you pass me the salt?"]]
+    },
+    "283": {
+      "ex": [["Hva skjedde?", "What happened?"], ["Det skjer mye i Oslo i sommer.", "There’s a lot going on in Oslo this summer."]],
+      "tip": "Don’t confuse it with the noun «en skje» = a spoon.",
+      "phr": [["Hva skjer?", "What’s up? (casual)"]]
+    },
+    "284": {
+      "ex": [["Jeg trener tre ganger i uka.", "I work out three times a week."], ["Hun trente fotball da hun var liten.", "She did football training when she was little."]],
+      "phr": [["på trening", "at training, at the gym"], ["et treningssenter", "a gym"]],
+      "rel": "en trener = a coach"
+    },
+    "285": {
+      "ex": [["Hvordan havnet du i Norge?", "How did you end up in Norway?"], ["Han havnet på sykehus etter ulykken.", "He ended up in hospital after the accident."]],
+      "tip": "Used for where you end up, often without planning it. Related to «en havn» = a harbour."
+    },
+    "286": {
+      "ex": [["Hva synes du om Oslo?", "What do you think of Oslo?"], ["Jeg synes det er kaldt her.", "I think it’s cold here."]],
+      "tip": "synes = an opinion from your own experience or taste. tro = think something is true, but you’re not sure. mene = a considered opinion, often on serious topics.",
+      "phr": [["å synes synd på noen", "to feel sorry for someone"]],
+      "rel": "å tro · å mene"
+    },
+    "287": {
+      "ex": [["Vi bor i et stort hus.", "We live in a big house."], ["De store butikkene ligger i sentrum.", "The big shops are in the city centre."]],
+      "tip": "Irregular comparison: stor – større – størst.",
+      "rel": "↔ liten"
+    },
+    "288": {
+      "ex": [["Vi har en liten leilighet.", "We have a small flat."], ["Det lille barnet sover.", "The little child is asleep."]],
+      "tip": "Very irregular: en liten bil, et lite hus, to små hus, den lille bilen, de små bilene. Comparison: mindre – minst. With feminine nouns you’ll also hear «ei lita jente».",
+      "rel": "↔ stor"
+    },
+    "289": {
+      "ex": [["Maten var veldig god.", "The food was very good."], ["Hun er en god venn.", "She’s a good friend."]],
+      "tip": "Irregular comparison: god – bedre – best. The neuter «godt» also works as an adverb: «Jeg sov godt» = I slept well.",
+      "phr": [["God morgen!", "Good morning!"], ["Det smaker godt.", "It tastes good."]],
+      "rel": "↔ dårlig"
+    },
+    "290": {
+      "ex": [["Været er dårlig i dag.", "The weather is bad today."], ["Jeg føler meg dårlig.", "I don’t feel well."]],
+      "tip": "Also means «unwell»: «Hun er dårlig i dag» = She’s ill today.",
+      "phr": [["Jeg har dårlig tid.", "I’m short of time."]],
+      "rel": "↔ god"
+    },
+    "291": {
+      "ex": [["Jeg har kjøpt en ny telefon.", "I’ve bought a new phone."], ["Har du sett det nye kontoret?", "Have you seen the new office?"]],
+      "phr": [["Godt nytt år!", "Happy New Year!"]],
+      "rel": "↔ gammel"
+    },
+    "292": {
+      "ex": [["Huset er veldig gammelt.", "The house is very old."], ["Hvor gammel er du?", "How old are you?"]],
+      "tip": "Irregular comparison: gammel – eldre – eldst. Note the plural «gamle» with only one m.",
+      "rel": "↔ ny · ↔ ung"
+    },
+    "293": {
+      "ex": [["Hun er ung, men veldig flink.", "She’s young, but very capable."], ["Det bor mange unge familier her.", "Lots of young families live here."]],
+      "tip": "Irregular comparison: ung – yngre – yngst.",
+      "rel": "↔ gammel"
+    },
+    "294": {
+      "ex": [["For et fint vær!", "What lovely weather!"], ["Du har en fin jakke.", "You’ve got a nice jacket."]],
+      "phr": [["Det går fint.", "That’s fine. / No problem."], ["Ha det fint!", "Have a nice time!"]]
+    },
+    "295": {
+      "ex": [["Det er en pen kjole.", "That’s a pretty dress."], ["Du må kle deg pent i kveld.", "You have to dress smartly tonight."]],
+      "tip": "False friend: a pen is «en penn». The neuter «pent» also works as an adverb: «kle seg pent» = dress smartly.",
+      "rel": "↔ stygg · vakker = beautiful"
+    },
+    "296": {
+      "ex": [["Jeg synes den lampa er stygg.", "I think that lamp is ugly."], ["Det var stygt vær i går.", "The weather was nasty yesterday."]],
+      "tip": "Also means «nasty» or «mean»: «Det var stygt gjort» = That was a nasty thing to do. Neuter «stygt» has only one g.",
+      "rel": "↔ pen"
+    },
+    "297": {
+      "ex": [["Det er varmt i dag.", "It’s hot today."], ["Ta på deg varme klær!", "Put on warm clothes!"]],
+      "tip": "Covers both «warm» and «hot»: «varm mat» = hot food.",
+      "rel": "↔ kald"
+    },
+    "298": {
+      "ex": [["Det er kaldt ute.", "It’s cold outside."], ["Jeg har lyst på en kald øl.", "I fancy a cold beer."]],
+      "tip": "The most natural way to say you feel cold is «Jeg fryser» (literally «I’m freezing»). «Jeg er kald» is also heard, but «Jeg fryser» is what most people say.",
+      "rel": "↔ varm"
+    },
+    "299": {
+      "ex": [["Oslo er en dyr by.", "Oslo is an expensive city."], ["Det var for dyrt.", "It was too expensive."]],
+      "tip": "Don’t mix it up with the noun «et dyr» = an animal.",
+      "rel": "↔ billig"
+    },
+    "300": {
+      "ex": [["Bruktbutikken har billige klær.", "The second-hand shop has cheap clothes."], ["Det var billig!", "That was cheap!"]],
+      "tip": "Adjectives ending in -ig don’t add -t in the neuter: «et billig hus».",
+      "rel": "↔ dyr"
+    },
+    "301": {
+      "ex": [["Prøven var lett.", "The test was easy."], ["Sekken er ganske lett.", "The rucksack is quite light."]],
+      "tip": "Two meanings: «easy» (opposite: vanskelig) and «light» in weight (opposite: tung).",
+      "rel": "↔ vanskelig · ↔ tung"
+    },
+    "302": {
+      "ex": [["Norsk er ikke så vanskelig.", "Norwegian isn’t that difficult."], ["Det er vanskelig å finne en leilighet i Oslo.", "It’s hard to find a flat in Oslo."]],
+      "rel": "↔ lett"
+    },
+    "303": {
+      "ex": [["Jeg er så glad!", "I’m so happy!"], ["Barna var glade for gavene.", "The children were pleased with the presents."]],
+      "tip": "«Glad i» means «fond of»: «Jeg er glad i deg» = I love you – said to partners, family and close friends.",
+      "phr": [["å være glad i", "to be fond of, to love"], ["Jeg er glad i deg.", "I love you."]],
+      "rel": "↔ trist"
+    },
+    "304": {
+      "ex": [["Hun var trist i dag.", "She was sad today."], ["Det var en trist film.", "It was a sad film."]],
+      "phr": [["Så trist!", "How sad! / What a shame!"]],
+      "rel": "↔ glad"
+    },
+    "305": {
+      "ex": [["Jeg er så trøtt i dag.", "I’m so tired today."], ["Barna er trøtte etter skolen.", "The children are tired after school."]],
+      "tip": "You’ll also see «trett», which means the same."
+    },
+    "306": {
+      "ex": [["Jeg er sulten. Skal vi spise?", "I’m hungry. Shall we eat?"], ["Barna kom sultne hjem fra skolen.", "The children came home from school hungry."]],
+      "tip": "The plural drops an e: sulten – sultne.",
+      "rel": "tørst = thirsty · mett = full"
+    },
+    "307": {
+      "ex": [["Det var en lang dag på jobben.", "It was a long day at work."], ["Hun har langt hår.", "She has long hair."]],
+      "tip": "Irregular comparison: lang – lengre – lengst. «Langt» also means «far»: «Er det langt dit?» = Is it far?",
+      "rel": "↔ kort"
+    },
+    "308": {
+      "ex": [["Møtet var kort.", "The meeting was short."], ["Han har kort hår.", "He has short hair."]],
+      "tip": "Don’t mix it up with the noun «et kort» = a card.",
+      "phr": [["om kort tid", "shortly, soon"]],
+      "rel": "↔ lang"
+    },
+    "309": {
+      "ex": [["Han er veldig høy.", "He’s very tall."], ["Ikke snakk så høyt!", "Don’t talk so loudly!"]],
+      "tip": "Three meanings: tall (people), high (mountains, prices) and loud (sound).",
+      "rel": "↔ lav"
+    },
+    "310": {
+      "ex": [["Hun er en rask løper.", "She’s a fast runner."], ["Kan du komme raskt?", "Can you come quickly?"]],
+      "tip": "The neuter «raskt» works as an adverb: «quickly». «Fort» is also very common: «Han kjører fort.»",
+      "rel": "fort · ↔ langsom"
+    },
+    "311": {
+      "ex": [["Det er sent. Jeg må hjem.", "It’s late. I have to go home."], ["Vi spiste en sen middag.", "We had a late dinner."]],
+      "tip": "«To be late» for something is «å komme for sent». A late train is «forsinket» (delayed).",
+      "phr": [["Jeg kom for sent.", "I was late."], ["Bedre sent enn aldri.", "Better late than never."]],
+      "rel": "↔ tidlig"
+    },
+    "312": {
+      "ex": [["Jeg står opp tidlig.", "I get up early."], ["Vi tar et tidlig fly.", "We’re taking an early flight."]],
+      "phr": [["tidlig om morgenen", "early in the morning"]],
+      "rel": "↔ sen"
+    },
+    "313": {
+      "ex": [["Hun har en hvit bil.", "She has a white car."], ["Veggene er hvite.", "The walls are white."]],
+      "tip": "The neuter has a double t: «et hvitt hus».",
+      "phr": [["hvitvin", "white wine"]]
+    },
+    "314": {
+      "ex": [["Jeg drikker kaffen svart.", "I take my coffee black."], ["Han har på seg svarte sko.", "He’s wearing black shoes."]],
+      "tip": "You’ll also see «sort», which means the same."
+    },
+    "315": {
+      "ex": [["Hun kjøpte en rød kjole.", "She bought a red dress."], ["Det norske flagget er rødt, hvitt og blått.", "The Norwegian flag is red, white and blue."]],
+      "phr": [["rødvin", "red wine"]]
+    },
+    "316": {
+      "ex": [["Hun har blå øyne.", "She has blue eyes."], ["Huset vårt er blått.", "Our house is blue."]],
+      "tip": "The plural can be «blå» or «blåe» – both are correct."
+    },
+    "317": {
+      "ex": [["Lyset er grønt – nå kan vi gå.", "The light’s green – we can go now."], ["Parken er så grønn om sommeren.", "The park is so green in summer."]],
+      "tip": "The neuter has only one n: «grønt».",
+      "rel": "grønnsaker = vegetables"
+    },
+    "318": {
+      "ex": [["Bananene er gule.", "The bananas are yellow."], ["Hun bor i det gule huset.", "She lives in the yellow house."]]
+    },
+    "319": {
+      "ex": [["Han har brune øyne.", "He has brown eyes."], ["Vil du ha brunost på brødskiva?", "Would you like brown cheese on your slice of bread?"]],
+      "tip": "Also means «tanned»: «Du er så brun!» = You’re so tanned!"
+    },
+    "320": {
+      "ex": [["Himmelen er grå i dag.", "The sky is grey today."], ["Han har grått hår.", "He has grey hair."]],
+      "tip": "The plural can be «grå» or «gråe» – both are correct."
+    },
+    "321": {
+      "ex": [["Naboene våre er veldig hyggelige.", "Our neighbours are very nice."], ["Takk for i kveld, det var hyggelig!", "Thanks for this evening, it was lovely!"]],
+      "phr": [["Hyggelig å hilse på deg!", "Nice to meet you!"], ["Bare hyggelig!", "You’re welcome!"]]
+    },
+    "322": {
+      "ex": [["Så koselig du har det!", "What a lovely place you’ve got!"], ["Det var koselig å se deg igjen.", "It was lovely to see you again."]],
+      "tip": "Used far more widely than «cosy»: a nice evening, a friendly person, a visit – anything warm and pleasant.",
+      "rel": "å kose seg · kos"
+    },
+    "323": {
+      "ex": [["Jeg har en travel uke.", "I’ve got a busy week."], ["Det er travelt på jobben nå.", "It’s busy at work right now."]],
+      "tip": "«Travel» = having lots to do. People often say «Jeg har det travelt» (I’m busy) rather than «Jeg er travel». «Opptatt» = not available (a person in a meeting, a phone line, a seat). Plural: «travle»."
+    },
+    "324": {
+      "ex": [["Er denne plassen opptatt?", "Is this seat taken?"], ["Beklager, jeg er opptatt i morgen.", "Sorry, I’m busy tomorrow."]],
+      "phr": [["å være opptatt av", "to be interested in, concerned about"]],
+      "rel": "↔ ledig"
+    },
+    "325": {
+      "ex": [["Er det ledig her?", "Is this seat free?"], ["Har dere et ledig rom?", "Do you have a room available?"]],
+      "tip": "Free as in «available», not «free of charge» – that’s «gratis».",
+      "phr": [["en ledig stilling", "a vacancy, a job opening"], ["arbeidsledig", "unemployed"]],
+      "rel": "↔ opptatt"
+    },
+    "326": {
+      "ex": [["Det er viktig å lære norsk.", "It’s important to learn Norwegian."], ["Jeg har et viktig møte i dag.", "I have an important meeting today."]]
+    },
+    "327": {
+      "ex": [["Det er vanlig å ta av seg skoene inne.", "It’s normal to take your shoes off indoors."], ["Hvordan ser en vanlig dag ut for deg?", "What does a normal day look like for you?"]],
+      "phr": [["som vanlig", "as usual"], ["vanligvis", "usually"]],
+      "rel": "↔ uvanlig"
+    },
+    "328": {
+      "ex": [["Filmen var veldig morsom.", "The film was really funny."], ["Vi hadde det morsomt på festen.", "We had fun at the party."]],
+      "tip": "Covers both «fun» and «funny». In speech you’ll also hear «gøy» (fun) a lot. Plural: «morsomme».",
+      "rel": "gøy · ↔ kjedelig"
+    },
+    "329": {
+      "ex": [["Møtet var så kjedelig.", "The meeting was so boring."], ["Så kjedelig at du ikke kan komme!", "What a shame you can’t come!"]],
+      "tip": "Also means «a shame, a pity»: «Så kjedelig!» = What a shame!",
+      "rel": "↔ morsom"
+    },
+    "330": {
+      "ex": [["Det er farlig å gå på isen nå.", "It’s dangerous to walk on the ice now."], ["Er hunden farlig?", "Is the dog dangerous?"]],
+      "phr": [["Det er ikke så farlig.", "It doesn’t matter. / It’s no big deal."]],
+      "rel": "↔ trygg"
+    },
+    "331": {
+      "ex": [["Hun er flink i matte.", "She’s good at maths."], ["Han er flink til å lage mat.", "He’s good at cooking."]],
+      "tip": "«Flink i» + a subject, «flink til å» + a verb. «Så flink du er!» is a common bit of praise: «Well done!»"
+    },
+    "332": {
+      "ex": [["Er du sikker?", "Are you sure?"], ["Jeg er ikke sikker på om jeg kan komme.", "I’m not sure if I can come."]],
+      "tip": "As a sentence adverb, «sikkert» often means «probably»: «Han kommer sikkert snart» = He’ll probably be here soon. But «helt sikkert» = definitely. For feeling safe, «trygg» is more usual.",
+      "phr": [["helt sikker", "absolutely sure"]]
+    },
+    "333": {
+      "ex": [["Middagen er ferdig!", "Dinner’s ready!"], ["Er du ferdig med leksene?", "Have you finished your homework?"]],
+      "tip": "«Ferdig med» + something = finished with it: «Jeg er ferdig med jobben for i dag.»",
+      "phr": [["å bli ferdig", "to finish, to get done"]]
+    },
+    "334": {
+      "ex": [["Det er glatt ute i dag – gå forsiktig!", "It’s slippery out today – walk carefully!"], ["Veiene er glatte i kveld.", "The roads are slippery this evening."]],
+      "tip": "Also means «smooth»."
+    },
+    "335": {
+      "ex": [["Maten var deilig!", "The food was delicious!"], ["Det er deilig å komme hjem.", "It’s lovely to come home."]]
+    },
+    "336": {
+      "ex": [["Er du fornøyd med den nye jobben?", "Are you happy with the new job?"], ["Kundene er fornøyde.", "The customers are satisfied."]],
+      "tip": "«Glad» is a feeling of happiness; «fornøyd (med)» means satisfied with something."
+    },
+    "339": {
+      "ex": [["Jeg snakker ikke tysk.", "I don’t speak German."], ["Jeg vet at han ikke kommer.", "I know that he isn’t coming."]],
+      "tip": "In a main clause «ikke» comes after the finite verb (Jeg kan ikke komme). In a subordinate clause – after at, fordi, hvis, når … – it comes before the verb (… fordi jeg ikke kan komme).",
+      "phr": [["ikke ennå", "not yet"], ["Ikke sant?", "Right? / Isn’t it?"]]
+    },
+    "340": {
+      "ex": [["Jeg kommer også.", "I’m coming too."], ["Hun snakker også fransk.", "She also speaks French."]],
+      "tip": "After a negative, use «heller» instead: «Jeg liker ikke kaffe. – Ikke jeg heller.» = Neither do I. In casual speech you’ll also hear «Meg også!», but «Jeg også!» is the standard form.",
+      "phr": [["Jeg også!", "Me too!"]]
+    },
+    "341": {
+      "ex": [["Jeg vil bare ha en kaffe.", "I just want a coffee."], ["Det tar bare fem minutter.", "It only takes five minutes."]]
+    },
+    "342": {
+      "ex": [["Det er veldig kaldt i dag.", "It’s very cold today."], ["Jeg liker henne veldig godt.", "I like her very much."]],
+      "tip": "For «very much» with a verb, say «veldig godt» or «veldig mye», not just «veldig».",
+      "rel": "svært (more formal)"
+    },
+    "343": {
+      "ex": [["Jeg snakker litt norsk.", "I speak a little Norwegian."], ["Kan du vente litt?", "Can you wait a moment?"]],
+      "tip": "«Litt» = a little, some. «Lite» = little, not much: «Jeg har lite tid» = I don’t have much time.",
+      "phr": [["om litt", "in a bit"]]
+    },
+    "344": {
+      "ex": [["Jeg har mye å gjøre.", "I have a lot to do."], ["Det koster mye.", "It costs a lot."]],
+      "tip": "«Mye» is for things you can’t count (mye tid, mye snø); «mange» is for things you can (mange bøker). Comparison: mye – mer – mest.",
+      "rel": "↔ lite · mange"
+    },
+    "345": {
+      "ex": [["Hvor mange barn har du?", "How many children do you have?"], ["Det er mange turister i Oslo om sommeren.", "There are lots of tourists in Oslo in summer."]],
+      "tip": "Comparison: mange – flere – flest. Don’t mix up «flere» (more, countable) and «mer» (more, uncountable): «flere kopper», but «mer kaffe».",
+      "rel": "↔ få · mye"
+    },
+    "346": {
+      "ex": [["Han kommer alltid for sent.", "He’s always late."], ["Jeg har alltid likt å lese.", "I’ve always liked reading."]],
+      "tip": "Same position as «ikke»: after the finite verb in a main clause, before it in a subordinate clause (… fordi han alltid kommer for sent).",
+      "rel": "↔ aldri"
+    },
+    "347": {
+      "ex": [["Jeg drikker aldri kaffe om kvelden.", "I never drink coffee in the evening."], ["Jeg har aldri vært i Tromsø.", "I’ve never been to Tromsø."]],
+      "tip": "«Aldri» is already negative – don’t add «ikke».",
+      "phr": [["Aldri i livet!", "No way! / Not on your life!"]],
+      "rel": "↔ alltid"
+    },
+    "348": {
+      "ex": [["Vi spiser ofte fisk.", "We often eat fish."], ["Hvor ofte trener du?", "How often do you work out?"]],
+      "rel": "↔ sjelden = rarely"
+    },
+    "349": {
+      "ex": [["Noen ganger tar jeg bussen til jobben.", "Sometimes I take the bus to work."], ["Vi går noen ganger på kino.", "We sometimes go to the cinema."]],
+      "tip": "When it starts the sentence, the verb comes next: «Noen ganger tar jeg …».",
+      "rel": "av og til = now and then"
+    },
+    "350": {
+      "ex": [["Jeg kommer kanskje litt senere.", "I might come a bit later."], ["Kanskje vi kan ta en kaffe i morgen?", "Maybe we could grab a coffee tomorrow?"]],
+      "tip": "Unusually, «kanskje» at the start of a sentence doesn’t have to be followed by the verb: both «Kanskje vi kan …» and «Kanskje kan vi …» are correct."
+    },
+    "351": {
+      "ex": [["Jeg må gå nå.", "I have to go now."], ["Nå bor jeg i Oslo.", "I live in Oslo now."]],
+      "tip": "Don’t confuse «nå» (now) with «når» (when).",
+      "phr": [["akkurat nå", "right now"], ["nå og da", "now and then"]]
+    },
+    "352": {
+      "ex": [["Bussen kommer snart.", "The bus will be here soon."], ["Vi ses snart!", "See you soon!"]],
+      "phr": [["så snart som mulig", "as soon as possible"]]
+    },
+    "353": {
+      "ex": [["Kan du si det igjen?", "Can you say that again?"], ["Hun er syk igjen.", "She’s ill again."]],
+      "tip": "Also means «left (over)» or «behind»: «Det er bare to igjen» = There are only two left. «Å glemme igjen» = to leave something behind.",
+      "phr": [["Vi ses igjen!", "See you again!"]]
+    },
+    "354": {
+      "ex": [["Vi spiser middag sammen.", "We eat dinner together."], ["Skal vi gå sammen?", "Shall we go together?"]],
+      "phr": [["å bo sammen med", "to live with"], ["å være sammen med noen", "to be going out with someone"]]
+    },
+    "355": {
+      "ex": [["Jeg har bodd her i to år.", "I’ve lived here for two years."], ["Når flyttet du hit?", "When did you move here?"]],
+      "tip": "«Her» = location (be here). «Hit» = direction, after verbs of movement like komme, gå, flytte: «Kom hit!»"
+    },
+    "356": {
+      "ex": [["Vi var der i fjor.", "We were there last year."], ["Hvordan kommer jeg meg dit?", "How do I get there?"]],
+      "tip": "«Der» = location (be there). «Dit» = direction, after verbs of movement: «Vi kjører dit i morgen.»",
+      "phr": [["der borte", "over there"]]
+    },
+    "357": {
+      "ex": [["Er du hjemme i kveld?", "Are you at home this evening?"], ["Jeg går hjem nå.", "I’m going home now."]],
+      "tip": "«Hjemme» = at home (location). «Hjem» = home (direction, after verbs of movement): «Jeg kommer hjem klokka fem.»",
+      "phr": [["Velkommen hjem!", "Welcome home!"], ["Føl deg som hjemme!", "Make yourself at home!"]]
+    },
+    "358": {
+      "ex": [["Hva heter du?", "What’s your name?"], ["Hva gjør du i helga?", "What are you doing at the weekend?"]],
+      "tip": "In a question the verb comes straight after «hva»: «Hva gjør du?». In an indirect question the order changes: «Jeg vet ikke hva han gjør.»",
+      "phr": [["Hva er klokka?", "What time is it?"], ["Hva sa du?", "Sorry, what did you say?"]]
+    },
+    "359": {
+      "ex": [["Hvem er det?", "Who is it?"], ["Hvem snakket du med?", "Who were you talking to?"]],
+      "tip": "For «whose», people usually say «hvem sin/sitt/sine»: «Hvem sin jakke er dette?» The formal written form is «hvis»."
+    },
+    "360": {
+      "ex": [["Hvor bor du?", "Where do you live?"], ["Hvor er toalettet?", "Where’s the toilet?"]],
+      "tip": "«Hvor» also means «how» before an adjective or adverb: «Hvor gammel er du?», «Hvor lenge har du bodd her?» Don’t use «hvordan» there.",
+      "phr": [["Hvor kommer du fra?", "Where are you from?"], ["Hvor mye koster det?", "How much does it cost?"]]
+    },
+    "361": {
+      "ex": [["Når kommer toget?", "When does the train come?"], ["Ring meg når du er ferdig.", "Call me when you’re done."]],
+      "tip": "As a question word, «når» works for any tense: «Når kom du?» But when it joins two clauses, use «når» for the present, the future and repeated events, and «da» for a single occasion or period in the past: «Da jeg var barn, bodde vi i Bergen.»"
+    },
+    "362": {
+      "ex": [["Hvorfor lærer du norsk?", "Why are you learning Norwegian?"], ["Hvorfor kom du ikke i går?", "Why didn’t you come yesterday?"]],
+      "rel": "fordi = because"
+    },
+    "363": {
+      "ex": [["Hvordan går det?", "How are things?"], ["Hvordan kommer jeg til sentrum?", "How do I get to the city centre?"]],
+      "tip": "«Hvordan» = how, in what way. Before an adjective or adverb, use «hvor»: «Hvor gammel …», «Hvor lenge …».",
+      "phr": [["Hvordan har du det?", "How are you?"], ["Hvordan staver du navnet ditt?", "How do you spell your name?"]]
+    },
+    "364": {
+      "ex": [["Hvilken buss tar du?", "Which bus do you take?"], ["Hvilket språk snakker dere hjemme?", "Which language do you speak at home?"]],
+      "tip": "It agrees with the noun: hvilken (en/ei words), hvilket (et words), hvilke (plural). In speech you’ll often hear «hva for en/et/noen»: «Hva for en buss tar du?»"
+    },
+    "365": {
+      "ex": [["Jeg vil gjerne ha en kaffe.", "I’d like a coffee, please."], ["Du kan gjerne sitte her.", "You’re welcome to sit here."], ["Han kommer gjerne for sent.", "He tends to be late."]],
+      "tip": "Hard to translate: it adds willingness or politeness («gladly», «I’d like to»), and can also mean «usually, tend to».",
+      "phr": [["Ja, gjerne!", "Yes, please! / I’d love to!"], ["Jeg vil heller …", "I’d rather …"], ["Jeg vil helst …", "I’d prefer to …"]]
+    },
+    "366": {
+      "ex": [["Er du hjemme allerede?", "Are you home already?"], ["Jeg har allerede spist.", "I’ve already eaten."]],
+      "rel": "ikke ennå = not yet"
+    },
+    "367": {
+      "ex": [["Bor du fortsatt i Bergen?", "Do you still live in Bergen?"], ["Det regner fortsatt.", "It’s still raining."]],
+      "tip": "Only «still» in the sense of «continuing». For «still» meaning «nevertheless», use «likevel».",
+      "rel": "fremdeles · ennå"
+    },
+    "368": {
+      "ex": [["Jeg er egentlig fra Bergen.", "I’m actually from Bergen."], ["Hva gjør du egentlig på jobben?", "What do you actually do at work?"]],
+      "tip": "Very common. It often softens what you say: «Jeg skulle egentlig …» = «I was really supposed to …»."
+    },
+    "369": {
+      "ex": [["Det er akkurat det jeg mener.", "That’s exactly what I mean."], ["Hun har akkurat gått.", "She’s just left."]],
+      "phr": [["Akkurat!", "Exactly!"], ["akkurat nå", "right now"]]
+    },
+    "370": {
+      "ex": [["Jeg er nesten ferdig.", "I’m almost done."], ["Vi har bodd her i nesten ti år.", "We’ve lived here for almost ten years."]],
+      "phr": [["nesten ikke", "hardly, barely"]]
+    },
+    "371": {
+      "ex": [["Det er ganske kaldt i dag.", "It’s quite cold today."], ["Han snakker ganske godt norsk.", "He speaks Norwegian quite well."]]
+    },
+    "372": {
+      "ex": [["Plutselig begynte det å regne.", "Suddenly it started to rain."], ["Han ble plutselig syk.", "He suddenly fell ill."]],
+      "tip": "When it starts the sentence, the verb comes next: «Plutselig begynte det …»."
+    },
+    "373": {
+      "ex": [["Vi spiser først, og etterpå går vi en tur.", "We’ll eat first, and afterwards we’ll go for a walk."], ["Kan vi snakke om det etterpå?", "Can we talk about it afterwards?"]],
+      "tip": "«Etterpå» stands alone. «Etter» is a preposition and needs something after it: «etter jobben» = after work."
+    },
+    "374": {
+      "ex": [["Til slutt fant vi en leilighet.", "In the end we found a flat."], ["Han vant til slutt.", "He won in the end."]],
+      "tip": "When it starts the sentence, the verb comes next. Don’t confuse it with «endelig» = at last (with relief): «Endelig er det fredag!»"
+    },
+    "375": {
+      "ex": [["Jeg var syk, og derfor ble jeg hjemme.", "I was ill, so I stayed at home."], ["Det regner. Derfor tar jeg bussen i dag.", "It’s raining. That’s why I’m taking the bus today."]],
+      "tip": "«Derfor» introduces a result; at the start of a clause it’s followed by the verb («… og derfor ble jeg hjemme»). «Fordi» introduces a reason and starts a subordinate clause: «Jeg tar bussen fordi det regner.»",
+      "rel": "fordi = because"
+    },
+    "376": {
+      "ex": [["Det regnet, men vi gikk likevel en tur.", "It was raining, but we went for a walk anyway."], ["Han var syk. Likevel gikk han på jobb.", "He was ill. Even so, he went to work."]],
+      "tip": "Also means «after all»: «Jeg kan likevel ikke komme» = I can’t come after all."
+    },
+    "377": {
+      "ex": [["Dessverre kan jeg ikke komme.", "Unfortunately I can’t come."], ["Butikken er dessverre stengt.", "Unfortunately the shop is closed."]],
+      "tip": "When it starts the sentence, the verb comes next: «Dessverre kan jeg …»."
+    },
+    "378": {
+      "ex": [["Selvfølgelig kan du låne bilen.", "Of course you can borrow the car."], ["Kan du hjelpe meg? – Ja, selvfølgelig!", "Can you help me? – Yes, of course!"]],
+      "rel": "selvsagt = of course"
+    },
+    "379": {
+      "ex": [["Jeg må uansett handle i dag.", "I have to go shopping today anyway."], ["Ring meg, uansett hva som skjer.", "Call me, whatever happens."]],
+      "phr": [["Takk uansett!", "Thanks anyway!"], ["uansett hva", "no matter what, whatever"]]
+    },
+    "380": {
+      "ex": [["Jeg kjenner ham knapt.", "I barely know him."], ["Det var knapt noen der.", "There was hardly anyone there."]],
+      "rel": "nesten ikke = hardly"
+    },
+    "381": {
+      "ex": [["Her er kaffen din. – Takk!", "Here’s your coffee. – Thanks!"], ["Tusen takk for hjelpen!", "Thanks a lot for your help!"]],
+      "tip": "The usual reply is «Bare hyggelig!» or «Ingen årsak.»",
+      "phr": [["Takk for hjelpen!", "Thanks for your help!"], ["Takk for i dag!", "Thanks for today! (e.g. at the end of a class or a meeting)"], ["Takk skal du ha!", "Thank you very much!"]]
+    },
+    "382": {
+      "ex": [["Unnskyld, vet du hvor stasjonen er?", "Excuse me, do you know where the station is?"], ["Unnskyld, det var ikke meningen.", "Sorry, I didn’t mean to."]],
+      "tip": "Used both to get someone’s attention and to apologise for something small, like bumping into someone.",
+      "rel": "Beklager. = I’m sorry."
+    },
+    "383": {
+      "ex": [["Beklager, jeg er litt sent ute.", "Sorry, I’m running a bit late."], ["Beklager, vi har ikke flere igjen.", "I’m sorry, we don’t have any left."]],
+      "tip": "A little more formal than «Unnskyld». Common at work, in shops and in emails.",
+      "phr": [["Beklager så mye!", "I’m so sorry!"]]
+    },
+    "384": {
+      "ex": [["Ha det! Vi ses i morgen.", "Bye! See you tomorrow."]],
+      "tip": "The everyday way to say goodbye, to anyone.",
+      "phr": [["Ha det bra!", "Goodbye! Take care!"], ["Ha det så lenge!", "Bye for now!"], ["Hei hei!", "Bye! (casual)"]],
+      "rel": "↔ Hei!"
+    },
+    "385": {
+      "ex": [["God morgen! Har du sovet godt?", "Good morning! Did you sleep well?"]],
+      "phr": [["Morn!", "Morning! / Hi! (casual)"]],
+      "rel": "↔ God natt! · God kveld! = Good evening!"
+    },
+    "386": {
+      "ex": [["God natt! Sov godt!", "Good night! Sleep well!"]],
+      "tip": "Said at bedtime or late at night, not as an ordinary evening goodbye – then «Ha det!» is fine.",
+      "rel": "↔ God morgen!"
+    },
+    "387": {
+      "ex": [["Hei! Hvordan går det? – Bare bra, takk! Og med deg?", "Hi! How’s it going? – Fine, thanks! And you?"]],
+      "tip": "Common answers: «Bra, takk!», «Det går fint», «Ikke så verst» (not bad).",
+      "phr": [["Hvordan går det med jobben?", "How’s work going?"]],
+      "rel": "Hvordan har du det? = How are you?"
+    },
+    "388": {
+      "ex": [["Unnskyld, jeg forstår ikke. Kan du forklare?", "Sorry, I don’t understand. Can you explain?"]],
+      "phr": [["Jeg skjønner ikke.", "I don’t get it. (more casual)"], ["Forstår du?", "Do you understand?"]]
+    },
+    "389": {
+      "ex": [["Unnskyld, kan du si det en gang til? Jeg hørte ikke.", "Sorry, can you say that again? I didn’t hear."]],
+      "phr": [["Hva sa du?", "What did you say?"], ["Hæ?", "Huh? / What? (very casual)"]]
+    },
+    "390": {
+      "ex": [["Jeg lærer norsk. Kunne du snakke litt saktere?", "I’m learning Norwegian. Could you speak a bit more slowly?"]],
+      "tip": "«Kunne du …?» is a more polite version of «Kan du …?»."
+    },
+    "391": {
+      "ex": [["Takk for maten! Det var kjempegodt. – Velbekomme!", "Thanks for the meal! It was delicious. – You’re welcome!"]],
+      "tip": "An important custom: say it to whoever made the food or hosted, when you finish eating – children say it to their parents too. The reply is «Velbekomme!»."
+    },
+    "392": {
+      "ex": [["Skål! Og gratulerer med dagen!", "Cheers! And happy birthday!"]],
+      "tip": "People often look each other in the eye when they say «Skål!».",
+      "phr": [["Skål for …!", "Here’s to …!"]]
+    },
+    "393": {
+      "ex": [["Jeg har prøve i morgen. – Lykke til!", "I’ve got a test tomorrow. – Good luck!"]],
+      "phr": [["Lykke til med eksamen!", "Good luck with the exam!"]]
+    },
+    "394": {
+      "ex": [["Vil du ha mer kaffe? – Ja takk!", "Would you like more coffee? – Yes, please!"]],
+      "tip": "The standard answer when you’re offered something. «Ja, gjerne!» is a warmer alternative: «Yes, please!» or «I’d love to!».",
+      "phr": [["Nei takk.", "No, thanks."]]
+    },
+    "395": {
+      "ex": [["Takk for maten! – Velbekomme!", "Thanks for the meal! – You’re welcome!"]],
+      "tip": "Only used in reply to thanks for food or drink. For other thanks, say «Bare hyggelig!»."
+    },
+    "396": {
+      "ex": [["Tusen takk for hjelpen! – Bare hyggelig!", "Thanks so much for your help! – You’re welcome!"]],
+      "tip": "Literally «just nice», i.e. it was a pleasure. «Ingen årsak» (literally «no reason») is a little more formal."
+    },
+    "397": {
+      "ex": [["Unnskyld, jeg tråkket på foten din! – Det gjør ingenting.", "Sorry, I stepped on your foot! – Never mind."], ["Beklager at jeg kommer for sent. – Det gjør ingenting.", "Sorry I’m late. – No worries."]],
+      "rel": "Det går bra. = That’s OK."
+    },
+    "398": {
+      "ex": [["Hei, takk for sist! Det var en fin kveld.", "Hi, thanks for last time! It was a lovely evening."]],
+      "tip": "Said when you next meet someone you spent time with, to thank them for the last time together. The usual reply is «Takk for sist!», «Takk selv!» or «Takk i like måte!»."
+    },
+    "399": {
+      "ex": [["Ha det! Vi ses på mandag!", "Bye! See you on Monday!"]],
+      "phr": [["Vi ses i morgen!", "See you tomorrow!"], ["Vi ses snart!", "See you soon!"]]
+    },
+    "400": {
+      "ex": [["Ha det, og god helg! – Takk, i like måte!", "Bye, and have a good weekend! – Thanks, you too!"]],
+      "tip": "A standard goodbye on Fridays – at work, at school and in shops. Reply: «Takk, det samme!» or «Takk, i like måte!»."
+    },
+    "401": {
+      "ex": [["Vi drar til Spania i morgen. – God tur!", "We’re off to Spain tomorrow. – Have a good trip!"]],
+      "tip": "Said to someone setting off on any kind of trip – a holiday, a journey or a hike.",
+      "rel": "Ha en fin tur! = Have a nice trip!"
+    },
+    "402": {
+      "ex": [["Jeg holder på å lære norsk, så jeg snakker litt sakte.", "I’m learning Norwegian, so I speak a bit slowly."]],
+      "tip": "«holde på å» + infinitive = be in the middle of doing something. It’s a common way to show something is ongoing, like English -ing.",
+      "phr": [["Jeg holder på med middagen.", "I’m busy making dinner."], ["Jeg holdt på å falle.", "I nearly fell. (in the past it can mean «nearly»)"]]
+    },
+    "403": {
+      "ex": [["Skal vi snakke engelsk? – Nei, bare snakk norsk, jeg vil gjerne øve.", "Shall we speak English? – No, just speak Norwegian, I’d like to practise."]],
+      "tip": "Many Norwegians switch to English when they hear a foreign accent, to be helpful. This phrase politely asks them to stay in Norwegian."
+    },
+    "404": {
+      "ex": [["Unnskyld, jeg fikk ikke helt med meg hva du sa. Kan du gjenta det?", "Sorry, I didn’t quite catch what you said. Can you repeat it?"]],
+      "tip": "«å få med seg» = to catch, take in (what’s said or happening).",
+      "phr": [["Fikk du med deg det?", "Did you catch that?"]]
+    },
+    "405": {
+      "ex": [["Si fra hvis du trenger hjelp.", "Let me know if you need help."], ["Si fra hvis du ikke kan komme.", "Let me know if you can’t come."]],
+      "tip": "Also spelled «si ifra». On its own, «si fra» also means to speak up, e.g. when something is wrong.",
+      "phr": [["Jeg sier fra.", "I’ll let you know."]]
+    },
+    "406": {
+      "ex": [["Kan vi møtes klokka tre i stedet? – Ja, det går fint.", "Can we meet at three instead? – Yes, that’s fine."], ["Beklager at jeg glemte det. – Det går fint!", "Sorry I forgot. – That’s OK!"]],
+      "phr": [["Det går ikke.", "That doesn’t work. / That’s not possible."], ["Går det bra?", "Are you OK? / Is that OK?"]]
+    },
+    "407": {
+      "ex": [["Skal vi gå en tur?", "Shall we go for a walk?"], ["Vi var på tur i fjellet i helga.", "We went hiking in the mountains at the weekend."]],
+      "tip": "A broad word: a walk, a hike, a short trip or a holiday. «på tur» usually means out walking or hiking in nature.",
+      "phr": [["en skitur", "a ski trip"], ["en fjelltur", "a mountain hike"]]
+    },
+    "408": {
+      "ex": [["Har du sett den nye filmen?", "Have you seen the new film?"], ["Vi skal på kino og se en film.", "We’re going to the cinema to see a film."]],
+      "rel": "en kino = a cinema"
+    },
+    "409": {
+      "ex": [["Hva slags musikk liker du?", "What kind of music do you like?"], ["Jeg hører på musikk på bussen.", "I listen to music on the bus."]],
+      "tip": "«to listen to» is usually «å høre på»: «Jeg hører på musikk»."
+    },
+    "410": {
+      "ex": [["Vi skal ha fest på lørdag. Vil du komme?", "We’re having a party on Saturday. Do you want to come?"], ["Takk for festen!", "Thanks for the party!"]]
+    },
+    "411": {
+      "ex": [["Når har du bursdag?", "When is your birthday?"], ["Jeg har bursdag på fredag.", "It’s my birthday on Friday."]],
+      "tip": "Norwegians say «Jeg har bursdag» (literally «I have birthday»). To wish someone happy birthday, say «Gratulerer med dagen!».",
+      "phr": [["Gratulerer med dagen!", "Happy birthday!"], ["et bursdagsselskap", "a birthday party"]]
+    },
+    "412": {
+      "ex": [["Jeg kjøpte en gave til bestemor.", "I bought a present for Grandma."], ["Tusen takk for gaven!", "Thank you so much for the present!"]],
+      "rel": "en julegave = a Christmas present"
+    },
+    "413": {
+      "ex": [["Vi går ofte på tur i fjellet.", "We often go hiking in the mountains."], ["Galdhøpiggen er det høyeste fjellet i Norge.", "Galdhøpiggen is the highest mountain in Norway."]],
+      "tip": "«på fjellet» = to or in the mountains, as a place you go: «Vi skal på fjellet i påska» = We’re going to the mountains at Easter."
+    },
+    "414": {
+      "ex": [["Vi plukker blåbær i skogen.", "We pick blueberries in the forest."], ["Det er mye skog i Norge.", "There’s a lot of forest in Norway."]],
+      "phr": [["en tur i marka", "a walk in the woods around town (in Oslo: «Marka»)"]],
+      "rel": "et tre = a tree"
+    },
+    "415": {
+      "ex": [["Vi badet i sjøen.", "We swam in the sea."], ["Mjøsa er den største sjøen i Norge.", "Mjøsa is the largest lake in Norway."]],
+      "tip": "Can mean a lake or the sea – context tells you which. «på sjøen» = at sea, out on the water.",
+      "rel": "et vann = a lake · et hav = an ocean"
+    },
+    "416": {
+      "ex": [["Vi skal på hytta i helga.", "We’re going to the cabin at the weekend."], ["Mange nordmenn har hytte på fjellet eller ved sjøen.", "Many Norwegians have a cabin in the mountains or by the sea."]],
+      "tip": "Note the preposition: «på hytta» = at or to the cabin."
+    },
+    "417": {
+      "ex": [["Hva gjør du i fritida?", "What do you do in your free time?"], ["Jeg har lite fritid nå.", "I don’t have much free time at the moment."]],
+      "phr": [["en fritidsaktivitet", "a leisure activity"]]
+    },
+    "418": {
+      "ex": [["Hva er hobbyen din?", "What’s your hobby?"], ["Strikking er hobbyen min.", "Knitting is my hobby."]]
+    },
+    "419": {
+      "ex": [["Jeg har kjøpt nye ski.", "I’ve bought new skis."]],
+      "tip": "The plural is the same as the singular: «et par ski» = a pair of skis.",
+      "phr": [["å gå på ski", "to go skiing"], ["langrenn", "cross-country skiing"]]
+    },
+    "420": {
+      "ex": [["Vi går på ski hver søndag om vinteren.", "We go skiing every Sunday in winter."], ["Kan du gå på ski?", "Can you ski?"]],
+      "tip": "Often means cross-country skiing. For downhill skiing, people usually say «å stå på ski», «å stå slalåm» or «å kjøre alpint».",
+      "phr": [["Nordmenn er født med ski på beina.", "Norwegians are born with skis on their feet. (saying)"]]
+    },
+    "421": {
+      "ex": [["Skal vi gå på tur i skogen på søndag?", "Shall we go for a walk in the forest on Sunday?"], ["Vi gikk på tur til toppen.", "We hiked to the top."]],
+      "tip": "Without «på», «å gå tur» is used for a short walk, e.g. with the dog: «Jeg går tur med hunden»."
+    },
+    "422": {
+      "ex": [["Vi var på stranda hele dagen.", "We spent all day at the beach."]],
+      "tip": "Note the preposition: «på stranda» = at the beach."
+    },
+    "423": {
+      "ex": [["Borettslaget har dugnad på lørdag.", "The housing cooperative is having a work day on Saturday."], ["Kommer du på dugnaden i morgen?", "Are you coming to the work day tomorrow?"]],
+      "tip": "A Norwegian tradition: unpaid shared work for the community, like tidying the grounds of a block of flats or fixing up the nursery or sports club."
+    },
+    "424": {
+      "ex": [["Vi skal på konsert i kveld.", "We’re going to a concert tonight."], ["Konserten var helt fantastisk.", "The concert was absolutely fantastic."]],
+      "tip": "Usually no article in «å gå på konsert» = to go to a concert, just like «å gå på kino»."
+    },
+    "425": {
+      "ex": [["Vi koste oss på hytta i helga.", "We had a lovely time at the cabin at the weekend."], ["Kos deg i ferien!", "Enjoy your holiday!"]],
+      "tip": "A key Norwegian word: to enjoy yourself in a relaxed, cosy way – good food, friends, a film, a cabin trip. «Kos deg!» is a very common wish.",
+      "rel": "koselig = cosy · kos = cosiness, a nice time"
+    },
+    "488": {
+      "ex": [["Hva mener du?", "What do you mean?"], ["Jeg mener at alle bør lære å svømme.", "I think everyone should learn to swim."]],
+      "tip": "Two senses: «mean» (Hva mener du?) and «hold an opinion», especially on serious or general topics.",
+      "rel": "å synes · å tro · en mening = an opinion"
+    },
+    "666": {
+      "ex": [["Hei! Hvordan går det?", "Hi! How’s it going?"], ["Hei hei, vi ses!", "Bye, see you!"]],
+      "tip": "Used with everyone – friends, shop staff, your boss – and to start an email. «Hei!» or «Hei hei!» can also mean bye.",
+      "phr": [["Hei på deg!", "Hi there!"]]
+    },
+    "667": {
+      "ex": [["Snakker du norsk? – Ja, litt.", "Do you speak Norwegian? – Yes, a little."], ["Ja, det stemmer.", "Yes, that’s right."]],
+      "tip": "To say yes to a question with «ikke» in it, use «jo», not «ja».",
+      "phr": [["Ja takk!", "Yes, please!"], ["Javel.", "OK. / I see."]],
+      "rel": "↔ nei · jo"
+    },
+    "668": {
+      "ex": [["Vil du ha mer? – Nei takk, jeg er mett.", "Would you like some more? – No thanks, I’m full."], ["Nei, det tror jeg ikke.", "No, I don’t think so."]],
+      "phr": [["Nei takk.", "No, thanks."], ["Nei, så hyggelig!", "Oh, how nice! (nei as a surprised exclamation)"]],
+      "rel": "↔ ja"
+    },
+    "669": {
+      "ex": [["Kommer du ikke? – Jo!", "Aren’t you coming? – Yes, I am!"], ["Du liker ikke kaffe? – Jo, det gjør jeg.", "You don’t like coffee? – I do, actually."]],
+      "tip": "Use «ja» to say yes to a positive question, and «jo» to say yes to a question or statement with «ikke» in it. Jo has other jobs too, shown below.",
+      "phr": [["Det er jo kaldt ute.", "It’s cold out, you know. (unstressed jo = «as we both know»)"], ["Jo før, jo bedre.", "The sooner, the better."], ["Jo da!", "Yes, sure!"]]
+    },
+    "670": {
+      "ex": [["Vær så god, her er kaffen din. – Takk!", "Here you are, here’s your coffee. – Thanks!"], ["Maten er klar, vær så god!", "Food’s ready, come and eat!"]],
+      "tip": "It isn’t used for «please» when asking for something. Instead say «Kan jeg få …?» or add «takk»: «En kaffe, takk».",
+      "phr": [["Vær så god og sitt!", "Please have a seat!"]]
+    },
+    "671": {
+      "ex": [["Hva heter du? – Jeg heter Ali. Og du?", "What’s your name? – My name’s Ali. And you?"]],
+      "phr": [["Hva heter det på norsk?", "What’s that called in Norwegian?"]]
+    },
+    "672": {
+      "ex": [["Dette er Maria. – Hei! Hyggelig å hilse på deg!", "This is Maria. – Hi! Nice to meet you!"]],
+      "tip": "Said when you meet someone for the first time, often with a handshake. The reply is «I like måte!» (Likewise!)."
+    },
+    "673": {
+      "ex": [["Hvordan har du det? – Bare bra, takk! Og du?", "How are you? – Fine, thanks! And you?"]],
+      "tip": "A bit more personal than «Hvordan går det?» – it can also be a real question about how someone is feeling.",
+      "phr": [["Jeg har det fint.", "I’m fine."], ["Jeg har det ikke så bra.", "I’m not doing so well."]]
+    },
+    "674": {
+      "ex": [["God helg! – Takk, det samme!", "Have a good weekend! – Thanks, same to you!"]],
+      "tip": "Only use it when the wish fits both of you: if someone says «God tur!» and you’re not travelling, just say «Takk!».",
+      "phr": [["Takk, i like måte!", "Thanks, likewise!"]]
     }
   }
 }
