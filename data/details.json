@@ -1484,6 +1484,14 @@
       "ex": [["Er du fornøyd med den nye jobben?", "Are you happy with the new job?"], ["Kundene er fornøyde.", "The customers are satisfied."]],
       "tip": "«Glad» is a feeling of happiness; «fornøyd (med)» means satisfied with something."
     },
+    "337": {
+      "ex": [["Fuglene i parken er nesten tamme.", "The birds in the park are almost tame."], ["Kampen var ganske tam.", "The match was rather tame."]],
+      "rel": "↔ vill"
+    },
+    "338": {
+      "ex": [["Pengene går til et edelt formål.", "The money goes to a noble cause."], ["Han hadde edle hensikter.", "He had noble intentions."]],
+      "rel": "et edelmetall = a precious metal · en edelsten = a gemstone"
+    },
     "339": {
       "ex": [["Jeg snakker ikke tysk.", "I don’t speak German."], ["Jeg vet at han ikke kommer.", "I know that he isn’t coming."]],
       "tip": "In a main clause «ikke» comes after the finite verb (Jeg kan ikke komme). In a subordinate clause – after at, fordi, hvis, når … – it comes before the verb (… fordi jeg ikke kan komme).",
@@ -1870,10 +1878,1119 @@
       "tip": "A key Norwegian word: to enjoy yourself in a relaxed, cosy way – good food, friends, a film, a cabin trip. «Kos deg!» is a very common wish.",
       "rel": "koselig = cosy · kos = cosiness, a nice time"
     },
+    "426": {
+      "ex": [["Svigermora mi bor i Trondheim.", "My mother-in-law lives in Trondheim."], ["Vi skal spise middag hos svigerforeldrene mine på søndag.", "We’re having dinner at my in-laws’ on Sunday."]],
+      "rel": "svigerfar · svigerforeldre = parents-in-law · svigersønn · svigerdatter"
+    },
+    "427": {
+      "ex": [["Svogeren min hjelper oss med flyttingen.", "My brother-in-law is helping us move."]],
+      "tip": "En svoger is either your sister’s husband or your spouse’s brother.",
+      "rel": "↔ en svigerinne"
+    },
+    "428": {
+      "ex": [["Svigerinna mi er lege.", "My sister-in-law is a doctor."]],
+      "tip": "En svigerinne is either your brother’s wife or your spouse’s sister.",
+      "rel": "↔ en svoger"
+    },
+    "429": {
+      "ex": [["Du og ektefellen din må begge skrive under.", "You and your spouse must both sign."]],
+      "tip": "A formal word, used on forms and in official letters. In conversation people say «mannen min» or «kona mi».",
+      "rel": "en samboer = a partner you live with but aren’t married to"
+    },
+    "430": {
+      "ex": [["Vi har slektninger i USA.", "We have relatives in the USA."], ["Hun er en fjern slektning av meg.", "She’s a distant relative of mine."]],
+      "phr": [["Vi er i slekt.", "We’re related."]],
+      "rel": "en slekt = a family, relatives (as a group)"
+    },
+    "431": {
+      "ex": [["De har et godt forhold til naboene.", "They have a good relationship with their neighbours."], ["Forholdene på arbeidsplassen er dårlige.", "Conditions in the workplace are poor."]],
+      "tip": "The preposition is til: et forhold til noen = a relationship with someone.",
+      "phr": [["i forhold til", "compared with; in relation to"], ["Er du i et forhold?", "Are you in a relationship?"]]
+    },
+    "432": {
+      "ex": [["Jeg hadde en lykkelig barndom på landet.", "I had a happy childhood in the countryside."], ["Han snakker ofte om barndommen sin.", "He often talks about his childhood."]],
+      "tip": "Note the double m in the definite form: barndommen.",
+      "rel": "en barndomsvenn = a childhood friend · ↔ alderdom = old age"
+    },
+    "433": {
+      "ex": [["Utleieren vil ha tre måneders depositum.", "The landlord wants a deposit of three months’ rent."], ["Jeg må si fra til utleieren at vasken lekker.", "I need to tell the landlord that the sink is leaking."]],
+      "rel": "en leietaker = a tenant · å leie ut = to let, to rent out"
+    },
+    "434": {
+      "ex": [["Depositumet er på tre måneders husleie.", "The deposit is three months’ rent."], ["Vi fikk ikke igjen hele depositumet da vi flyttet ut.", "We didn’t get the whole deposit back when we moved out."]],
+      "tip": "By law, a rental deposit must go into a separate account in the tenant’s name («depositumskonto»), and the law caps how much a landlord can ask for. The money you put down when buying a home is «egenkapital», not «depositum».",
+      "rel": "en depositumskonto = a deposit account"
+    },
+    "435": {
+      "ex": [["Strømregningen var ekstra høy i januar.", "The electricity bill was extra high in January."], ["Er strøm inkludert i husleia?", "Is electricity included in the rent?"]],
+      "phr": [["Strømmen gikk.", "There was a power cut."], ["strømprisen", "the electricity price"]],
+      "rel": "en regning = a bill · strøm = electricity"
+    },
+    "436": {
+      "ex": [["Vi pusser opp badet i sommer.", "We’re doing up the bathroom this summer."], ["Kjøkkenet er gammelt, men vi skal pusse det opp.", "The kitchen is old, but we’re going to do it up."]],
+      "tip": "With a noun, «opp» comes before the object: «pusse opp kjøkkenet». With a pronoun, it comes after: «pusse det opp».",
+      "rel": "en oppussing = a renovation · nyoppusset = newly renovated"
+    },
+    "437": {
+      "ex": [["Vi bor i et rolig nabolag med mange barnefamilier.", "We live in a quiet neighbourhood with lots of families with children."], ["Er det en butikk her i nabolaget?", "Is there a shop here in the neighbourhood?"]],
+      "rel": "en nabo = a neighbour"
+    },
+    "438": {
+      "ex": [["Porsjonene er store på den restauranten.", "The portions are big at that restaurant."], ["Denne oppskriften gir fire porsjoner.", "This recipe makes four portions."]]
+    },
+    "439": {
+      "ex": [["Hvilke ingredienser trenger vi til kaka?", "Which ingredients do we need for the cake?"]]
+    },
+    "440": {
+      "ex": [["Jeg steker fisken i smør.", "I fry the fish in butter."], ["Vi stekte kyllingen i ovnen.", "We roasted the chicken in the oven."]],
+      "tip": "steke = fry in a pan or roast in the oven. For bread and cakes, use «bake» – but pancakes and waffles are «stekt».",
+      "rel": "en stekepanne = a frying pan · å bake = to bake"
+    },
+    "441": {
+      "ex": [["Vannet koker.", "The water is boiling."], ["Jeg koker poteter til middag.", "I’m boiling potatoes for dinner."]],
+      "tip": "To cook in general is «å lage mat», not «å koke».",
+      "phr": [["et kokt egg", "a boiled egg"]]
+    },
+    "442": {
+      "ex": [["Suppa smaker godt.", "The soup tastes good."], ["Vil du smake på kaka?", "Do you want to try the cake?"]],
+      "tip": "smake + adverb = taste (good, bad …): «Det smaker godt». smake på = have a taste of something.",
+      "phr": [["Det smaker av hvitløk.", "It tastes of garlic."], ["Smakte det?", "Did you enjoy the food?"]]
+    },
+    "443": {
+      "ex": [["Det er sunt å gå tur hver dag.", "It’s healthy to go for a walk every day."], ["Hun lever et sunt liv.", "She leads a healthy life."]],
+      "tip": "sunn = good for your health (food, habits). A person who is healthy, i.e. not ill, is «frisk».",
+      "rel": "↔ usunn"
+    },
+    "444": {
+      "ex": [["Studenter får 20 prosent rabatt.", "Students get a 20 per cent discount."], ["Kan jeg få rabatt hvis jeg kjøper to?", "Can I get a discount if I buy two?"]],
+      "phr": [["Kaffen er på tilbud i dag.", "The coffee is on special offer today."]],
+      "rel": "et tilbud = an offer · et salg = a sale"
+    },
+    "445": {
+      "ex": [["Vaskemaskinen har to års garanti.", "The washing machine has a two-year warranty."], ["Det er ingen garanti for at det blir bedre.", "There’s no guarantee that it will get better."]],
+      "tip": "A shop’s «garanti» is extra. Separately, the law gives you «reklamasjonsrett»: the right to have faults put right for two years, or five for goods meant to last much longer."
+    },
+    "446": {
+      "ex": [["Medlemsavgiften er 300 kroner i året.", "The membership fee is 300 kroner a year."], ["Avgiften på bensin har gått opp.", "The duty on petrol has gone up."]],
+      "tip": "avgift is often a charge set by the state or an organisation (taxes, duties, membership). A fee a bank or shop charges for a particular service is often «et gebyr».",
+      "phr": [["merverdiavgift (moms)", "VAT"]],
+      "rel": "et gebyr = a (service) fee"
+    },
+    "447": {
+      "ex": [["Vi sparer til en ny bil.", "We’re saving up for a new car."], ["Du sparer tid hvis du tar toget.", "You save time if you take the train."]],
+      "tip": "spare = save money, time or energy. To save a life or rescue someone is «redde». To save a file is «lagre».",
+      "phr": [["å spare på strømmen", "to use less electricity"]]
+    },
+    "448": {
+      "ex": [["Vi har tatt opp lån for å kjøpe leilighet.", "We’ve taken out a loan to buy a flat."], ["Kan jeg låne laderen din?", "Can I borrow your charger?"]],
+      "tip": "The verb «låne» means both borrow and lend: «Kan jeg låne …?» = Can I borrow …? «Kan du låne meg …?» = Can you lend me …?",
+      "phr": [["å ta opp lån", "to take out a loan"], ["et studielån", "a student loan"]],
+      "rel": "et boliglån = a mortgage"
+    },
+    "449": {
+      "ex": [["Lønna kommer inn på kontoen den 20.", "My wages go into my account on the 20th."], ["Jeg må overføre penger til en annen konto.", "I need to transfer money to another account."]],
+      "phr": [["et kontonummer", "an account number"], ["en sparekonto", "a savings account"]]
+    },
+    "450": {
+      "ex": [["Han fikk en skade i kneet.", "He injured his knee."], ["Stormen gjorde store skader på husene.", "The storm did a lot of damage to the houses."]],
+      "phr": [["å skade seg", "to hurt yourself"], ["Ingen skade skjedd.", "No harm done."]],
+      "rel": "skadet = injured; damaged"
+    },
+    "451": {
+      "ex": [["Du må vaske såret før du setter på plaster.", "You must clean the wound before you put a plaster on."], ["Såret grodde fort.", "The wound healed quickly."]],
+      "tip": "sår is also an adjective meaning sore or hurt: «Jeg er sår i halsen» = I have a sore throat.",
+      "rel": "å gro = to heal"
+    },
+    "452": {
+      "ex": [["Jeg må bestille time hos fastlegen.", "I need to book an appointment with my GP."], ["Har du fått fastlege ennå?", "Have you got a GP yet?"]],
+      "tip": "Everyone registered as living in Norway is entitled to a regular GP. You can see or change yours on helsenorge.no.",
+      "phr": [["å bestille time", "to book an appointment"]],
+      "rel": "en legevakt = an out-of-hours clinic"
+    },
+    "453": {
+      "ex": [["Legen ga meg sykmelding i to uker.", "The doctor signed me off sick for two weeks."], ["Jeg er sykmeldt denne uka.", "I’m on sick leave this week."]],
+      "tip": "For a short illness you can often use «egenmelding» instead: you report yourself sick for a few days without seeing a doctor.",
+      "rel": "sykmeldt = on sick leave · en egenmelding = self-certified sick leave"
+    },
+    "454": {
+      "ex": [["Legen gjorde en grundig undersøkelse.", "The doctor did a thorough examination."], ["En ny undersøkelse viser at mange jobber hjemmefra.", "A new survey shows that many people work from home."]],
+      "rel": "å undersøke = to examine, to investigate"
+    },
+    "455": {
+      "ex": [["Pust dypt inn!", "Take a deep breath!"], ["Jeg fikk nesten ikke puste.", "I could hardly breathe."]],
+      "phr": [["å trekke pusten", "to take a breath"], ["å puste ut", "to breathe out; to have a breather"]],
+      "rel": "pusten = the breath"
+    },
+    "456": {
+      "ex": [["Gå på fortauet, ikke i gata!", "Walk on the pavement, not in the road!"], ["Fortauet var glatt i morges.", "The pavement was slippery this morning."]],
+      "rel": "et gangfelt = a pedestrian crossing"
+    },
+    "457": {
+      "ex": [["Det var lang kø i kassa.", "There was a long queue at the till."], ["Vi sto i kø i en halvtime.", "We queued for half an hour."]],
+      "phr": [["å stå i kø", "to queue"], ["å trekke kølapp", "to take a queue ticket"], ["å snike i køen", "to jump the queue"]]
+    },
+    "458": {
+      "ex": [["Vi måtte kjøre en omvei fordi veien var stengt.", "We had to take a detour because the road was closed."]],
+      "phr": [["å ta en omvei", "to take a detour, to go the long way round"]]
+    },
+    "459": {
+      "ex": [["Kollektivtransporten i Oslo er god.", "Public transport in Oslo is good."], ["Jeg reiser kollektivt til jobben.", "I go to work by public transport."]],
+      "phr": [["å reise kollektivt", "to travel by public transport"]]
+    },
+    "460": {
+      "ex": [["Har du førerkort?", "Do you have a driving licence?"], ["Hun tok førerkortet i fjor.", "She passed her driving test last year."]],
+      "tip": "In everyday speech people say «lappen»: «Jeg tok lappen i fjor» = I passed my driving test last year.",
+      "phr": [["å ta lappen", "to get your driving licence (informal)"]]
+    },
+    "461": {
+      "ex": [["Sjåføren stoppet bussen.", "The driver stopped the bus."], ["Hvem skal være sjåfør i kveld?", "Who’s going to drive tonight?"]],
+      "phr": [["en bussjåfør", "a bus driver"], ["en drosjesjåfør", "a taxi driver"]]
+    },
+    "462": {
+      "ex": [["Det skjedde en ulykke på E18 i går.", "There was an accident on the E18 yesterday."], ["Heldigvis ble ingen skadet i ulykken.", "Luckily nobody was injured in the accident."]],
+      "tip": "Watch out: «ulykkelig» means unhappy, not accident-related.",
+      "rel": "ulykkelig = unhappy · lykke = happiness, luck"
+    },
+    "463": {
+      "ex": [["Hvem er arbeidsgiveren din?", "Who’s your employer?"], ["Arbeidsgiveren har ansvar for et trygt arbeidsmiljø.", "The employer is responsible for a safe working environment."]],
+      "rel": "↔ en arbeidstaker"
+    },
+    "464": {
+      "ex": [["Som arbeidstaker har du både rettigheter og plikter.", "As an employee you have both rights and duties."]],
+      "tip": "A formal and legal word. In everyday speech people say «en ansatt», «de ansatte».",
+      "rel": "↔ en arbeidsgiver"
+    },
+    "465": {
+      "ex": [["Hun har søkt på en stilling som sykepleier.", "She has applied for a position as a nurse."], ["Det er en ledig stilling i firmaet vårt.", "There’s a vacancy in our company."]],
+      "phr": [["en fast stilling", "a permanent position"], ["en deltidsstilling", "a part-time position"], ["Stillingen er 2–1.", "The score is 2–1."], ["å ta stilling til", "to take a stand on, to decide on"]]
+    },
+    "466": {
+      "ex": [["Jeg har mange oppgaver på jobb i dag.", "I’ve got a lot of tasks at work today."], ["Læreren ga oss en oppgave i matte.", "The teacher gave us a maths exercise."]],
+      "phr": [["å løse en oppgave", "to solve a task / an exercise"], ["Det er ikke min oppgave.", "That’s not my job."]]
+    },
+    "467": {
+      "ex": [["Hun har ansvar for økonomien i firmaet.", "She’s responsible for the company’s finances."], ["Hvem har ansvaret for dette?", "Who’s in charge of this?"]],
+      "phr": [["å ha ansvar for", "to be responsible for"], ["å ta ansvar", "to take responsibility"]],
+      "rel": "ansvarlig = responsible"
+    },
+    "468": {
+      "ex": [["Jeg har lang erfaring med barn.", "I have a lot of experience with children."], ["Har du erfaring fra butikk?", "Have you worked in a shop before?"]],
+      "tip": "Erfaring is experience as knowledge or skill. A memorable thing that happened to you is «en opplevelse»."
+    },
+    "469": {
+      "ex": [["Hva slags utdanning har du?", "What kind of education do you have?"], ["Hun har høyere utdanning fra Universitetet i Oslo.", "She has a degree from the University of Oslo."]],
+      "phr": [["høyere utdanning", "higher education (university or college)"]],
+      "rel": "å utdanne seg til = to train as"
+    },
+    "470": {
+      "ex": [["Er du medlem av en fagforening?", "Are you a member of a trade union?"]],
+      "phr": [["å melde seg inn i en fagforening", "to join a union"]],
+      "rel": "en tillitsvalgt = a union representative"
+    },
+    "471": {
+      "ex": [["Jeg måtte jobbe overtid i går.", "I had to work overtime yesterday."], ["Får du betalt for overtid?", "Do you get paid for overtime?"]]
+    },
+    "472": {
+      "ex": [["Hun har ett års permisjon fra jobben.", "She has a year’s leave from work."]],
+      "tip": "False friend: permisjon is leave from work, not «permission» (= en tillatelse, or «lov»).",
+      "phr": [["å ta permisjon", "to take leave"], ["foreldrepermisjon", "parental leave"]]
+    },
+    "473": {
+      "ex": [["Hun sa opp jobben sin i går.", "She resigned from her job yesterday."], ["Firmaet sa opp ti ansatte.", "The company dismissed ten employees."]],
+      "tip": "Works both ways: «Jeg sa opp» = I quit; «Jeg ble sagt opp» = I was dismissed. Also used for cancelling a subscription or a tenancy.",
+      "phr": [["å si opp leiligheten", "to give notice on the flat"], ["å si opp abonnementet", "to cancel the subscription"]],
+      "rel": "en oppsigelse"
+    },
+    "474": {
+      "ex": [["Har du skrevet under kontrakten?", "Have you signed the contract?"], ["Jeg har en midlertidig kontrakt.", "I have a temporary contract."]],
+      "phr": [["en arbeidskontrakt", "an employment contract"], ["en leiekontrakt", "a tenancy agreement"]]
+    },
+    "475": {
+      "ex": [["Vi jobber med et nytt prosjekt.", "We’re working on a new project."], ["Prosjektet skal være ferdig i mars.", "The project is due to be finished in March."]],
+      "rel": "en prosjektleder = a project manager"
+    },
+    "476": {
+      "ex": [["Butikken er åpen hele døgnet.", "The shop is open 24 hours a day."], ["Ta én tablett tre ganger i døgnet.", "Take one tablet three times a day."]],
+      "tip": "English has no single word for this. «En dag» often means just the daytime; «et døgn» is the full 24 hours.",
+      "phr": [["døgnåpen", "open 24 hours"]]
+    },
+    "477": {
+      "ex": [["Prisene har økt mye det siste tiåret.", "Prices have risen a lot over the last decade."]],
+      "rel": "et århundre = a century"
+    },
+    "478": {
+      "ex": [["Hva gjør dere i jula?", "What are you doing over Christmas?"], ["Hva ønsker du deg til jul?", "What would you like for Christmas?"]],
+      "tip": "The main celebration, with dinner and presents, is on «julaften», 24 December.",
+      "phr": [["God jul og godt nytt år!", "Merry Christmas and a happy New Year!"], ["i jula", "over Christmas"], ["til jul", "for Christmas"]]
+    },
+    "479": {
+      "ex": [["Vi skal på hytta i påska.", "We’re going to the cabin for Easter."], ["God påske!", "Happy Easter!"]],
+      "tip": "Many Norwegians head to the mountains to ski at Easter. Reading crime novels and watching crime series at Easter («påskekrim») is a tradition.",
+      "phr": [["påskeferien", "the Easter holidays"]]
+    },
+    "480": {
+      "ex": [["Det er meldt uvær i morgen.", "Bad weather is forecast for tomorrow."], ["Flyet ble innstilt på grunn av uværet.", "The flight was cancelled because of the storm."]],
+      "phr": [["Det er meldt …", "… is forecast"]],
+      "rel": "en storm = a storm · ↔ godvær = fine weather"
+    },
+    "481": {
+      "ex": [["Det er glatt føre i dag, så kjør forsiktig.", "The roads are slippery today, so drive carefully."], ["Det er fint føre i marka.", "The skiing conditions in the forest are great."]],
+      "tip": "No English word matches: føre is the state of the ground for travelling – icy roads, slushy pavements, good snow for skiing. Don’t confuse it with «før» = before.",
+      "phr": [["glatt føre", "slippery conditions"], ["skiføre", "skiing conditions"]]
+    },
+    "482": {
+      "ex": [["Hun har opplevd mye i livet.", "She’s experienced a lot in her life."], ["Hvordan opplevde du intervjuet?", "How did you find the interview?"]],
+      "tip": "English «experience» is two nouns in Norwegian: en opplevelse = something you go through (a trip, a concert), erfaring = knowledge you gain (arbeidserfaring = work experience).",
+      "rel": "en opplevelse = an experience · erfaring = experience (knowledge)"
+    },
+    "483": {
+      "ex": [["Jeg foreslår at vi tar en pause.", "I suggest we take a break."], ["På møtet foreslo hun en ny løsning.", "At the meeting she suggested a new solution."]],
+      "rel": "et forslag = a suggestion, a proposal"
+    },
+    "484": {
+      "ex": [["Kan du forklare det en gang til?", "Can you explain it once more?"], ["Hun forklarte meg hvordan det fungerer.", "She explained to me how it works."]],
+      "tip": "The person you explain to usually takes «for», not «til»: «forklare noe for noen». You can also drop the preposition: «Hun forklarte meg det.»",
+      "rel": "en forklaring = an explanation"
+    },
+    "485": {
+      "ex": [["Jeg må forberede meg til eksamen.", "I need to prepare for the exam."], ["Hun har forberedt en presentasjon til møtet.", "She’s prepared a presentation for the meeting."]],
+      "tip": "To get yourself ready is reflexive: «forberede seg til/på noe». For food, say «lage mat», not «forberede mat».",
+      "rel": "forberedt = prepared · en forberedelse = a preparation"
+    },
+    "486": {
+      "ex": [["Jeg klarer det ikke alene.", "I can’t manage it on my own."], ["Klarte du å finne fram?", "Did you manage to find the way?"]],
+      "phr": [["å klare seg", "to get by, to cope"], ["Det klarer seg.", "That’ll do. / That’s enough."]]
+    },
+    "487": {
+      "ex": [["Hun lyktes med å få jobben.", "She succeeded in getting the job."], ["Forsøket lyktes ikke.", "The attempt didn’t succeed."]],
+      "tip": "Always ends in -s: jeg lykkes, jeg lyktes, jeg har lyktes. Usually with «med»: lykkes med noe.",
+      "rel": "Lykke til! = Good luck! · lykkelig = happy"
+    },
     "488": {
       "ex": [["Hva mener du?", "What do you mean?"], ["Jeg mener at alle bør lære å svømme.", "I think everyone should learn to swim."]],
       "tip": "Two senses: «mean» (Hva mener du?) and «hold an opinion», especially on serious or general topics.",
       "rel": "å synes · å tro · en mening = an opinion"
+    },
+    "489": {
+      "ex": [["Jeg oppdaget feilen for sent.", "I discovered the mistake too late."], ["Når oppdaget du at lommeboka var borte?", "When did you notice your wallet was gone?"]],
+      "tip": "Not just for big discoveries: it also means notice or realise in everyday situations.",
+      "rel": "en oppdagelse = a discovery"
+    },
+    "490": {
+      "ex": [["Prøv å unngå rushtiden.", "Try to avoid the rush hour."], ["Vi unngikk å snakke om politikk.", "We avoided talking about politics."]],
+      "tip": "Followed by «å» + infinitive where English uses -ing. Past tense unngikk, like gå – gikk.",
+      "phr": [["Det var ikke til å unngå.", "It couldn’t be avoided."]]
+    },
+    "491": {
+      "ex": [["Været påvirker humøret mitt.", "The weather affects my mood."], ["Hun lar seg ikke påvirke av andre.", "She doesn’t let others influence her."]],
+      "tip": "Covers both «affect» and «influence». No preposition: «påvirke noe», not «påvirke på noe».",
+      "rel": "en påvirkning = an influence, an effect · innflytelse = influence"
+    },
+    "492": {
+      "ex": [["Hun besto førerprøven på første forsøk.", "She passed her driving test at the first attempt."], ["Jeg håper jeg består eksamen.", "I hope I pass the exam."]],
+      "tip": "«Å ta eksamen» means to sit the exam, not to pass it. Don’t use «passere» for exams: it means to pass by or through.",
+      "phr": [["Laget består av elleve spillere.", "The team consists of eleven players. (bestå av = consist of)"]],
+      "rel": "↔ å stryke"
+    },
+    "493": {
+      "ex": [["Han strøk i matte.", "He failed maths."], ["Jeg må stryke skjorta før møtet.", "I need to iron my shirt before the meeting."]],
+      "tip": "Also means to iron (stryke skjorta), to stroke (stryke katten) and to cross out (stryke ut).",
+      "phr": [["å stryke ut et ord", "to cross out a word"]],
+      "rel": "↔ å bestå"
+    },
+    "494": {
+      "ex": [["Hun har søkt på tre jobber.", "She’s applied for three jobs."], ["Jeg søkte på nettet, men fant ingenting.", "I searched online but found nothing."]],
+      "tip": "The preposition matters: søke på en jobb (an advertised post), søke om noe (permission, money, citizenship), søke etter noe (search for something).",
+      "phr": [["å søke om statsborgerskap", "to apply for citizenship"]],
+      "rel": "en søknad = an application · en søker = an applicant"
+    },
+    "495": {
+      "ex": [["Firmaet utvikler nye apper.", "The company develops new apps."], ["Byen har utviklet seg mye de siste årene.", "The city has developed a lot in recent years."]],
+      "tip": "Without an object it’s reflexive: «Byen utvikler seg» = The city is developing.",
+      "rel": "en utvikling = a development · en utvikler = a developer"
+    },
+    "496": {
+      "ex": [["Konserten ble avlyst på grunn av været.", "The concert was cancelled because of the weather."], ["Vi må dessverre avlyse møtet i morgen.", "Unfortunately we have to cancel tomorrow’s meeting."]],
+      "tip": "avlyse = call off an event. To cancel a booking or order: avbestille. To cancel a subscription: si opp.",
+      "rel": "å utsette = to postpone"
+    },
+    "497": {
+      "ex": [["Møtet er utsatt til neste uke.", "The meeting has been postponed until next week."], ["Ikke utsett det til i morgen.", "Don’t put it off until tomorrow."]],
+      "phr": [["å bli utsatt for noe", "to be exposed to / subjected to something"]],
+      "rel": "å avlyse = to cancel"
+    },
+    "498": {
+      "ex": [["Jeg gruer meg til eksamen.", "I’m dreading the exam."], ["Hun gruer seg til å fortelle det til sjefen.", "She’s dreading telling her boss."]],
+      "tip": "Always reflexive: jeg gruer meg, du gruer deg. A very common everyday word – Norwegians say it about anything they’re not looking forward to.",
+      "rel": "↔ å glede seg til"
+    },
+    "499": {
+      "ex": [["La du merke til at hun hadde klippet seg?", "Did you notice she’d had her hair cut?"], ["Jeg har ikke lagt merke til noe rart.", "I haven’t noticed anything strange."]],
+      "tip": "Only «legge» changes: legger – la – har lagt merke til.",
+      "rel": "å merke = to notice, to feel"
+    },
+    "500": {
+      "ex": [["Jeg må finne ut når toget går.", "I need to find out when the train leaves."], ["Vi fant ut at butikken var stengt.", "We found out that the shop was closed."]],
+      "phr": [["å finne ut av noe", "to figure something out"]]
+    },
+    "501": {
+      "ex": [["Jeg rakk bussen i siste liten.", "I caught the bus at the last minute."], ["Vi rekker ikke å spise før filmen.", "We won’t have time to eat before the film."]],
+      "tip": "rekke = get there in time or have time to do something. If you don’t make it, you «miste» the bus.",
+      "phr": [["å rekke opp hånda", "to put your hand up"], ["Det rekker.", "That’s enough."]],
+      "rel": "↔ å miste (bussen)"
+    },
+    "502": {
+      "ex": [["Jeg orker ikke å lage mat i dag.", "I can’t be bothered to cook today."], ["Orker du å gå en tur?", "Do you feel up to going for a walk?"]],
+      "tip": "Very common, mostly in questions and negatives. «Jeg orker ikke» = I can’t face it / I can’t be bothered.",
+      "phr": [["Jeg orker ikke mer.", "I can’t take any more."]]
+    },
+    "503": {
+      "ex": [["Jeg savner familien min.", "I miss my family."], ["Politiet leter etter en savnet kvinne.", "The police are looking for a missing woman."]],
+      "tip": "Only for missing someone or something that isn’t there. To miss a bus is «å miste bussen».",
+      "rel": "et savn = a sense of loss"
+    },
+    "504": {
+      "ex": [["Du kan stole på meg.", "You can trust me."], ["Jeg stoler ikke på værmeldingen.", "I don’t trust the weather forecast."]],
+      "tip": "Always with «på»: stole på noen.",
+      "rel": "tillit = trust · pålitelig = reliable"
+    },
+    "505": {
+      "ex": [["Ikke gi opp!", "Don’t give up!"], ["Hun ga opp å lære seg tysk.", "She gave up learning German."]],
+      "tip": "The past tense can be written ga or gav. «Gi opp å» + infinitive where English uses -ing."
+    },
+    "506": {
+      "ex": [["Det er ikke nødvendig å ta med mat.", "There’s no need to bring food."], ["Har du alle nødvendige papirer?", "Do you have all the necessary documents?"]],
+      "tip": "Adjectives ending in -ig take no -t in the neuter: et nødvendig tiltak.",
+      "phr": [["om nødvendig", "if necessary"]],
+      "rel": "↔ unødvendig"
+    },
+    "507": {
+      "ex": [["Er det mulig å betale med kort?", "Is it possible to pay by card?"], ["Kom så fort som mulig.", "Come as quickly as possible."]],
+      "phr": [["så snart som mulig", "as soon as possible"]],
+      "rel": "↔ umulig · en mulighet = a possibility, a chance"
+    },
+    "508": {
+      "ex": [["Kan du snakke litt tydeligere?", "Could you speak a bit more clearly?"], ["Det var tydelig at hun var sliten.", "It was clear that she was tired."]],
+      "tip": "The same form works as an adverb: snakke tydelig = speak clearly.",
+      "rel": "↔ utydelig"
+    },
+    "509": {
+      "ex": [["Jeg er usikker på hva jeg skal velge.", "I’m not sure what to choose."], ["Situasjonen er fortsatt usikker.", "The situation is still uncertain."]],
+      "tip": "Use «på»: usikker på noe. It can also mean insecure or unsafe. The e drops before an ending: usikre.",
+      "rel": "↔ sikker"
+    },
+    "510": {
+      "ex": [["Det høres fornuftig ut.", "That sounds sensible."], ["Det er fornuftig å bestille billetter tidlig.", "It’s sensible to book tickets early."]],
+      "rel": "fornuft = reason, common sense · ↔ ufornuftig"
+    },
+    "511": {
+      "ex": [["Vær ærlig – liker du den?", "Be honest – do you like it?"], ["Jeg skal være ærlig med deg.", "I’ll be honest with you."]],
+      "phr": [["ærlig talt", "honestly, frankly"]],
+      "rel": "↔ uærlig · ærlighet = honesty"
+    },
+    "512": {
+      "ex": [["Jeg er nysgjerrig på hva som skjedde.", "I’m curious about what happened."], ["Barn er nysgjerrige på alt.", "Children are curious about everything."]],
+      "tip": "Use «på»: nysgjerrig på noe. It can also mean nosy."
+    },
+    "513": {
+      "ex": [["Jeg ble skuffet over resultatet.", "I was disappointed with the result."], ["Hun var skuffet over seg selv.", "She was disappointed in herself."]],
+      "tip": "Use «over»: skuffet over noe or noen.",
+      "rel": "å skuffe = to disappoint · en skuffelse = a disappointment"
+    },
+    "514": {
+      "ex": [["Jeg ble overrasket over hvor billig det var.", "I was surprised at how cheap it was."], ["Hun så overrasket ut.", "She looked surprised."]],
+      "tip": "Like English surprised/surprising: overrasket is how you feel, overraskende is what causes it.",
+      "rel": "en overraskelse = a surprise · overraskende = surprising"
+    },
+    "515": {
+      "ex": [["Foreldrene hans er bekymret for ham.", "His parents are worried about him."], ["Jeg er litt bekymret for økonomien.", "I’m a bit worried about money."]],
+      "tip": "Use «for»: bekymret for noe or noen.",
+      "phr": [["Ikke bekymre deg!", "Don’t worry!"]],
+      "rel": "å bekymre seg = to worry · en bekymring = a worry"
+    },
+    "516": {
+      "ex": [["Vi er så stolte av deg!", "We’re so proud of you!"], ["Det var et stolt øyeblikk.", "It was a proud moment."]],
+      "tip": "Use «av»: stolt av noen. Adjectives that already end in -t add nothing in the neuter: et stolt øyeblikk.",
+      "rel": "stolthet = pride"
+    },
+    "517": {
+      "ex": [["Jeg er alltid nervøs før muntlig eksamen.", "I’m always nervous before an oral exam."], ["Han var nervøs for intervjuet.", "He was nervous about the interview."]],
+      "rel": "↔ rolig = calm"
+    },
+    "518": {
+      "ex": [["Mange eldre føler seg ensomme.", "Many elderly people feel lonely."], ["Det kan være ensomt å flytte til et nytt land.", "It can be lonely moving to a new country."]],
+      "tip": "alene = alone (a fact), ensom = lonely (a feeling). Note the double m: ensomme.",
+      "rel": "ensomhet = loneliness"
+    },
+    "519": {
+      "ex": [["Det er veldig praktisk å bo nær jobben.", "It’s very handy living close to work."], ["Har du noen praktiske tips?", "Do you have any practical tips?"]],
+      "tip": "Adjectives ending in -isk take no -t in the neuter: et praktisk problem.",
+      "phr": [["praktisk talt", "practically, virtually"]],
+      "rel": "↔ upraktisk"
+    },
+    "520": {
+      "ex": [["Det var en spennende film.", "It was an exciting film."], ["Hun har fått en spennende ny jobb.", "She’s got an exciting new job."]],
+      "tip": "Adjectives ending in -ende never change: en spennende bok, et spennende spill, spennende filmer. Norwegians also use it where English would say «interesting».",
+      "rel": "kjedelig = boring"
+    },
+    "521": {
+      "ex": [["Leiligheten er for dyr. Dessuten er den for liten.", "The flat is too expensive. Besides, it’s too small."], ["Jeg har ikke tid, og dessuten er jeg syk.", "I don’t have time, and besides, I’m ill."]]
+    },
+    "522": {
+      "ex": [["Ta med paraply, ellers blir du våt.", "Take an umbrella, or else you’ll get wet."], ["Ellers går det bra med meg.", "Apart from that, I’m doing fine."]],
+      "tip": "Starting the clause with ellers puts the verb next: «ellers blir du våt».",
+      "phr": [["Ellers takk.", "No, thank you. (polite refusal)"], ["Ellers alt bra?", "Everything else all right?"]]
+    },
+    "523": {
+      "ex": [["Heldigvis var ingen skadet.", "Fortunately, nobody was hurt."], ["Det gikk heldigvis bra.", "Luckily, it went well."]],
+      "rel": "↔ dessverre · heldig = lucky"
+    },
+    "524": {
+      "ex": [["Det blir sannsynligvis regn i morgen.", "It’ll probably rain tomorrow."], ["Han kommer sannsynligvis for sent.", "He’ll probably be late."]],
+      "tip": "In everyday speech «nok» or «sikkert» is often more natural: «Han kommer nok for sent.»",
+      "rel": "sannsynlig = likely"
+    },
+    "525": {
+      "ex": [["Det tar i hvert fall en time.", "It takes at least an hour."], ["Jeg vet ikke om de kommer, men jeg kommer i hvert fall.", "I don’t know if they’re coming, but I am, anyway."]],
+      "tip": "Also written «i alle fall» or «iallfall» – same meaning."
+    },
+    "526": {
+      "ex": [["Det tar omtrent tjue minutter.", "It takes about twenty minutes."], ["Han er omtrent like høy som meg.", "He’s about as tall as me."]],
+      "rel": "cirka (ca.) = approximately · rundt = around"
+    },
+    "527": {
+      "ex": [["Jeg sykler stort sett til jobben.", "I mostly cycle to work."], ["Det gikk stort sett bra.", "On the whole, it went well."]],
+      "rel": "for det meste = mostly · vanligvis = usually"
+    },
+    "528": {
+      "ex": [["Du blir vant til det etter hvert.", "You’ll get used to it eventually."], ["Etter hvert ble det kaldere.", "Gradually it got colder."]],
+      "phr": [["etter hvert som barna blir eldre", "as the children get older"]]
+    },
+    "529": {
+      "ex": [["Vi kom samtidig.", "We arrived at the same time."], ["Jeg vil gjerne flytte, men samtidig er jeg glad i jobben min.", "I’d like to move, but at the same time I love my job."]],
+      "phr": [["samtidig som prisene stiger", "while prices are rising"]]
+    },
+    "530": {
+      "ex": [["Vi møtes altså klokka åtte?", "So we’re meeting at eight, then?"], ["Det var altså ikke min feil.", "So it wasn’t my fault, then."]],
+      "tip": "Mostly sums up or confirms what has been said. In speech it’s also used for emphasis at the end: «Det var kaldt, altså!»"
+    },
+    "531": {
+      "ex": [["Jeg kan ikke komme. Jeg er nemlig syk.", "I can’t come. I’m ill, you see."], ["Vi har besøkt to land, nemlig Sverige og Danmark.", "We’ve visited two countries, namely Sweden and Denmark."]],
+      "tip": "Often gives the reason, like «you see». In that use it comes after the verb, never first.",
+      "phr": [["Nemlig!", "Exactly!"]]
+    },
+    "532": {
+      "ex": [["Jeg liker faktisk ikke kaffe.", "I actually don’t like coffee."], ["Det er faktisk ganske billig.", "It’s actually quite cheap."]],
+      "tip": "False friend: «aktuell» means current or relevant, not «actual». For «actually», use faktisk.",
+      "rel": "et faktum = a fact"
+    },
+    "533": {
+      "ex": [["Blir du med på kino i kveld? – Det kommer an på hvor lenge jeg må jobbe.", "Are you coming to the cinema tonight? – It depends how long I have to work."]],
+      "tip": "Add what it depends on straight after «på»: «Det kommer an på været». «Det avhenger av …» means the same but is more formal.",
+      "phr": [["Det kommer an på været.", "It depends on the weather."], ["Det kommer helt an på …", "It all depends on …"]]
+    },
+    "534": {
+      "ex": [["Jeg er helt enig med deg.", "I completely agree with you."], ["Jeg er ikke enig i det.", "I don’t agree with that."]],
+      "tip": "«Enig» is an adjective, so you need «er». enig med someone, enig i something said, enige om a decision.",
+      "phr": [["Vi ble enige om å møtes klokka sju.", "We agreed to meet at seven."]]
+    },
+    "535": {
+      "ex": [["Etter min mening bør skolene ha mer fysisk aktivitet.", "In my opinion, schools should have more physical activity."]],
+      "tip": "The verb comes straight after the phrase: «Etter min mening er det …», not «Etter min mening det er …». In conversation, «Jeg synes …» is more common.",
+      "phr": [["Slik jeg ser det, …", "The way I see it, …"], ["Jeg mener at …", "I believe that …"]]
+    },
+    "536": {
+      "ex": [["Beklager at jeg kommer for sent! – Det er ikke så farlig.", "Sorry I’m late! – It’s not a big deal."]],
+      "tip": "«Farlig» normally means dangerous, but here it just means it doesn’t matter much. A friendly way to reassure someone.",
+      "phr": [["Ikke så farlig.", "No big deal."], ["Det gjør ikke noe.", "It doesn’t matter."]]
+    },
+    "537": {
+      "ex": [["Du jobber på sykehuset, ikke sant? – Det stemmer.", "You work at the hospital, don’t you? – That’s right."], ["Stemmer det at butikken stenger klokka seks?", "Is it true that the shop closes at six?"]],
+      "tip": "å stemme also means to vote: «Hvem stemte du på?» = Who did you vote for?",
+      "phr": [["Det stemmer ikke.", "That’s not right. / That doesn’t add up."]]
+    },
+    "538": {
+      "ex": [["Jeg kan dessverre ikke komme på lørdag. – Å, det var synd!", "Unfortunately I can’t come on Saturday. – Oh, what a pity!"]],
+      "tip": "Norwegians often react with past tense «var» to something they’ve just heard: «Det var synd», «Det var hyggelig».",
+      "phr": [["Det er synd at du må dra.", "It’s a shame you have to go."], ["å synes synd på noen", "to feel sorry for someone"]]
+    },
+    "539": {
+      "ex": [["Du sier at prosjektet har problemer. Hva mener du med det?", "You say the project has problems. What do you mean by that?"]],
+      "tip": "A person «mener» something; a word «betyr» something. Ask «Hva betyr det?» about a word, «Hva mener du?» about what someone intends.",
+      "phr": [["Hva betyr «dugnad»?", "What does «dugnad» mean?"]]
+    },
+    "540": {
+      "ex": [["Takk for i dag! Det var hyggelig å treffe deg. – I like måte!", "Thanks for today! It was nice to meet you. – Likewise!"]],
+      "tip": "Use this when saying goodbye. When you’re first introduced, say «Hyggelig å hilse på deg». Next time you meet, Norwegians often say «Takk for sist!».",
+      "phr": [["Hyggelig å hilse på deg.", "Nice to meet you. (when introduced)"], ["Takk for sist!", "Good to see you again! (lit. thanks for last time)"]]
+    },
+    "541": {
+      "ex": [["Forestillingen begynner klokka sju.", "The performance starts at seven."], ["Vi så en forestilling på Nationaltheatret.", "We saw a show at the National Theatre."]],
+      "tip": "forestilling can also mean an idea or notion: «en forestilling om» = an idea of.",
+      "rel": "å forestille seg = to imagine"
+    },
+    "542": {
+      "ex": [["Vi gikk på en utstilling om vikingtida.", "We went to an exhibition about the Viking Age."], ["Utstillingen er åpen til 1. mars.", "The exhibition is open until 1 March."]],
+      "rel": "å stille ut = to exhibit"
+    },
+    "543": {
+      "ex": [["Museet er stengt på mandager.", "The museum is closed on Mondays."], ["Vi besøkte mange museer i Paris.", "We visited lots of museums in Paris."]],
+      "tip": "Irregular: drop -um before adding endings – museet, museer, museene (not «museumet»)."
+    },
+    "544": {
+      "ex": [["Hun er aktiv i en lokal forening.", "She’s active in a local association."], ["Foreningen har årsmøte i mars.", "The association holds its annual meeting in March."]],
+      "tip": "Joining a club or association is one of the best ways to get to know Norwegians.",
+      "phr": [["lag og foreninger", "clubs and associations"]],
+      "rel": "et medlem = a member"
+    },
+    "545": {
+      "ex": [["Vi trenger flere frivillige til loppemarkedet.", "We need more volunteers for the flea market."], ["Hun jobber som frivillig i Røde Kors.", "She volunteers for the Red Cross."]],
+      "tip": "Also an adjective meaning voluntary. As a noun it is inflected like an adjective: en frivillig, de frivillige.",
+      "phr": [["frivillig arbeid", "voluntary work"]],
+      "rel": "en dugnad = a communal work day"
+    },
+    "546": {
+      "ex": [["Er løypa preparert i dag?", "Has the trail been groomed today?"], ["Vi gikk en lang løype i Nordmarka.", "We skied a long trail in Nordmarka."]],
+      "tip": "If you’re faster than the skier in front, you can call «Løype!» to ask them to let you pass.",
+      "phr": [["en lysløype", "a floodlit trail"]]
+    },
+    "547": {
+      "ex": [["Vi bruker mye tid på friluftsliv – fjellturer, fisking og telting.", "We spend a lot of time outdoors – mountain hikes, fishing and camping."]],
+      "tip": "A key part of Norwegian culture. «Allemannsretten» gives everyone the right to walk and camp on uncultivated land, even if it is privately owned.",
+      "rel": "allemannsretten = the right to roam"
+    },
+    "548": {
+      "ex": [["Alle skal ha en plass i samfunnet.", "Everyone should have a place in society."], ["Vi bor i et lite samfunn på Vestlandet.", "We live in a small community in western Norway."]],
+      "tip": "Society in general is definite in Norwegian: «i samfunnet» = in society. Samfunn can also mean a community.",
+      "phr": [["et lokalsamfunn", "a local community"], ["samfunnsfag", "social studies (school subject)"]]
+    },
+    "549": {
+      "ex": [["Hvilken kommune bor du i?", "Which municipality do you live in?"], ["Kommunen har ansvar for grunnskolen.", "The municipality is responsible for primary and lower secondary school."]],
+      "tip": "Norway has two levels of local government: kommune (municipality) and fylke (county).",
+      "rel": "kommunal = municipal · et fylke = a county"
+    },
+    "550": {
+      "ex": [["Hvilket land kommer du fra?", "Which country are you from?"], ["Hun har bodd i mange land.", "She has lived in many countries."]],
+      "phr": [["på landet", "in the countryside"], ["i utlandet", "abroad"]]
+    },
+    "551": {
+      "ex": [["Regjeringen la fram statsbudsjettet i går.", "The government presented the national budget yesterday."]],
+      "tip": "Regjeringen is the prime minister and the ministers. Parliament is «Stortinget». English «government» often covers both.",
+      "rel": "en statsminister = a prime minister · en statsråd = a cabinet minister"
+    },
+    "552": {
+      "ex": [["Stortinget vedtar lover og statsbudsjettet.", "Parliament passes laws and the national budget."], ["Han sitter på Stortinget.", "He’s a member of parliament."]],
+      "tip": "Always definite, as it’s a name. Usually with på: «på Stortinget»; formal texts also say «i Stortinget».",
+      "rel": "en stortingsrepresentant = an MP · et stortingsvalg = a general election"
+    },
+    "553": {
+      "ex": [["Hvem stemte du på ved valget?", "Who did you vote for in the election?"], ["Vi hadde ikke noe valg.", "We had no choice."]],
+      "phr": [["et stortingsvalg", "a general election"], ["et kommunevalg", "a local election"]],
+      "rel": "å velge = to choose; to elect"
+    },
+    "554": {
+      "ex": [["Hvor mye betaler du i skatt?", "How much tax do you pay?"], ["Jeg fikk igjen på skatten i år.", "I got a tax refund this year."]],
+      "phr": [["å få igjen på skatten", "to get a tax refund"], ["restskatt", "extra tax to pay after the tax settlement"], ["skattemeldingen", "the tax return"], ["en skatt", "(also) a treasure"]],
+      "rel": "Skatteetaten = the Norwegian Tax Administration"
+    },
+    "555": {
+      "ex": [["Stortinget har vedtatt en ny lov.", "Parliament has passed a new law."], ["Det er mot loven.", "It’s against the law."]],
+      "tip": "Don’t confuse en lov (a law) with lov = permission: «Får jeg lov til å …?» = May I …? And å love = to promise.",
+      "phr": [["å ha lov til å", "to be allowed to"]],
+      "rel": "lovlig ↔ ulovlig"
+    },
+    "556": {
+      "ex": [["Det er viktig å kjenne rettighetene sine.", "It’s important to know your rights."], ["Du har rett til å si nei.", "You have the right to say no."]],
+      "tip": "For one specific right, people usually say «rett til»: «Du har rett til å …». Don’t confuse it with «Du har rett» = You’re right.",
+      "phr": [["menneskerettigheter", "human rights"]],
+      "rel": "↔ en plikt"
+    },
+    "557": {
+      "ex": [["Vi har både rettigheter og plikter.", "We have both rights and duties."], ["Det er din plikt å si fra.", "It’s your duty to speak up."]],
+      "phr": [["taushetsplikt", "a duty of confidentiality (doctors, teachers, etc.)"]],
+      "rel": "↔ en rettighet"
+    },
+    "558": {
+      "ex": [["Har du hørt nyheten?", "Have you heard the news?"], ["Jeg ser på nyhetene hver kveld.", "I watch the news every evening."]],
+      "tip": "English «news» can’t be counted, but en nyhet can: one piece of news = en nyhet; the news on TV = nyhetene.",
+      "phr": [["Det var nytt for meg.", "That’s news to me."]]
+    },
+    "559": {
+      "ex": [["Det sto i avisa i dag.", "It was in the paper today."], ["Jeg leser avisa på mobilen.", "I read the paper on my phone."]],
+      "tip": "Things «stand» in a newspaper: «Det står i avisa» = It says in the paper."
+    },
+    "560": {
+      "ex": [["Vi må ta vare på miljøet.", "We must look after the environment."], ["Det er et godt miljø på skolen.", "There’s a good atmosphere at the school."]],
+      "tip": "Besides nature, miljø also means a social environment or atmosphere.",
+      "rel": "miljøvennlig = environmentally friendly · et arbeidsmiljø"
+    },
+    "561": {
+      "ex": [["Oslo har over 700 000 innbyggere.", "Oslo has over 700,000 inhabitants."]],
+      "rel": "en beboer = a resident (of a building or flat)"
+    },
+    "562": {
+      "ex": [["Vi har forskjellige meninger om det.", "We have different opinions about it."], ["Hva er meningen med dette?", "What’s the point of this?"]],
+      "phr": [["etter min mening", "in my opinion"], ["Det var ikke meningen.", "I didn’t mean to."], ["meningen med livet", "the meaning of life"]],
+      "rel": "å mene = to think, to be of the opinion"
+    },
+    "563": {
+      "ex": [["Hva er grunnen til at du flyttet hit?", "Why did you move here? (lit. What’s the reason that …)"]],
+      "tip": "The preposition is til: grunnen til noe = the reason for something.",
+      "phr": [["på grunn av", "because of"], ["av den grunn", "for that reason"], ["Det er ingen grunn til bekymring.", "There’s no reason to worry."]]
+    },
+    "564": {
+      "ex": [["Vi har et problem med vasken.", "We’ve got a problem with the sink."], ["Hva er problemet?", "What’s the problem?"]],
+      "phr": [["Ikke noe problem!", "No problem!"], ["å løse et problem", "to solve a problem"]]
+    },
+    "565": {
+      "ex": [["Det finnes ingen enkel løsning på problemet.", "There’s no simple solution to the problem."]],
+      "tip": "The preposition is på: en løsning på noe = a solution to something.",
+      "rel": "å løse = to solve"
+    },
+    "566": {
+      "ex": [["Det er en fordel å kunne norsk.", "It’s an advantage to know Norwegian."], ["En fordel med å bo i byen er at alt er i nærheten.", "One advantage of living in town is that everything is close by."]],
+      "phr": [["fordeler og ulemper", "pros and cons"], ["til din fordel", "to your advantage"]],
+      "rel": "↔ en ulempe"
+    },
+    "567": {
+      "ex": [["Ulempen med huset er at det ligger langt fra skolen.", "The downside of the house is that it’s a long way from the school."]],
+      "phr": [["fordeler og ulemper", "pros and cons"]],
+      "rel": "↔ en fordel"
+    },
+    "568": {
+      "ex": [["Her har du mulighet til å lære norsk.", "Here you have the chance to learn Norwegian."], ["Er det mulighet for parkering?", "Is there any parking?"]],
+      "rel": "mulig = possible"
+    },
+    "569": {
+      "ex": [["Hva er forskjellen på «synes» og «tro»?", "What’s the difference between «synes» and «tro»?"], ["Det er stor forskjell mellom by og land.", "There’s a big difference between town and country."]],
+      "rel": "forskjellig = different"
+    },
+    "570": {
+      "ex": [["Er det noen endringer i timeplanen?", "Are there any changes to the timetable?"], ["Det har skjedd store endringer i Oslo de siste årene.", "Oslo has changed a lot in recent years."]],
+      "rel": "å endre = to change · ≈ en forandring"
+    },
+    "571": {
+      "ex": [["Kan du gi meg et eksempel?", "Can you give me an example?"]],
+      "tip": "The plural drops an e: eksempler, eksemplene.",
+      "phr": [["for eksempel (f.eks.)", "for example (e.g.)"]]
+    },
+    "572": {
+      "ex": [["Politiet vet ennå ikke årsaken til brannen.", "The police don’t yet know the cause of the fire."]],
+      "phr": [["Takk! – Ingen årsak!", "Thanks! – Don’t mention it!"]],
+      "rel": "≈ en grunn"
+    },
+    "573": {
+      "ex": [["Hun hadde en trygg oppvekst i Bergen.", "She had a secure upbringing in Bergen."], ["Han snakker lite om oppveksten sin.", "He doesn’t say much about his upbringing."]],
+      "rel": "å vokse opp = to grow up"
+    },
+    "574": {
+      "ex": [["Tre generasjoner bor i samme hus.", "Three generations live in the same house."], ["Den yngre generasjonen bruker mobilen hele tiden.", "The younger generation are on their phones all the time."]],
+      "phr": [["fra generasjon til generasjon", "from generation to generation"]]
+    },
+    "575": {
+      "ex": [["Foreldrene hennes er innvandrere fra Polen.", "Her parents are immigrants from Poland."]],
+      "rel": "innvandring = immigration · ↔ en utvandrer = an emigrant"
+    },
+    "576": {
+      "ex": [["Sykehuset kontaktet de pårørende.", "The hospital contacted the next of kin."]],
+      "tip": "Originally a participle (from «å røre»), used as a noun, so the form never changes: en pårørende, den pårørende, pårørende, de pårørende. In health and care it usually means a patient’s close family."
+    },
+    "577": {
+      "ex": [["Vi kjøpte en leilighet i et borettslag.", "We bought a flat in a housing cooperative."], ["Borettslaget har dugnad hver vår.", "The housing co-op has a communal work day every spring."]],
+      "tip": "In a borettslag you buy a share in the cooperative, which owns the building. Ads often show the asking price without your share of the shared debt («fellesgjeld»), so look at the total price («totalpris»).",
+      "rel": "et sameie · fellesgjeld = shared debt"
+    },
+    "578": {
+      "ex": [["Bygården er et sameie med tolv leiligheter.", "The building is jointly owned and has twelve flats."]],
+      "tip": "In a sameie you own your own flat («en eierseksjon»), unlike a borettslag, where you own a share. Both have a board («et styre») and shared costs.",
+      "rel": "et borettslag · et styre = a board"
+    },
+    "579": {
+      "ex": [["Felleskostnadene er på 4000 kroner i måneden.", "The shared costs are 4,000 kroner a month."], ["Felleskostnadene dekker blant annet forsikring av bygget.", "The shared costs cover things like insurance for the building."]],
+      "tip": "Check this when comparing flats: in a borettslag it usually includes your share of the interest (and often repayments) on the shared debt, so it can be high."
+    },
+    "580": {
+      "ex": [["Taksten på huset var 5,2 millioner.", "The house was valued at 5.2 million."], ["Banken vil ha en ny takst før de gir lån.", "The bank wants a new valuation before it lends money."]],
+      "tip": "takst can also mean a fixed rate or fare, e.g. for taxis.",
+      "rel": "en takstmann = a valuer"
+    },
+    "581": {
+      "ex": [["Renta på boliglånet har gått opp.", "The interest rate on the mortgage has gone up."], ["Du må ha egenkapital for å få boliglån.", "You need a deposit to get a mortgage."]],
+      "tip": "The money you put down yourself when buying is «egenkapital». «Depositum» is the deposit you pay when renting.",
+      "rel": "en rente = an interest rate · egenkapital = the money you put in yourself"
+    },
+    "582": {
+      "ex": [["Bedriften trenger mer kompetanse innen IT.", "The company needs more IT expertise."], ["Hun har høy kompetanse på dette feltet.", "She’s highly skilled in this field."]],
+      "rel": "kompetent = competent"
+    },
+    "583": {
+      "ex": [["Forhandlingene med fagforeningen tok lang tid.", "The negotiations with the union took a long time."]],
+      "phr": [["lønnsforhandlinger", "pay negotiations"], ["lønnsoppgjøret", "the annual pay settlement"]],
+      "rel": "å forhandle = to negotiate"
+    },
+    "584": {
+      "ex": [["Det er et krav at du snakker norsk.", "Speaking Norwegian is a requirement."], ["Fagforeningen stiller krav om høyere lønn.", "The union is demanding higher pay."]],
+      "phr": [["å stille krav", "to make demands"], ["å oppfylle kravene", "to meet the requirements"]],
+      "rel": "å kreve = to demand, to require"
+    },
+    "585": {
+      "ex": [["Vi har byttet strømleverandør.", "We’ve changed electricity supplier."], ["Leverandøren har ikke levert varene ennå.", "The supplier hasn’t delivered the goods yet."]],
+      "rel": "å levere = to deliver"
+    },
+    "586": {
+      "ex": [["Snakk med den tillitsvalgte hvis du har problemer på jobben.", "Talk to the union rep if you have problems at work."]],
+      "tip": "An adjective used as a noun: en tillitsvalgt, den tillitsvalgte. It combines tillit (trust) and valgt (elected).",
+      "rel": "en fagforening"
+    },
+    "587": {
+      "ex": [["Hun leverte oppsigelsen sin i går.", "She handed in her resignation yesterday."], ["Oppsigelsestiden er tre måneder.", "The notice period is three months."]],
+      "tip": "Like «å si opp», it works both ways: you resigning, or your employer dismissing you.",
+      "phr": [["oppsigelsestid", "notice period"]],
+      "rel": "å si opp"
+    },
+    "588": {
+      "ex": [["Vi har et godt arbeidsmiljø her.", "We have a good working environment here."]],
+      "phr": [["arbeidsmiljøloven", "the Working Environment Act"]]
+    },
+    "589": {
+      "ex": [["Under pandemien ble mange permittert.", "During the pandemic, many people were temporarily laid off."]],
+      "tip": "Not the same as being dismissed (en oppsigelse): you keep your job but are sent home for a period, fully or partly. While laid off you can usually claim unemployment benefit (dagpenger) from NAV.",
+      "rel": "å permittere · permittert"
+    },
+    "590": {
+      "ex": [["Vi må prioritere de viktigste oppgavene.", "We need to prioritise the most important tasks."], ["Jeg prioriterer familien.", "Family comes first for me."]],
+      "rel": "en prioritet = a priority"
+    },
+    "591": {
+      "ex": [["Hun delegerte oppgaven til en kollega.", "She delegated the task to a colleague."]]
+    },
+    "592": {
+      "ex": [["Han hevder at han var hjemme hele kvelden.", "He claims he was at home all evening."], ["Kritikerne hevder at forslaget er for dyrt.", "Critics argue that the proposal is too expensive."]],
+      "phr": [["å hevde seg", "to do well, to hold your own"]],
+      "rel": "å påstå = to claim"
+    },
+    "593": {
+      "ex": [["Hun påstår at hun aldri har fått brevet.", "She claims she never received the letter."], ["Jeg vil ikke påstå at det er feil, men …", "I wouldn’t say it’s wrong, but …"]],
+      "tip": "påstå often hints that you doubt the claim. hevde is more neutral and is used for arguments in a debate.",
+      "rel": "en påstand = a claim · å hevde"
+    },
+    "594": {
+      "ex": [["Vi vurderer å flytte til Bergen.", "We’re considering moving to Bergen."], ["Læreren vurderer elevene gjennom hele året.", "The teacher assesses the pupils throughout the year."]],
+      "tip": "«Vurdere å» + infinitive where English uses -ing.",
+      "rel": "en vurdering = an assessment"
+    },
+    "595": {
+      "ex": [["Jobben innebærer mye reising.", "The job involves a lot of travelling."], ["Hva innebærer det for oss?", "What does that mean for us?"]],
+      "tip": "Irregular like bære: innebærer – innebar."
+    },
+    "596": {
+      "ex": [["Endringen vil medføre høyere kostnader.", "The change will lead to higher costs."], ["Streiken medførte store forsinkelser.", "The strike caused major delays."]],
+      "tip": "Formal. In everyday speech, say «føre til».",
+      "rel": "å føre til = to lead to"
+    },
+    "597": {
+      "ex": [["Alle må bidra.", "Everyone has to contribute."], ["Frivillige bidrar mye til lokalsamfunnet.", "Volunteers contribute a lot to the local community."]],
+      "tip": "bidra til = contribute to something. bidra med = contribute something: «bidra med penger».",
+      "rel": "et bidrag = a contribution"
+    },
+    "598": {
+      "ex": [["Hva ønsker du å oppnå?", "What do you want to achieve?"], ["Partiet oppnådde et godt resultat i valget.", "The party achieved a good result in the election."]],
+      "rel": "å nå = to reach"
+    },
+    "599": {
+      "ex": [["Det tok tid å tilpasse seg det norske klimaet.", "It took time to adapt to the Norwegian climate."], ["Barn tilpasser seg raskt.", "Children adapt quickly."]],
+      "tip": "Without «seg», tilpasse means adjust or adapt something: «tilpasse undervisningen» = adapt the teaching.",
+      "rel": "tilpasset = adapted · en tilpasning = an adaptation"
+    },
+    "600": {
+      "ex": [["Hvordan kan vi forhindre ulykker?", "How can we prevent accidents?"], ["Jeg er dessverre forhindret fra å komme.", "Unfortunately I’m unable to come."]],
+      "tip": "«Være forhindret fra å» = be unable to (attend), a set phrase in replies to invitations. To stop someone doing something, «hindre noen i å» is more usual. For prevention in advance (health, crime), «forebygge» is common.",
+      "rel": "å hindre = to hinder, to stop · å forebygge = to prevent (in advance)"
+    },
+    "601": {
+      "ex": [["Rapporten fremhever behovet for flere lærere.", "The report highlights the need for more teachers."], ["Hun fremhevet hvor viktig samarbeid er.", "She emphasised how important cooperation is."]],
+      "tip": "Also spelt «framheve»."
+    },
+    "602": {
+      "ex": [["Hun ble behandlet på sykehuset.", "She was treated at the hospital."], ["Søknaden din er under behandling.", "Your application is being processed."]],
+      "tip": "Not for «treat someone to something» – that’s «spandere»: «Jeg spanderer!» = My treat!",
+      "phr": [["å behandle noen dårlig", "to treat someone badly"]],
+      "rel": "en behandling = treatment; processing"
+    },
+    "603": {
+      "ex": [["Det er ikke opp til meg å avgjøre.", "It’s not up to me to decide."], ["Kampen ble avgjort i siste minutt.", "The match was decided in the last minute."]],
+      "tip": "Irregular like gjøre: avgjør – avgjorde – har avgjort.",
+      "rel": "en avgjørelse = a decision · avgjørende = decisive, crucial"
+    },
+    "604": {
+      "ex": [["Hva er det du antyder?", "What are you hinting at?"], ["Undersøkelsen antyder at flere jobber hjemmefra.", "The survey suggests that more people are working from home."]],
+      "tip": "foreslå = suggest (propose an idea). antyde = suggest (hint or indicate)."
+    },
+    "605": {
+      "ex": [["Jobben krever mye tålmodighet.", "The job requires a lot of patience."], ["Kundene krever pengene tilbake.", "The customers are demanding their money back."]],
+      "rel": "et krav = a demand, a requirement · krevende = demanding"
+    },
+    "606": {
+      "ex": [["Prisene har økt mye i år.", "Prices have risen a lot this year."], ["Kommunen vil øke antall barnehageplasser.", "The council wants to increase the number of nursery places."]],
+      "tip": "Works with or without an object: «Prisene øker» (prices rise) and «De øker prisene» (they raise prices).",
+      "rel": "↔ å redusere · en økning = an increase"
+    },
+    "607": {
+      "ex": [["Vi må redusere utslippene.", "We need to reduce emissions."], ["Prisen er redusert med 30 prosent.", "The price has been reduced by 30 per cent."]],
+      "rel": "↔ å øke · å kutte = to cut"
+    },
+    "608": {
+      "ex": [["Undersøkelsen ble gjennomført i fjor.", "The survey was carried out last year."], ["Det blir vanskelig å gjennomføre planen.", "It’ll be hard to carry out the plan."]],
+      "rel": "en gjennomføring = implementation"
+    },
+    "609": {
+      "ex": [["Jeg tviler på at han kommer.", "I doubt he’ll come."], ["Hun tvilte aldri på seg selv.", "She never doubted herself."]],
+      "tip": "Always with «på»: tvile på noe.",
+      "phr": [["uten tvil", "without a doubt"]],
+      "rel": "en tvil = a doubt"
+    },
+    "610": {
+      "ex": [["Det har vært en betydelig økning i prisene.", "There has been a significant increase in prices."], ["Det er betydelig billigere å handle i Sverige.", "It’s considerably cheaper to shop in Sweden."]],
+      "rel": "å bety = to mean · en betydning = a meaning, importance"
+    },
+    "611": {
+      "ex": [["Regjeringen har lagt fram en omfattende plan.", "The government has presented a comprehensive plan."], ["Brannen førte til omfattende skader.", "The fire caused extensive damage."]],
+      "rel": "å omfatte = to include, to cover"
+    },
+    "612": {
+      "ex": [["Hun er veldig selvstendig og liker å jobbe alene.", "She’s very independent and likes working alone."], ["Norge ble selvstendig i 1905.", "Norway became independent in 1905."]],
+      "phr": [["selvstendig næringsdrivende", "self-employed"]],
+      "rel": "uavhengig = independent (of something)"
+    },
+    "613": {
+      "ex": [["Bilen er gammel, men pålitelig.", "The car is old but reliable."], ["Er dette en pålitelig kilde?", "Is this a reliable source?"]],
+      "rel": "↔ upålitelig · å stole på = to trust"
+    },
+    "614": {
+      "ex": [["Vi må finne mer bærekraftige løsninger.", "We need to find more sustainable solutions."], ["Er det bærekraftig å fly så mye?", "Is it sustainable to fly so much?"]],
+      "phr": [["bærekraftig utvikling", "sustainable development"]],
+      "rel": "bærekraft = sustainability"
+    },
+    "615": {
+      "ex": [["Forslaget er svært kontroversielt.", "The proposal is highly controversial."], ["Hun er en kontroversiell politiker.", "She’s a controversial politician."]],
+      "rel": "omstridt = disputed"
+    },
+    "616": {
+      "ex": [["Det er en vesentlig forskjell på de to tilbudene.", "There’s a significant difference between the two offers."], ["Situasjonen har blitt vesentlig bedre.", "The situation has got considerably better."]],
+      "phr": [["det vesentlige", "the essentials, what really matters"]],
+      "rel": "uvesentlig = unimportant"
+    },
+    "617": {
+      "ex": [["Barna er fortsatt avhengige av foreldrene.", "The children still depend on their parents."], ["Mange er avhengige av bil for å komme seg på jobb.", "Many people depend on a car to get to work."]],
+      "tip": "Use «av»: avhengig av noe. It also means addicted: «avhengig av nikotin».",
+      "rel": "↔ uavhengig · Det kommer an på = It depends"
+    },
+    "618": {
+      "ex": [["Vi har ikke tilstrekkelig informasjon.", "We don’t have sufficient information."], ["Tiltakene er ikke tilstrekkelige.", "The measures are not sufficient."]],
+      "tip": "Formal. In speech, «nok» is more common: «Er det nok?»",
+      "rel": "↔ utilstrekkelig"
+    },
+    "619": {
+      "ex": [["Svaret er åpenbart.", "The answer is obvious."], ["Han er åpenbart sliten.", "He’s obviously tired."]],
+      "tip": "The neuter form åpenbart also works as an adverb: obviously.",
+      "rel": "opplagt = obvious (more informal)"
+    },
+    "620": {
+      "ex": [["Barn er spesielt sårbare.", "Children are particularly vulnerable."], ["Systemet er sårbart for dataangrep.", "The system is vulnerable to cyberattacks."]],
+      "tip": "Use «for»: sårbar for noe.",
+      "rel": "et sår = a wound"
+    },
+    "621": {
+      "ex": [["Han virker helt likegyldig.", "He seems completely indifferent."], ["Mange unge er likegyldige til politikk.", "Many young people are indifferent to politics."]],
+      "tip": "Use «til»: likegyldig til noe.",
+      "phr": [["Det er meg likegyldig.", "It’s all the same to me."]]
+    },
+    "622": {
+      "ex": [["Det er en krevende jobb.", "It’s a demanding job."], ["Småbarnsforeldre har en krevende hverdag.", "Parents of small children have a demanding daily life."]],
+      "rel": "å kreve = to demand"
+    },
+    "623": {
+      "ex": [["Planen er god. Den er imidlertid dyr.", "The plan is good. It is, however, expensive."], ["Imidlertid har ikke alle råd til det.", "However, not everyone can afford it."]],
+      "tip": "Mostly written and formal. In speech, use «men».",
+      "rel": "men = but · derimot = on the other hand"
+    },
+    "624": {
+      "ex": [["Jeg liker kaffe. Kona mi, derimot, drikker bare te.", "I like coffee. My wife, on the other hand, only drinks tea."], ["Oslo er dyrt. I Bergen er det derimot litt billigere.", "Oslo is expensive. In Bergen, on the other hand, it’s a bit cheaper."]]
+    },
+    "625": {
+      "ex": [["Toget var forsinket, og følgelig kom vi for sent.", "The train was delayed, and consequently we were late."], ["Etterspørselen økte, og prisene steg følgelig.", "Demand increased, and prices consequently rose."]],
+      "tip": "Formal. In speech, say «derfor» or «så».",
+      "rel": "en følge = a consequence"
+    },
+    "626": {
+      "ex": [["Ifølge værmeldingen blir det regn.", "According to the forecast, it’s going to rain."], ["Ifølge politiet ble ingen skadet.", "According to the police, nobody was hurt."]],
+      "tip": "Written as one word. When it starts the sentence, the verb comes next: «Ifølge politiet ble …»"
+    },
+    "627": {
+      "ex": [["Hun har bodd i flere land, blant annet Spania og Tyskland.", "She’s lived in several countries, including Spain and Germany."], ["Vi snakket blant annet om lønn.", "Among other things, we talked about pay."]],
+      "tip": "Often best translated as «including»."
+    },
+    "628": {
+      "ex": [["Til tross for regnet gikk vi en tur.", "Despite the rain, we went for a walk."], ["Hun dro på jobb til tross for at hun var syk.", "She went to work even though she was ill."]],
+      "rel": "selv om = even though"
+    },
+    "629": {
+      "ex": [["Jeg drikker te i stedet for kaffe.", "I drink tea instead of coffee."], ["Vi tok ikke bussen. Vi gikk i stedet.", "We didn’t take the bus. We walked instead."]],
+      "tip": "«i stedet for» is also written «istedenfor».",
+      "phr": [["i stedet for å klage", "instead of complaining"]]
+    },
+    "630": {
+      "ex": [["Stadig flere jobber hjemmefra.", "More and more people work from home."], ["Han ringer stadig og spør om hjelp.", "He keeps ringing and asking for help."]],
+      "phr": [["stadig vekk", "all the time, constantly"]]
+    },
+    "631": {
+      "ex": [["Det er forholdsvis billig å bo her.", "It’s relatively cheap to live here."], ["Eksamen var forholdsvis lett.", "The exam was relatively easy."]],
+      "rel": "relativt = relatively · ganske = quite"
+    },
+    "632": {
+      "ex": [["Mannen har angivelig stjålet flere biler.", "The man has allegedly stolen several cars."]],
+      "tip": "News language. «Skal ha» does the same job: «Han skal ha stjålet en bil» = He is said to have stolen a car."
+    },
+    "633": {
+      "ex": [["Hun var tilsynelatende rolig.", "She was seemingly calm."], ["Han kom tilsynelatende uskadd fra ulykken.", "He apparently escaped the accident unhurt."]],
+      "tip": "Means «as it appears», often hinting that the reality may be different."
+    },
+    "634": {
+      "ex": [["Kan du i det hele tatt svømme?", "Can you swim at all?"], ["Det var ingen der i det hele tatt.", "There was nobody there at all."]],
+      "rel": "overhodet = at all (stronger, more formal)"
+    },
+    "635": {
+      "ex": [["Det kan hevdes at sosiale medier gjør oss mer ensomme.", "It can be argued that social media make us lonelier."]],
+      "tip": "Formal and mostly written – good in essays. In speech, «Man kan si at …» is more natural.",
+      "phr": [["Han hevder at han ikke visste noe.", "He claims he didn’t know anything."]]
+    },
+    "636": {
+      "ex": [["På den ene siden er det billig å bo på landet. På den andre siden må man ha bil.", "On the one hand, it’s cheap to live in the countryside. On the other hand, you need a car."]],
+      "tip": "The verb comes straight after «siden»: «På den andre siden må man …».",
+      "phr": [["på den annen side", "on the other hand (more formal)"]]
+    },
+    "637": {
+      "ex": [["Det er ingen tvil om at klimaendringene er et stort problem.", "There’s no doubt that climate change is a big problem."]],
+      "phr": [["Jeg er i tvil om jeg skal søke.", "I’m not sure whether to apply."], ["uten tvil", "without doubt"]],
+      "rel": "å tvile på = to doubt"
+    },
+    "638": {
+      "ex": [["Alt i alt var det en vellykket tur.", "All in all, it was a successful trip."], ["Alt i alt mener jeg at fordelene er større enn ulempene.", "All in all, I think the advantages outweigh the disadvantages."]],
+      "tip": "Useful for rounding off an essay or argument. Remember the verb comes next.",
+      "phr": [["Kort sagt …", "In short …"]]
+    },
+    "639": {
+      "ex": [["Det sier seg selv at man ikke skal kjøre etter å ha drukket.", "It goes without saying that you shouldn’t drive after drinking."]]
+    },
+    "640": {
+      "ex": [["Vi tar ofte rent vann for gitt.", "We often take clean water for granted."], ["Ikke ta det for gitt at alle forstår engelsk.", "Don’t assume that everyone understands English."]]
+    },
+    "641": {
+      "ex": [["Partene kom til enighet etter lange forhandlinger.", "The parties reached an agreement after long negotiations."]],
+      "tip": "Formal – typical of news. In everyday speech, say «bli enige (om)».",
+      "phr": [["Vi ble enige om prisen.", "We agreed on the price."]]
+    },
+    "642": {
+      "ex": [["Skal vi ta buss eller trikk? – Det er hipp som happ.", "Shall we take the bus or the tram? – It makes no difference."]],
+      "tip": "Informal and a bit playful.",
+      "phr": [["Det spiller ingen rolle.", "It doesn’t matter."], ["Det er det samme for meg.", "It’s all the same to me."]]
+    },
+    "643": {
+      "ex": [["Jeg tok meg vann over hodet da jeg sa ja til tre prosjekter samtidig.", "I bit off more than I could chew when I said yes to three projects at once."], ["Ikke ta deg vann over hodet!", "Don’t take on too much!"]],
+      "tip": "The reflexive pronoun follows the subject: jeg tar meg, du tar deg, hun tar seg."
+    },
+    "644": {
+      "ex": [["Hva er finest, hvite eller grå vegger? – Det er en smakssak.", "Which is nicer, white or grey walls? – It’s a matter of taste."]],
+      "phr": [["Smak og behag kan ikke diskuteres.", "There’s no accounting for taste."]]
+    },
+    "645": {
+      "ex": [["Ytringsfrihet er viktig i et demokrati.", "Freedom of speech is important in a democracy."]],
+      "rel": "demokratisk = democratic"
+    },
+    "646": {
+      "ex": [["Velferdsstaten gir trygghet ved sykdom og arbeidsledighet.", "The welfare state provides security in case of illness and unemployment."], ["Velferdsstaten finansieres gjennom skatter og avgifter.", "The welfare state is funded through taxes and duties."]]
+    },
+    "647": {
+      "ex": [["Ytringsfriheten er beskyttet i Grunnloven.", "Freedom of speech is protected by the Constitution."]],
+      "rel": "en ytring = a statement, an utterance · å ytre seg = to express an opinion, to comment"
+    },
+    "648": {
+      "ex": [["Norge er kjent for likestilling mellom kvinner og menn.", "Norway is known for equality between women and men."]],
+      "tip": "Most often about women and men. General equality or similarity is «likhet».",
+      "rel": "likestilt = equal (in status)"
+    },
+    "649": {
+      "ex": [["Språk er viktig for integrering.", "Language is important for integration."], ["Kommunen jobber med integrering av flyktninger.", "The municipality works on integrating refugees."]],
+      "rel": "å integrere = to integrate"
+    },
+    "650": {
+      "ex": [["Norges økonomi er avhengig av olje og gass.", "Norway’s economy depends on oil and gas."], ["Vi har dårlig økonomi for tida.", "We’re short of money at the moment."]],
+      "tip": "Also used for personal finances: «Jeg har god økonomi» = I’m financially comfortable.",
+      "rel": "økonomisk = economic; financial"
+    },
+    "651": {
+      "ex": [["Arbeidsledigheten har økt i år.", "Unemployment has gone up this year."]],
+      "rel": "arbeidsledig = unemployed"
+    },
+    "652": {
+      "ex": [["Norge har hatt to folkeavstemninger om EU.", "Norway has had two referendums on the EU."]],
+      "tip": "In both referendums – on joining the EC in 1972 and the EU in 1994 – a majority voted no."
+    },
+    "653": {
+      "ex": [["Så du debatten på TV i går?", "Did you see the debate on TV yesterday?"]],
+      "phr": [["å delta i debatten", "to take part in the debate"]],
+      "rel": "å debattere = to debate"
+    },
+    "654": {
+      "ex": [["Det var en stor utfordring å lære norsk.", "Learning Norwegian was a big challenge."]],
+      "tip": "Very common, and often a polite word for a problem: «Vi har noen utfordringer» = We have a few problems.",
+      "rel": "å utfordre = to challenge"
+    },
+    "655": {
+      "ex": [["Klimaendringene påvirker hele verden.", "Climate change affects the whole world."]],
+      "tip": "Usually plural in Norwegian, where English uses a singular."
+    },
+    "656": {
+      "ex": [["Det er god dugnadsånd i borettslaget vårt.", "There’s great community spirit in our housing co-op."]],
+      "tip": "From «en dugnad»: unpaid work done together, such as a spring clean-up in a housing co-op or helping at a children’s sports club. Taking part is expected.",
+      "rel": "en dugnad"
+    },
+    "657": {
+      "ex": [["Hva er hensikten med møtet?", "What’s the purpose of the meeting?"]],
+      "phr": [["med hensikt", "on purpose"], ["i den hensikt å", "with the intention of"]]
+    },
+    "658": {
+      "ex": [["Det kan få store konsekvenser.", "It could have serious consequences."]],
+      "tip": "Consequences are something you «get»: «Det fikk konsekvenser» = It had consequences. Note: konsekvent means «consistent»."
+    },
+    "659": {
+      "ex": [["Det er bare en påstand – han har ingen bevis.", "That’s just a claim – he has no proof."]],
+      "phr": [["å komme med en påstand", "to make a claim"]],
+      "rel": "å påstå = to claim"
+    },
+    "660": {
+      "ex": [["God norsk er en forutsetning for å få jobben.", "Good Norwegian is a prerequisite for getting the job."]],
+      "phr": [["under forutsetning av at", "on condition that"]],
+      "rel": "å forutsette = to presuppose, to assume"
+    },
+    "661": {
+      "ex": [["Hva er ditt standpunkt i denne saken?", "What’s your position on this issue?"]],
+      "phr": [["å ta standpunkt til", "to take a position on"], ["en standpunktkarakter", "a teacher’s overall grade in a subject (not an exam grade)"]]
+    },
+    "662": {
+      "ex": [["Det er en sammenheng mellom søvn og helse.", "There’s a connection between sleep and health."], ["Jeg forstår ikke ordet i denne sammenhengen.", "I don’t understand the word in this context."]],
+      "phr": [["i sammenheng med", "in connection with"], ["tre dager i sammenheng", "three days in a row"]]
+    },
+    "663": {
+      "ex": [["Han har en positiv holdning til endringer.", "He has a positive attitude to change."]],
+      "phr": [["Du har dårlig holdning.", "You have bad posture."]]
+    },
+    "664": {
+      "ex": [["Det er nyttig å se saken fra et annet perspektiv.", "It’s useful to see the matter from a different perspective."]],
+      "phr": [["i et historisk perspektiv", "from a historical perspective"]]
+    },
+    "665": {
+      "ex": [["Han har en tendens til å komme for sent.", "He has a tendency to be late."], ["Det er en tendens til at flere jobber hjemmefra.", "There’s a trend towards more people working from home."]]
     },
     "666": {
       "ex": [["Hei! Hvordan går det?", "Hi! How’s it going?"], ["Hei hei, vi ses!", "Bye, see you!"]],
